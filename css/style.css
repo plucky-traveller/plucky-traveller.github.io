@@ -1,0 +1,123 @@
+@media only screen and (max-width: 768px) {
+  html {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    min-width: 768px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+body {
+  padding-top: 4.5rem;
+}
+
+html a {
+  color: #557754;
+}
+
+.flex-column {
+  margin-top: 4.5rem;
+}
+
+html a:hover {
+  color: #2d3f2d;
+}
+
+hr {
+  margin: 1% 0 1% 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: rgba(255,255,255,.8);
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+#graph {
+  min-width: 100%;
+  max-width: 100%;
+  border:1px solid transparent;
+}
+
+#nav-tab {
+  margin-top: 20px;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  border: 1px solid #dee2e6;
+  color: #557754;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+#nav-tab .nav-link:hover {
+  border: 1px solid #dee2e6;
+  color: #557754;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+.card {
+  border: none;
+  background-color: none;
+}
+
+.card-body {
+  background-color: none;
+}
+
+.card-header {
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+  background: none;
+}
+
+.item img {
+  max-width: 50%;
+  border-radius: 2px;
+}
+
+.table {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 2px;
+  margin: 0;
+}
+
+.table th {
+  border-top:none;
+}
+
+#jules, #nellie {
+  position: relative;
+}
+
+.portrait {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .8s ease-in-out;
+}
+
+.portrait:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+#nellieSignature, #julesSignature {
+  position: absolute;
+  margin: -50px 0 0 -20px;
+  opacity: 0.1;
+  width: 100%;
+}

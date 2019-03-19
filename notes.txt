@@ -1,0 +1,129 @@
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Project</a>
+  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+    <li><a class="dropdown-item" href="/subpages/items.html">E/R Model</a></li>
+    <li><a class="dropdown-item" href="/subpages/items.html">Items</a></li>
+    <li><a class="dropdown-item" href="/subpages/items.html">Alignment</a></li>
+    <li><a class="dropdown-item" href="/subpages/items.html">Theoretical Model</a></li>
+    <li><a class="dropdown-item" href="/subpages/items.html">Conceptual Model</a></li>
+    <li><a class="dropdown-item" href="/subpages/items.html">Description of Data</a></li>
+    <li><a class="dropdown-item" href="/subpages/items.html">RDF / XML</a></li>
+    <li><a class="dropdown-item" href="/subpages/items.html">Connecting</a></li>
+  </ul>
+</li>
+
+
+
+
+
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <a href="/w3images/lights.jpg">
+        <img src="../img/items/portrait.png" alt="Portrait of Nelly Bly" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum...</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <a href="/w3images/nature.jpg">
+        <img src="../img/items/woodGraving.png" alt="Wood graving about the reception of Nelly Bly" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum...</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <a href="/w3images/lights.jpg">
+        <img src="../img/items/doodle.png" alt="Google Doodle about Nelly Bly" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum...</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <a href="/w3images/nature.jpg">
+        <img src="../img/items/boardgame.png" alt="Boardgame about the travel of Nelly Bly" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum...</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <a href="/w3images/lights.jpg">
+        <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum...</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <a href="/w3images/nature.jpg">
+        <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum...</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <a href="/w3images/lights.jpg">
+        <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum...</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <a href="/w3images/nature.jpg">
+        <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum...</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <a href="/w3images/lights.jpg">
+        <img src="../img/items/artwork.png" alt="Artwork inspired by the industrial revolution" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum...</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <a href="/w3images/nature.jpg">
+        <img src="../img/items/map.png" alt="Map representing a worldview from the 19th century" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum...</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
