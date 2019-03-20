@@ -1,32 +1,13 @@
-@media only screen and (max-width: 768px) {
-  html {
-    width: 100%;
-    margin-left: 0;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  html {
-    min-width: 768px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 body {
+  font-family: 'Roboto', sans-serif;
   padding-top: 4.5rem;
 }
 
-html a {
+body a {
   color: #557754;
 }
 
-.flex-column {
-  margin-top: 4.5rem;
-}
-
-html a:hover {
+body a:hover {
   color: #2d3f2d;
 }
 
@@ -40,6 +21,25 @@ hr {
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
+.navbar-brand i {
+  color: #999999;
+  font-family: 'Bad Script';
+}
+
+.nav-link p {
+  padding: 0;
+  margin: inherit;
+  color: #999999;
+}
+
+.nav-link p:hover {
+  color: #557754;
+}
+
+.nav-link p.active {
+  color: #557754;
+}
+
 #graph {
   min-width: 100%;
   max-width: 100%;
@@ -47,7 +47,8 @@ hr {
 }
 
 #nav-tab {
-  margin-top: 20px;
+  margin-top: 0;
+  position: sticky;
 }
 
 .nav-link {
@@ -117,7 +118,149 @@ hr {
 
 #nellieSignature, #julesSignature {
   position: absolute;
-  margin: -50px 0 0 -20px;
+  margin: -30px 0 0 -25px;
+  padding-right: 15px;
   opacity: 0.1;
   width: 100%;
 }
+
+
+
+
+
+
+
+#wrapper {
+  /*padding-right: 0;*/
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+  padding-right: 250px;
+}
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  right: 0; /* was right: 250px;*/
+  /*width: 0;*/
+  height: 100%;
+  /*margin-right: -250px;*/
+  overflow-y: auto;
+  border-left: 1px solid #dee2e6;
+  /* background: #000; */
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /*padding: 15px;*/
+}
+
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-left: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  /*width: 250px;*/
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+.sidebar-nav li p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #999999;
+}
+
+.sidebar-nav li a:hover {
+  color: #557754;
+  /*background: rgba(255,255,255,0.2);*/
+}
+
+.sidebar-nav li a.active {
+  display: block;
+  text-decoration: none;
+  color: #557754;
+}
+
+/*
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  color: #000000;
+  font-weight: bold;
+}*/
+
+@media(min-width:992px) {
+  #wrapper {
+    padding-right: 250px;
+  }
+
+  #wrapper.toggled {
+    padding-right: 0;
+  }
+
+  #sidebar-wrapper {
+    width: 250px;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    width: 0;
+  }
+
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+
+  #wrapper.toggled #page-content-wrappe {
+    position: relative;
+    margin-right: 0;
+  }
+}
+
+
+/*@media only screen and (max-width: 768px) {
+html {
+width: 100%;
+margin-left: auto;
+}
+}
+
+@media only screen and (min-width: 768px) {
+html {
+min-width: 768px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+}*/
