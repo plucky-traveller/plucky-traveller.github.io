@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>PLUCKY Project</title>
+  <title>Plucky – Conceptual Model</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Bad+Script|Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -35,7 +36,7 @@
               <a class="nav-link" href="../about.html"><p>About</p></a>
             </li>
             <div class="d-lg-none">
-              <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+              <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="fas fa-bars"></i></a>
             </div>
           </ul>
         </div>
@@ -50,13 +51,81 @@
           <p>Theoretical Part</p>
         </li>
         <li>
-          <a href="items.html">Exemplary Items</a>
+          <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="collapsed"><a href="items.html">Exemplary Items</a></div></div>
+          <div id="collapseOne" class="collapse" data-parent="#accordion">
+            <ul class="sidebar-collapse">
+              <li>
+                <a id="v-pills-engraving-tab" data-toggle="pill" href="#v-pills-engraving" role="tab" aria-controls="v-pills-engraving" aria-selected="true">Wood Engraving</a>
+              </li>
+              <li>
+                <a id="v-pills-doodle-tab" data-toggle="pill" href="#v-pills-doodle" role="tab" aria-controls="v-pills-doodle" aria-selected="false">Google Doogle</a>
+              </li>
+              <li>
+                <a id="v-pills-game-tab" data-toggle="pill" href="#v-pills-game" role="tab" aria-controls="v-pills-game" aria-selected="false">Boardgame</a>
+              </li>
+              <li>
+                <a id="v-pills-article-tab" data-toggle="pill" href="#v-pills-article" role="tab" aria-controls="v-pills-article" aria-selected="false">Article</a>
+              </li>
+              <li>
+                <a id="v-pills-audioBook-tab" data-toggle="pill" href="#v-pills-audioBook" role="tab" aria-controls="v-pills-audioBook" aria-selected="false">Audio Book</a>
+              </li>
+              <li>
+                <a id="v-pills-book-tab" data-toggle="pill" href="#v-pills-book" role="tab" aria-controls="v-pills-book" aria-selected="false">Book</a>
+              </li>
+              <li>
+                <a id="v-pills-bulletin-tab" data-toggle="pill" href="#v-pills-bulletin" role="tab" aria-controls="v-pills-bulletin" aria-selected="false">Bulletin</a>
+              </li>
+              <li>
+                <a id="v-pills-artwork-tab" data-toggle="pill" href="#v-pills-artwork" role="tab" aria-controls="v-pills-artwork" aria-selected="false">Artwork</a>
+              </li>
+              <li>
+                <a id="v-pills-map-tab" data-toggle="pill" href="#v-pills-map" role="tab" aria-controls="v-pills-map" aria-selected="false">Map</a>
+              </li>
+              <li>
+                <a id="v-pills-picture-tab" data-toggle="pill" href="#v-pills-picture" role="tab" aria-controls="v-pills-picture" aria-selected="false">Picture</a>
+              </li>
+            </ul>
+          </div>
         </li>
         <li>
           <a href="ermodel.html">Entity Relationship</a>
         </li>
         <li>
-          <a href="alignement.html">Standard Alignement</a>
+          <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed"><a href="alignement.html">Standard Alignement</a></div></div>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <ul class="sidebar-collapse">
+              <li>
+                <a href="#engraving">Wood Engraving</a>
+              <li>
+              </li>
+                <a href="#doodle">Google Doogle</a>
+              <li>
+              </li>
+                <a href="#game">Boardgame</a>
+              <li>
+              </li>
+                <a href="#article">Article</a>
+              <li>
+              </li>
+                <a href="#audioBook">Audio Book</a>
+              <li>
+              </li>
+                <a href="#book">Book</a>
+              <li>
+              </li>
+                <a href="#bulletin">Bulletin</a>
+              <li>
+              </li>
+                <a href="#artwork">Artwork</a>
+              <li>
+              </li>
+                <a href="#map">Map</a>
+              <li>
+              </li>
+                <a href="#picture">Picture</a>
+              </li>
+            </ul>
+          </div>
         </li>
         <li>
           <a href="theoretical.html">Theoretical Model</a>
@@ -68,10 +137,10 @@
           <p>Practical Part</p>
         </li>
         <li>
-          <a href="#">Descripton of Data</a>
+          <a href="description.html">Descripton of Data</a>
         </li>
         <li>
-          <a href="#">RDF / XML</a>
+          <a href="xml.html">RDF / XML</a>
         </li>
         <li>
           <a href="#">Interconnection</a>
@@ -89,9 +158,9 @@
         <div class="card w-100" style="border: none;">
           <div class="card-body">
             <h5 class="card-title">Introduction: Plucky ontology</h5>
-            <p class="card-text">Considering the variety of the items our project involves, we deemed multiple ontologies helpful and decided to combine them in our own new ontological framework for easier representation and interpretation by users. The following word cloud shows the types and frequency of the ontologies we used.</p> 
-            <p class="card-text">(word cloud)</p>
-            <p class="card-text">We decided to call our new ontology “Plucky” to honor Nellie’s fearlessness. Our ontology allows us to achieve a more complete representation of the relevant information, as it enables to re-use, re-name and re-create predicates from various ontologies, used by various institutions, to increase accessibility and usability. It should be noted that Plucky’s use of the general element “entity” allows us to apply it to a wide variety of items, classified according to their type (Person, Item, Date, Place). Therefore, this means that there is a breadth of predicates that can act on entities of different types.</p>
+            <p class="card-text">
+              Considering the variety of the items our project involves, we deemed multiple ontologies helpful and decided to combine them in our own new ontological framework for easier representation and interpretation by users. We decided to call this new ontology “Plucky” to honor Nellie’s fearlessness. Our ontology allows us to achieve a more complete representation of the relevant information, as it enables to re-use, re-naming and re-creation of predicates from various ontologies (from various institutions) to increase accessibility and usability. It should be noted that Plucky’s use of the general element “entity” allows us to apply it to a wide variety of items, classified according to their type (Person, Item, Date, Place). Therefore, this means that there is a breadth of predicates that can act on entities of different types.
+            </p>
           </div>
         </div>
 
@@ -143,7 +212,7 @@
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">
         <p>© 2019 Copyright: <a href="https://www.unibo.it/en">University of Bologna</a></p>
-        <p>Delfina Pandiani, Elenora Peruch, Severin Josef Burg</p>
+        <p>Delfina Sol Pandiani, Eleonora Peruch, Severin Josef Burg</p>
       </div>
 
     </footer>

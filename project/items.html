@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>PLUCKY Project</title>
+  <title>Plucky – Items</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Bad+Script|Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -35,7 +36,7 @@
               <a class="nav-link" href="../about.html"><p>About</p></a>
             </li>
             <div class="d-lg-none">
-              <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+              <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="fas fa-bars"></i></a>
             </div>
           </ul>
         </div>
@@ -45,38 +46,108 @@
 
   <div id="wrapper">
     <div id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <li>
-          <p>Theoretical Part</p>
-        </li>
-        <li>
-          <a href="items.html" class="active">Exemplary Items</a>
-        </li>
-        <li>
-          <a href="ermodel.html">Entity Relationship</a>
-        </li>
-        <li>
-          <a href="alignement.html">Standard Alignement</a>
-        </li>
-        <li>
-          <a href="theoretical.html">Theoretical Model</a>
-        </li>
-        <li>
-          <a href="conceptual.html">Conceptual Model</a>
-        </li>
-        <li>
-          <p>Practical Part</p>
-        </li>
-        <li>
-          <a href="#">Descripton of Data</a>
-        </li>
-        <li>
-          <a href="#">RDF / XML</a>
-        </li>
-        <li>
-          <a href="#">Interconnection</a>
-        </li>
-      </ul>
+      <div id="accordion">
+        <ul class="sidebar-nav">
+          <li>
+            <p>Theoretical Part</p>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><a href="#" class="active">Exemplary Items</a></div></div>
+            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a id="v-pills-engraving-tab" data-toggle="pill" href="#v-pills-engraving" role="tab" aria-controls="v-pills-engraving" aria-selected="true">Wood Engraving</a>
+                </li>
+                <li>
+                  <a id="v-pills-doodle-tab" data-toggle="pill" href="#v-pills-doodle" role="tab" aria-controls="v-pills-doodle" aria-selected="false">Google Doogle</a>
+                </li>
+                <li>
+                  <a id="v-pills-game-tab" data-toggle="pill" href="#v-pills-game" role="tab" aria-controls="v-pills-game" aria-selected="false">Boardgame</a>
+                </li>
+                <li>
+                  <a id="v-pills-article-tab" data-toggle="pill" href="#v-pills-article" role="tab" aria-controls="v-pills-article" aria-selected="false">Article</a>
+                </li>
+                <li>
+                  <a id="v-pills-audioBook-tab" data-toggle="pill" href="#v-pills-audioBook" role="tab" aria-controls="v-pills-audioBook" aria-selected="false">Audio Book</a>
+                </li>
+                <li>
+                  <a id="v-pills-book-tab" data-toggle="pill" href="#v-pills-book" role="tab" aria-controls="v-pills-book" aria-selected="false">Book</a>
+                </li>
+                <li>
+                  <a id="v-pills-bulletin-tab" data-toggle="pill" href="#v-pills-bulletin" role="tab" aria-controls="v-pills-bulletin" aria-selected="false">Bulletin</a>
+                </li>
+                <li>
+                  <a id="v-pills-artwork-tab" data-toggle="pill" href="#v-pills-artwork" role="tab" aria-controls="v-pills-artwork" aria-selected="false">Artwork</a>
+                </li>
+                <li>
+                  <a id="v-pills-map-tab" data-toggle="pill" href="#v-pills-map" role="tab" aria-controls="v-pills-map" aria-selected="false">Map</a>
+                </li>
+                <li>
+                  <a id="v-pills-picture-tab" data-toggle="pill" href="#v-pills-picture" role="tab" aria-controls="v-pills-picture" aria-selected="false">Picture</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="ermodel.html">Entity Relationship</a>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed"><a href="alignement.html">Standard Alignement</a></div></div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="#engraving">Wood Engraving</a>
+                <li>
+                </li>
+                  <a href="#doodle">Google Doogle</a>
+                <li>
+                </li>
+                  <a href="#game">Boardgame</a>
+                <li>
+                </li>
+                  <a href="#article">Article</a>
+                <li>
+                </li>
+                  <a href="#audioBook">Audio Book</a>
+                <li>
+                </li>
+                  <a href="#book">Book</a>
+                <li>
+                </li>
+                  <a href="#bulletin">Bulletin</a>
+                <li>
+                </li>
+                  <a href="#artwork">Artwork</a>
+                <li>
+                </li>
+                  <a href="#map">Map</a>
+                <li>
+                </li>
+                  <a href="#picture">Picture</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="theoretical.html">Theoretical Model</a>
+          </li>
+          <li>
+            <a href="conceptual.html">Conceptual Model</a>
+          </li>
+          <li>
+            <p>Practical Part</p>
+          </li>
+          <li>
+            <a href="description.html">Descripton of Data</a>
+          </li>
+          <li>
+            <a href="xml.html">RDF / XML</a>
+          </li>
+          <li>
+            <a href="#">Interconnection</a>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <div id="page-content-wrapper">
@@ -87,20 +158,6 @@
           </div>
         </div>
 
-        <div class="py-2 flex-grow-1" id="nav-tab">
-          <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
-            <a class="nav-link active" id="v-pills-engraving-tab" data-toggle="pill" href="#v-pills-engraving" role="tab" aria-controls="v-pills-engraving" aria-selected="true">Wood Engraving</a>
-            <a class="nav-link" id="v-pills-doodle-tab" data-toggle="pill" href="#v-pills-doodle" role="tab" aria-controls="v-pills-doodle" aria-selected="false">Google Doogle</a>
-            <a class="nav-link" id="v-pills-game-tab" data-toggle="pill" href="#v-pills-game" role="tab" aria-controls="v-pills-game" aria-selected="false">Boardgame</a>
-            <a class="nav-link" id="v-pills-article-tab" data-toggle="pill" href="#v-pills-article" role="tab" aria-controls="v-pills-article" aria-selected="false">Article</a>
-            <a class="nav-link" id="v-pills-audioBook-tab" data-toggle="pill" href="#v-pills-audioBook" role="tab" aria-controls="v-pills-audioBook" aria-selected="false">Audio Book</a>
-            <a class="nav-link" id="v-pills-book-tab" data-toggle="pill" href="#v-pills-book" role="tab" aria-controls="v-pills-book" aria-selected="false">Book</a>
-            <a class="nav-link" id="v-pills-bulletin-tab" data-toggle="pill" href="#v-pills-bulletin" role="tab" aria-controls="v-pills-bulletin" aria-selected="false">Bulletin</a>
-            <a class="nav-link" id="v-pills-artwork-tab" data-toggle="pill" href="#v-pills-artwork" role="tab" aria-controls="v-pills-artwork" aria-selected="false">Artwork</a>
-            <a class="nav-link" id="v-pills-map-tab" data-toggle="pill" href="#v-pills-map" role="tab" aria-controls="v-pills-map" aria-selected="false">Map</a>
-            <a class="nav-link" id="v-pills-picture-tab" data-toggle="pill" href="#v-pills-picture" role="tab" aria-controls="v-pills-picture" aria-selected="false">Picture</a>
-          </div>
-        </div>
         <div class="tab-content" id="v-pills-tabContent">
           <div class="tab-pane fade show active" id="v-pills-engraving" role="tabpanel" aria-labelledby="v-pills-engraving-tab">
             <div class="row">
@@ -111,13 +168,14 @@
               </div>
               <div class="card w-50" style="border: none;">
                 <div class="card-body">
-                  <h5 class="card-title">Around the world in seventy-two days and six hours - reception of Nellie Bly at Jersey City on the completion of her journey</h5>
+                  <h5 class="card-title">Reception of Nellie Bly at Jersey City</h5>
                   <p class="card-text">
                     <ul>
-                      <li>Date: 1890</li>
-                      <li>Digital image of print (wood engraving)</li>
-                      <li>Source: <a href="https://commons.wikimedia.org/wiki/File:Nellie_Bly_Reception_1890.jpg">Wikimedia</a></li>
-                      <li></li>
+                      <li><b>Description:</b> Digital image of print (wood engraving)</li>
+                      <li><b>Official title:</b> "Around the world in seventy-two days and six hours - reception of Nellie Bly at Jersey City on the completion of her journey"</li>
+                      <li><b>Date:</b> 1890</li>
+                      <li><b>Source:</b> <a href="https://commons.wikimedia.org/wiki/File:Nellie_Bly_Reception_1890.jpg" target="_blank">Wikimedia</a></li>
+                      <li><b>Institution:</b> <a href="https://www.loc.gov/resource/cph.3a03833/" target="_blank">Library of Congress</a></li>
                     </ul>
                   </p>
                 </div>
@@ -128,13 +186,19 @@
             <div class="row">
               <div class="card w-50" style="border: none;">
                 <div class="card-body">
-                  <img src="../img/items/doodle.png" alt="Google Doodle about Nelly Bly" style="width:100%">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/BrrgeZKvFEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
               </div>
               <div class="card w-50" style="border: none;">
                 <div class="card-body">
-                  <h5 class="card-title">...</h5>
-                  <p class="card-text"></p>
+                  <h5 class="card-title">Google Doodle: Nellie Bly's 151st Birthday</h5>
+                  <p class="card-text">
+                    <ul>
+                      <li><b>Description:</b> YouTube video about Nellie Bly for the occasion of her 151st birthday.</li>
+                      <li><b>Date:</b> 2015-05-05</li>
+                      <li><b>Institution:</b> <a href="https://www.google.com/doodles/nellie-blys-151st-birthday" target="_blank">Google Doodle Archive</a></li>
+                    </ul>
+                  </p>
                 </div>
               </div>
             </div>
@@ -148,8 +212,15 @@
               </div>
               <div class="card w-50" style="border: none;">
                 <div class="card-body">
-                  <h5 class="card-title">...</h5>
-                  <p class="card-text"></p>
+                  <h5 class="card-title">Round the World with Nellie Bly</h5>
+                  <p class="card-text">
+                    <ul>
+                      <li><b>Description:</b> Boardgame which was first introduced on the front page of the New York World on the 26 January 1890: "Game board illustrating journalist Nellie Bly's circumnavigation of the globe (1889-1890)"</li>
+                      <li><b>Date:</b> 1890</li>
+                      <li><b>Institution:</b> <a href="https://www.nyhistory.org/exhibit/round-world-nellie-bly" target="_blank">New-York Historical Society</a></li>
+                      <li><b>See also:</b> New-York Historical Society article about Nellie (<a href="http://historydetectives.nyhistory.org/2014/05/nellie-bly/" target="_blank">.html</a>)</li>
+                    </ul>
+                  </p>
                 </div>
               </div>
             </div>
@@ -163,8 +234,15 @@
               </div>
               <div class="card w-50" style="border: none;">
                 <div class="card-body">
-                  <h5 class="card-title">...</h5>
-                  <p class="card-text"></p>
+                  <h5 class="card-title">Phineas Fogg Outdone: A Plucky Female Journalist.</h5>
+                  <p class="card-text">
+                    <ul>
+                      <li><b>Description:</b> Newspaper "Daily Alta California", Volume 82, Number 22</li>
+                      <li><b>Date:</b> 1890-01-22</li>
+                      <li><b>Source:</b> <a href="https://cdnc.ucr.edu/?a=d&d=DAC18900122.2.48.3&e=-------en--20--1--txt-txIN--------1" target="_blank">California Digital Newspaper Collection</a></li>
+                      <li>Information about the digitisation of the newspaper. (<a href="https://cdnc.ucr.edu/site/files/BestPracticesforCaliforniaNewspaperDigitization.pdf">.pdf</a>)</li>
+                    </ul>
+                  </p>
                 </div>
               </div>
             </div>
@@ -178,8 +256,15 @@
               </div>
               <div class="card w-50" style="border: none;">
                 <div class="card-body">
-                  <h5 class="card-title">...</h5>
-                  <p class="card-text"></p>
+                  <h5 class="card-title">Around the World in Seventy-Two Days</h5>
+                  <p class="card-text">
+                    <ul>
+                      <li><b>Description:</b> Audio book of "Around the World in Seventy-Two Days" originially written by Nellie Bly</li>
+                      <li><b>Date:</b> 2007</li>
+                      <li><b>Source:</b> <a href="https://en.wikipedia.org/wiki/Around_the_World_in_Seventy-Two_Days" target="_blank">Wikipedia</a></li>
+                      <li><b>Institution:</b> <a href="http://www.gutenberg.org/ebooks/20975" target="blank_">The Project Gutenberg</a></li>
+                    </ul>
+                  </p>
                 </div>
               </div>
             </div>
@@ -193,8 +278,16 @@
               </div>
               <div class="card w-50" style="border: none;">
                 <div class="card-body">
-                  <h5 class="card-title">...</h5>
-                  <p class="card-text"></p>
+                  <h5 class="card-title">Le tour du monde en quatre-vingts jours</h5>
+                  <p class="card-text">
+                    <ul>
+                      <li><b>Description:</b> First edition of the book in french</li>
+                      <li><b>Date:</b> 1873</li>
+                      <li><b>Source:</b> <a href="https://www.europeana.eu/portal/en/record/9200520/ark__12148_btv1b8600244d.html?q=Le+tour+du+monde+en+quatre-vingts+jours#dcId=1551631898928&p=1" target="_blank">Europeana</a></li>
+                      <li><b>Institution:</b> <a href="https://gallica.bnf.fr/ark:/12148/btv1b8600244d" target="_blank">Bibliothèque nationale de France</a></li>
+                      <li><b>See also:</b> <a href="https://fr.wikipedia.org/wiki/Le_Tour_du_monde_en_quatre-vingts_jours" target="_blank">Wikipedia (french)</a></li>
+                    </ul>
+                  </p>
                 </div>
               </div>
             </div>
@@ -208,8 +301,17 @@
               </div>
               <div class="card w-50" style="border: none;">
                 <div class="card-body">
-                  <h5 class="card-title">...</h5>
-                  <p class="card-text"></p>
+                  <h5 class="card-title">Bulletin de la Société de Géographie</h5>
+                  <p class="card-text">
+                    <ul>
+                      <li><b>Description:</b> Jules Vernes is mentioned in the facsimile of the bulletin on page 440. Vernes presents the society a copy of the first edition of the book.</li>
+                      <li><b>Date:</b> 1873-01</li>
+                      <li><b>Location:</b> Paris</li>
+                      <li><b>Source:</b> <a href="https://gallica.bnf.fr/ark:/12148/bpt6k37702w?rk=42918;4" target="_blank">Bibliothèque nationale de France</a></li>
+                      <li><b>Institution:</b> National Library of France</li>
+                      <li><b>See also:</b> <a href="https://en.wikipedia.org/wiki/Société_de_géographie" target="_blank">Wikipedia</a></li>
+                    </ul>
+                  </p>
                 </div>
               </div>
             </div>
@@ -223,66 +325,87 @@
               </div>
               <div class="card w-50" style="border: none;">
                 <div class="card-body">
-                  <h5 class="card-title">...</h5>
-                  <p class="card-text"></p>
+                  <h5 class="card-title">Soleil couchant à Ivry</h5>
+                  <p class="card-text">
+                    <ul>
+                      <li><b>Description:</b> Artwork depicting the second industrial revolution.</li>
+                      <li><b>English title:</b> Sunset at Ivry
+                        <li><b>Artist:</b> Armand Guillaumin</li>
+                        <li><b>Date:</b> 1873</li>
+                        <li><b>Source:</b> <a href="https://commons.wikimedia.org/wiki/File:Guillaumin_SoleilCouchantAIvry.jpg" target="_blank">Wikimedia</a></li>
+                        <li><b>Institution:</b> <a href="https://www.musee-orsay.fr/fr/collections/catalogue-des-oeuvres/notice.html?nnumid=367" target="_blank">Musée d'Orsay</a></li>
+                      </ul>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="tab-pane fade" id="v-pills-map" role="tabpanel" aria-labelledby="v-pills-map-tab">
-            <div class="row">
-              <div class="card w-50" style="border: none;">
-                <div class="card-body">
-                  <img src="../img/items/map.png" alt="Map representing a worldview from the 19th century" style="width:100%">
+            <div class="tab-pane fade" id="v-pills-map" role="tabpanel" aria-labelledby="v-pills-map-tab">
+              <div class="row">
+                <div class="card w-50" style="border: none;">
+                  <div class="card-body">
+                    <img src="../img/items/map.png" alt="Map representing a worldview from the 19th century" style="width:100%">
+                  </div>
                 </div>
-              </div>
-              <div class="card w-50" style="border: none;">
-                <div class="card-body">
-                  <h5 class="card-title">...</h5>
-                  <p class="card-text"></p>
+                <div class="card w-50" style="border: none;">
+                  <div class="card-body">
+                    <h5 class="card-title">World map on the Mercator projection</h5>
+                    <p class="card-text">
+                      <ul>
+                        <li><b>Date:</b> 1875</li>
+                        <li><b>Institution:</b> <a href="https://www.loc.gov/item/2005625107/">Library of Congress</a></li>
+                      </ul>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="tab-pane fade" id="v-pills-picture" role="tabpanel" aria-labelledby="v-pills-picture-tab">
-            <div class="row">
-              <div class="card w-50" style="border: none;">
-                <div class="card-body">
-                  <img src="../img/items/portrait.png" alt="Portrait of Nelly Bly" style="width:100%">
+            <div class="tab-pane fade" id="v-pills-picture" role="tabpanel" aria-labelledby="v-pills-picture-tab">
+              <div class="row">
+                <div class="card w-50" style="border: none;">
+                  <div class="card-body">
+                    <img src="../img/items/portrait.png" alt="Portrait of Nelly Bly" style="width:100%">
+                  </div>
                 </div>
-              </div>
-              <div class="card w-50" style="border: none;">
-                <div class="card-body">
-                  <h5 class="card-title">...</h5>
-                  <p class="card-text"></p>
+                <div class="card w-50" style="border: none;">
+                  <div class="card-body">
+                    <h5 class="card-title">Full length portrait of Nellie Bly</h5>
+                    <p class="card-text">
+                      <ul>
+                        <li><b>Description:</b> Portrait of Nellie Bly wearing her travelling dress.</li>
+                        <li><b>Date:</b> 1890</li>
+                        <li><b>Source:</b> <a href="https://commons.wikimedia.org/wiki/File:Nellie_Bly_LCCN2004671937.jpg" target="_blank">Wikimedia</a></li>
+                        <li><b>Institution:</b> <a href="https://www.loc.gov/item/2004671937/" target="_blank">Library of Congress</a></li>
+                      </ul>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <hr>
+
+
+
+        <!-- Footer -->
+        <footer class="page-footer font-small">
+
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">
+            <p>© 2019 Copyright: <a href="https://www.unibo.it/en">University of Bologna</a></p>
+            <p>Delfina Sol Pandiani, Eleonora Peruch, Severin Josef Burg</p>
+          </div>
+
+        </footer>
       </div>
-      <hr>
 
+      <script>
+      $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+      });
+      </script>
 
-
-      <!-- Footer -->
-      <footer class="page-footer font-small">
-
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">
-          <p>© 2019 Copyright: <a href="https://www.unibo.it/en">University of Bologna</a></p>
-          <p>Delfina Pandiani, Elenora Peruch, Severin Josef Burg</p>
-        </div>
-
-      </footer>
-    </div>
-
-    <script>
-    $("#menu-toggle").click(function(e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-
-  </body>
-  </html>
+    </body>
+    </html>

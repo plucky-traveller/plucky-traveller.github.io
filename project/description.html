@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Plucky – Description of Data</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.3.2/vivus.js"></script>
+</head>
+
+<body>
+
+  <!-- Header --->
+
+  <header>
+
+    <!-- Navigation --->
+    <nav class="navbar fixed-top navbar-expand navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Plucky <i>traveller</i></a>
+        <div class="navbar-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html"><p>Home</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../project.html"><p class="active">Project</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../about.html"><p>About</p></a>
+            </li>
+            <div class="d-lg-none">
+              <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="fas fa-bars"></i></a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="wrapper">
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li>
+          <p>Theoretical Part</p>
+        </li>
+        <li>
+          <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="collapsed"><a     href="items.html">Exemplary Items</a></div></div>
+          <div id="collapseOne" class="collapse show" data-parent="#accordion">
+            <ul class="sidebar-collapse">
+              <li>
+                <a id="v-pills-engraving-tab" data-toggle="pill" href="#v-pills-engraving" role="tab" aria-controls="v-pills-engraving" aria-selected="true">Wood Engraving</a>
+              </li>
+              <li>
+                <a id="v-pills-doodle-tab" data-toggle="pill" href="#v-pills-doodle" role="tab" aria-controls="v-pills-doodle" aria-selected="false">Google Doogle</a>
+              </li>
+              <li>
+                <a id="v-pills-game-tab" data-toggle="pill" href="#v-pills-game" role="tab" aria-controls="v-pills-game" aria-selected="false">Boardgame</a>
+              </li>
+              <li>
+                <a id="v-pills-article-tab" data-toggle="pill" href="#v-pills-article" role="tab" aria-controls="v-pills-article" aria-selected="false">Article</a>
+              </li>
+              <li>
+                <a id="v-pills-audioBook-tab" data-toggle="pill" href="#v-pills-audioBook" role="tab" aria-controls="v-pills-audioBook" aria-selected="false">Audio Book</a>
+              </li>
+              <li>
+                <a id="v-pills-book-tab" data-toggle="pill" href="#v-pills-book" role="tab" aria-controls="v-pills-book" aria-selected="false">Book</a>
+              </li>
+              <li>
+                <a id="v-pills-bulletin-tab" data-toggle="pill" href="#v-pills-bulletin" role="tab" aria-controls="v-pills-bulletin" aria-selected="false">Bulletin</a>
+              </li>
+              <li>
+                <a id="v-pills-artwork-tab" data-toggle="pill" href="#v-pills-artwork" role="tab" aria-controls="v-pills-artwork" aria-selected="false">Artwork</a>
+              </li>
+              <li>
+                <a id="v-pills-map-tab" data-toggle="pill" href="#v-pills-map" role="tab" aria-controls="v-pills-map" aria-selected="false">Map</a>
+              </li>
+              <li>
+                <a id="v-pills-picture-tab" data-toggle="pill" href="#v-pills-picture" role="tab" aria-controls="v-pills-picture" aria-selected="false">Picture</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="ermodel.html">Entity Relationship</a>
+        </li>
+        <li>
+          <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed"><a href="alignement.html">Standard Alignement</a></div></div>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <ul class="sidebar-collapse">
+              <li>
+                <a href="#engraving">Wood Engraving</a>
+              <li>
+              </li>
+                <a href="#doodle">Google Doogle</a>
+              <li>
+              </li>
+                <a href="#game">Boardgame</a>
+              <li>
+              </li>
+                <a href="#article">Article</a>
+              <li>
+              </li>
+                <a href="#audioBook">Audio Book</a>
+              <li>
+              </li>
+                <a href="#book">Book</a>
+              <li>
+              </li>
+                <a href="#bulletin">Bulletin</a>
+              <li>
+              </li>
+                <a href="#artwork">Artwork</a>
+              <li>
+              </li>
+                <a href="#map">Map</a>
+              <li>
+              </li>
+                <a href="#picture">Picture</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="theoretical.html">Theoretical Model</a>
+        </li>
+        <li>
+          <a href="conceptual.html">Conceptual Model</a>
+        </li>
+        <li>
+          <p>Practical Part</p>
+        </li>
+        <li>
+          <a href="description.html" class="active">Descripton of Data</a>
+        </li>
+        <li>
+          <a href="xml.html">RDF / XML</a>
+        </li>
+        <li>
+          <a href="#">Interconnection</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="card w-100" style="border: none;">
+          <div class="card-body">
+            <h3>Description of Data</h3>
+          </div>
+        </div>
+        <section class="desc-table">
+        <table class="table">
+          <thead>
+            <tr>
+              <th title="Field #1">Question</th>
+              <th title="Field #2">Subject</th>
+              <th title="Field #3">Predicate</th>
+              <th title="Field #4">subclass</th>
+              <th title="Field #5">Predicate is based on</th>
+              <th title="Field #6">eac-cpf or CDWALITE equivalent</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>What type of entity?</td>
+              <td>plucky:entity</td>
+              <td>plucky:is_entity_type</td>
+              <td> </td>
+              <td>ISAAR: [5.1.1 Type of entity]</td>
+              <td>EAC-CPF:entityType</td>
+            </tr>
+            <tr>
+              <td>In which format is the date expressed?</td>
+              <td>plucky:entity</td>
+              <td>plucky:data_format</td>
+              <td> </td>
+              <td>EAC-CPF: date standardDate</td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>Which is the degree of certainty of the date?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_certainty_degree</td>
+              <td> </td>
+              <td>EAD:date certainty</td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>What is the date&#39;s relation with a resource?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_resource_relation</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>--- What is the type of relation with the resource?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_type</td>
+              <td>EAC-CPF: resourceRelationType</td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>--- What is the resource related?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_resource</td>
+              <td>DCTERMS:relation</td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>--- What does that relation mean?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_meaning</td>
+              <td>CDWA:[4.2.3 Date Qualifier]</td>
+              <td>CDWALITE:dateQualifier</td>
+            </tr>
+            <tr>
+              <td>--- When did this relation start?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_start</td>
+              <td>DC:date</td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>--- Which is the date of creation of the archival resource?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:resource_archiving_date</td>
+              <td>EAD:&lt;date&gt; or *CDWA [25.5. Cataloging Date]</td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>--- Which is the date of the last update of its status?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:update_date</td>
+              <td>CDWA: [15.4. Latest Date]</td>
+              <td>CDWALITE:latestDate</td>
+            </tr>
+            <tr>
+              <td>What is the date&#39;s relation with an agent?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_agent_relation</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>--- What is the type of relation with the agent?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_type</td>
+              <td>ISAAR: [5.3.2 Category of relationship]</td>
+              <td>EAC-CPF:cpfRelation cpfRelationType=&quot;[value]&quot;</td>
+            </tr>
+            <tr>
+              <td>--- What is the person/corporate body related?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_agent</td>
+              <td>ISAAR: [5.3.1 Name/Identifier of the related corporate body, person or family]</td>
+              <td>EAC-CPF:cpfRelation</td>
+            </tr>
+            <tr>
+              <td>--- What does that relation mean?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_meaning</td>
+              <td>CDWA:[4.2.3 Date Qualifier]</td>
+              <td>CDWALITE:dateQualifier</td>
+            </tr>
+            <tr>
+              <td>---What were their life roles on that date?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:has_life_role</td>
+              <td>ISAAR: [5.2.5 Functions, occupations and activities]: write the function etc.</td>
+              <td>EAC-CPF:function</td>
+            </tr>
+            <tr>
+              <td>What is the date&#39;s relation to an event?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_event_relation</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>--- What is the related event?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:related_event</td>
+              <td>EAD:&lt;event&gt;</td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>--- What are other versions of the name of the event ?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:has_other_name</td>
+              <td>ISAAR: [5.1.5 Other forms of name]: report the other names again in the form of the authority record</td>
+              <td>EAC-CPF:&lt;nameEntry&gt; or &lt;nameEntryParallel&gt; with &lt;alternativeForm&gt;</td>
+            </tr>
+            <tr>
+              <td>--- What does that relation mean?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_meaning</td>
+              <td>CDWA:[4.2.3 Date Qualifier] Data Qualifier:</td>
+              <td>CDWALITE:dateQualifier</td>
+            </tr>
+            <tr>
+              <td>--- Where?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:event_place</td>
+              <td>EAD:&lt;place&gt;</td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>Which resources refer to the same date?</td>
+              <td>plucky:entity</td>
+              <td>plucky:sameAs</td>
+              <td> </td>
+              <td>OWL:sameAs</td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>Which resource has the date as primary topic?</td>
+              <td>plucky:entity</td>
+              <td>plucky:isPrimaryTopicOf</td>
+              <td> </td>
+              <td>FOAF:isPrimaryTopicOf</td>
+              <td> </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="desc-table">
+      <table class="table">
+        <thead>
+          <tr>
+            <th title="Field #1">Question</th>
+            <th title="Field #3">Predicate</th>
+            <th title="Field #7">EXAMPLE 1</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>What type of entity?</td>
+            <td>plucky:is_entity_type</td>
+            <td>Date</td>
+          </tr>
+          <tr>
+            <td>In which format is the date expressed?</td>
+            <td>plucky:data_format</td>
+            <td>YYYY</td>
+          </tr>
+          <tr>
+            <td>Which is the degree of certainty of the date?</td>
+            <td>plucky:has_certainty_degree</td>
+            <td>absolute certainty</td>
+          </tr>
+          <tr>
+            <td>What is the date&#39;s relation with a resource?</td>
+            <td>plucky:has_resource_relation</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>--- What is the type of relation with the resource?</td>
+            <td>plucky:relation_type</td>
+            <td>date of publication</td>
+          </tr>
+          <tr>
+            <td>--- What is the resource related?</td>
+            <td>plucky:relation_resource</td>
+            <td>Le tour du monde en quatre-vingts jours (français), first edition of Around the World in 80 Days</td>
+          </tr>
+          <tr>
+            <td>--- What does that relation mean?</td>
+            <td>plucky:relation_meaning</td>
+            <td>date of publication of the first edition of the resource</td>
+          </tr>
+          <tr>
+            <td>--- When did this relation start?</td>
+            <td>plucky:relation_start</td>
+            <td>1873</td>
+          </tr>
+          <tr>
+            <td>--- Which is the date of creation of the archival resource?</td>
+            <td>plucky:resource_archiving_date</td>
+            <td>2016-11-28 publication online in Europeana (source)</td>
+          </tr>
+          <tr>
+            <td>--- Which is the date of the last update of its status?</td>
+            <td>plucky:update_date</td>
+            <td>2018-07-24 in Europeana (source)</td>
+          </tr>
+          <tr>
+            <td>What is the date&#39;s relation with an agent?</td>
+            <td>plucky:has_agent_relation</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>--- What is the type of relation with the agent?</td>
+            <td>plucky:relation_type</td>
+            <td>date of publication of agent&#39;s book</td>
+          </tr>
+          <tr>
+            <td>--- What is the person/corporate body related?</td>
+            <td>plucky:relation_agent</td>
+            <td>Jules Verne</td>
+          </tr>
+          <tr>
+            <td>--- What does that relation mean?</td>
+            <td>plucky:relation_meaning</td>
+            <td>In 1873, Jules Verne published one of his most famous adventure novels</td>
+          </tr>
+          <tr>
+            <td>---What were their life roles on that date?</td>
+            <td>plucky:has_life_role</td>
+            <td>Writer</td>
+          </tr>
+          <tr>
+            <td>What is the date&#39;s relation to an event?</td>
+            <td>plucky:has_event_relation</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>--- What is the related event?</td>
+            <td>plucky:related_event</td>
+            <td>5th World&#39;s Exposition</td>
+          </tr>
+          <tr>
+            <td>--- What are other versions of the name of the event ?</td>
+            <td>plucky:has_other_name</td>
+            <td>World&#39;s Fair, Expo</td>
+          </tr>
+          <tr>
+            <td>--- What does that relation mean?</td>
+            <td>plucky:relation_meaning</td>
+            <td>The date indicates when the World Exposition in Vienna was held. Its motto was Kultur und Erziehung (English: Culture and Education).</td>
+          </tr>
+          <tr>
+            <td>--- Where?</td>
+            <td>plucky:event_place</td>
+            <td>Vienna</td>
+          </tr>
+          <tr>
+            <td>Which resources refer to the same date?</td>
+            <td>plucky:sameAs</td>
+            <td>https://www.wikidata.org/wiki/Q7757</td>
+          </tr>
+          <tr>
+            <td>Which resource has the date as primary topic?</td>
+            <td>plucky:isPrimaryTopicOf</td>
+            <td>https://en.wikipedia.org/wiki/1873</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+      <section class="desc-table">
+      <table class="table">
+        <thead>
+          <tr>
+            <th title="Field #1">Question</th>
+            <th title="Field #3">Predicate</th>
+            <th title="Field #8">EXAMPLE 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>What type of entity?</td>
+            <td>plucky:is_entity_type</td>
+            <td>Date</td>
+          </tr>
+          <tr>
+            <td>In which format is the date expressed?</td>
+            <td>plucky:data_format</td>
+            <td>YYYY</td>
+          </tr>
+          <tr>
+            <td>Which is the degree of certainty of the date?</td>
+            <td>plucky:has_certainty_degree</td>
+            <td>absolute certainty</td>
+          </tr>
+          <tr>
+            <td>What is the date&#39;s relation with a resource?</td>
+            <td>plucky:has_resource_relation</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>--- What is the type of relation with the resource?</td>
+            <td>plucky:relation_type</td>
+            <td>date of publication</td>
+          </tr>
+          <tr>
+            <td>--- What is the resource related?</td>
+            <td>plucky:relation_resource</td>
+            <td>Around the world in seventy-two days and six hours - reception of Nellie Bly at Jersey City on the completion of her journey</td>
+          </tr>
+          <tr>
+            <td>--- What does that relation mean?</td>
+            <td>plucky:relation_meaning</td>
+            <td>date of publication of the journal in which the wood engraving appears</td>
+          </tr>
+          <tr>
+            <td>--- When did this relation start?</td>
+            <td>plucky:relation_start</td>
+            <td>1890</td>
+          </tr>
+          <tr>
+            <td>--- Which is the date of creation of the archival resource?</td>
+            <td>plucky:resource_archiving_date</td>
+            <td>2011-10-05 in Wikimedia commons (source)</td>
+          </tr>
+          <tr>
+            <td>--- Which is the date of the last update of its status?</td>
+            <td>plucky:update_date</td>
+            <td>2014-05-06 in Wikimedia commons (source)</td>
+          </tr>
+          <tr>
+            <td>What is the date&#39;s relation with an agent?</td>
+            <td>plucky:has_agent_relation</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>--- What is the type of relation with the agent?</td>
+            <td>plucky:relation_type</td>
+            <td>date of publication of the agent&#39;s illustration</td>
+          </tr>
+          <tr>
+            <td>--- What is the person/corporate body related?</td>
+            <td>plucky:relation_agent</td>
+            <td>C. Bunnell</td>
+          </tr>
+          <tr>
+            <td>--- What does that relation mean?</td>
+            <td>plucky:relation_meaning</td>
+            <td>In 1890, C. Bunnell&#39;s two vignettes titled: &quot;Presenting the Globe-Girdler a Golden Globe&quot; and &quot;The Arrival in Philadelphia&quot; were published as illustrations in Frank Leslie&#39;s illustrated newspaper, vol. 70, no. 1795 (1890 Feb. 8), p. 5 (bottom).</td>
+          </tr>
+          <tr>
+            <td>---What were their life roles on that date?</td>
+            <td>plucky:has_life_role</td>
+            <td>artist</td>
+          </tr>
+          <tr>
+            <td>What is the date&#39;s relation to an event?</td>
+            <td>plucky:has_event_relation</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>--- What is the related event?</td>
+            <td>plucky:related_event</td>
+            <td>the board game &quot;Round the World with Nellie Bly&quot; is sold in the market</td>
+          </tr>
+          <tr>
+            <td>--- What are other versions of the name of the event ?</td>
+            <td>plucky:has_other_name</td>
+            <td><br/>&quot;Game of Round the World with Nellie Bly&quot;</td>
+          </tr>
+          <tr>
+            <td>--- What does that relation mean?</td>
+            <td>plucky:relation_meaning</td>
+            <td>In 1890 the game which is based on the adventures of Nellie Bly came out.</td>
+          </tr>
+          <tr>
+            <td>--- Where?</td>
+            <td>plucky:event_place</td>
+            <td>New York</td>
+          </tr>
+          <tr>
+            <td>Which resources refer to the same date?</td>
+            <td>plucky:sameAs</td>
+            <td>https://cs.dbpedia.org/page/1890</td>
+          </tr>
+          <tr>
+            <td>Which resource has the date as primary topic?</td>
+            <td>plucky:isPrimaryTopicOf</td>
+            <td>https://en.wikipedia.org/wiki/1890</td>
+          </tr>
+        </tbody>
+      </table>
+      </section>
+
+<!--
+      <section class="desc-table">
+        <table class="table">
+          <thead>
+            <tr>
+              <th title="Field #1">Question</th>
+              <th title="Field #2">Subject</th>
+              <th title="Field #3">Predicate</th>
+              <th title="Field #4">subclass</th>
+              <th title="Field #5">Predicate is based on</th>
+              <th title="Field #6">eac-cpf or CDWALITE equivalent</th>
+              <th title="Field #7">EXAMPLE 1</th>
+              <th title="Field #8">EXAMPLE 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>What type of entity?</td>
+              <td>plucky:entity</td>
+              <td>plucky:is_entity_type</td>
+              <td> </td>
+              <td>EAC-CPF:entity</td>
+              <td> </td>
+              <td>Person</td>
+              <td>Person</td>
+            </tr>
+            <tr>
+              <td>What is the authority control version of the name?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_authorized_name</td>
+              <td> </td>
+              <td>ISAAR: 5.1.2 Authorized form of name</td>
+              <td>EAC-CPF:&lt;nameEntry&gt;</td>
+              <td>Nellie Bly</td>
+              <td>Jules Verne</td>
+            </tr>
+            <tr>
+              <td>What are other versions of the name?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_other_name</td>
+              <td> </td>
+              <td>ISAAR: 5.1.5 Other forms of name</td>
+              <td>EAC-CPF:&lt;nameEntryParallel&gt;</td>
+              <td>Elizabeth Cochran Seaman</td>
+              <td>Jules Gabriel Verne</td>
+            </tr>
+            <tr>
+              <td>What is the preferred name?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_preferred_name</td>
+              <td> </td>
+              <td>CDWA:28.2.2 [Person/Corporate Body Name;  Name Type]</td>
+              <td>CDWALITE:nameCreator</td>
+              <td>Nellie Bly</td>
+              <td>Jules Verne</td>
+            </tr>
+            <tr>
+              <td>What is their nationality?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_citizenship</td>
+              <td> </td>
+              <td>CDWA:28.8 Person Nationality/Culture/Race</td>
+              <td>CDWALITE:nationalityCreator</td>
+              <td>American</td>
+              <td>French</td>
+            </tr>
+            <tr>
+              <td>What is their ethnicity?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_ethnicity</td>
+              <td> </td>
+              <td>CDWA:28.8 Person Nationality/Culture/Race</td>
+              <td>CDWALITE:nationalityCreator</td>
+              <td>White</td>
+              <td>White</td>
+            </tr>
+            <tr>
+              <td>What is their biographical history?</td>
+              <td>plucky:entity</td>
+              <td>plucky:bio_history</td>
+              <td> </td>
+              <td>EAC-CPF:biogHist</td>
+              <td> </td>
+              <td>Nellie Bly was an American journalist who was widely known for her record-breaking trip around the world in 72 days, in emulation of Jules Verne&#39;s fictional character Phileas Fogg, and an exposé in which she worked undercover to report on a mental institution from within. She was a pioneer in her field, and launched a new kind of investigative journalism. Bly was also a writer, industrialist, inventor, and a charity worker.</td>
+              <td>French writer who wrote fiction novels based on geographic facts</td>
+            </tr>
+            <tr>
+              <td>What is their gender?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_gender</td>
+              <td> </td>
+              <td>CDWA:28.9 Gender</td>
+              <td>CDWALITE:genderCreator</td>
+              <td>Female</td>
+              <td>Male</td>
+            </tr>
+            <tr>
+              <td>What were their life roles?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_life_role</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>-- What was the role?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:role</td>
+              <td>ISAAR: 5.2.5 Functions, occupations and activities</td>
+              <td>EAC-CPF:&lt;function&gt;</td>
+              <td>Journalist</td>
+              <td>Writer</td>
+            </tr>
+            <tr>
+              <td>--- Duration of role?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:role_duration</td>
+              <td>EAC-CPF: &lt;daterange&gt;</td>
+              <td> </td>
+              <td>1880-1922</td>
+              <td>1850-1905</td>
+            </tr>
+            <tr>
+              <td>What happened in the person&#39;s life?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_life_event</td>
+              <td> </td>
+              <td>EAD:&lt;event&gt;</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>--- What?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:event_type</td>
+              <td>EAD:&lt;eventtype&gt;</td>
+              <td> </td>
+              <td>Met Jules Verne</td>
+              <td>Wrote the book &quot;Around the World in 80 Days&quot;</td>
+            </tr>
+            <tr>
+              <td>--- Where?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:event_place</td>
+              <td>EAD:&lt;place&gt;</td>
+              <td> </td>
+              <td>Amiens</td>
+              <td>France</td>
+            </tr>
+            <tr>
+              <td>--- When?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:event_date</td>
+              <td>EAD:&lt;eventdatetime&gt;</td>
+              <td> </td>
+              <td>1889</td>
+              <td>1873</td>
+            </tr>
+            <tr>
+              <td>What is their relation with a resource?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_resource_relation</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>--- What is the type of relation with the resource?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_type</td>
+              <td>EAC-CPF: resourceRelationType</td>
+              <td> </td>
+              <td>author of</td>
+              <td>author of</td>
+            </tr>
+            <tr>
+              <td>--- What is the resource related?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_resource</td>
+              <td>DCTERMS:relation</td>
+              <td> </td>
+              <td>https://en.wikipedia.org/wiki/Around_the_World_in_Seventy-Two_Days</td>
+              <td>http://dbpedia.org/page/Around_the_World_in_Eighty_Days</td>
+            </tr>
+            <tr>
+              <td>--- What does that relation mean?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_meaning</td>
+              <td>DC:description</td>
+              <td> </td>
+              <td>Book by journalist Elizabeth Jane Cochrane, writing under her pseudonym, Nellie Bly. The chronicle details her 72-day trip around the world, which was inspired by the book, Around the World in Eighty Days by Jules Verne.</td>
+              <td>Around the World in Eighty Days (French: Le tour du monde en quatre-vingts jours) is an adventure novel by the French writer Jules Verne, published in 1873.</td>
+            </tr>
+            <tr>
+              <td>--- When did this relation start?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_start</td>
+              <td>DC:date</td>
+              <td> </td>
+              <td>1890</td>
+              <td>1889</td>
+            </tr>
+            <tr>
+              <td>What is their relation with a person or corporate body?</td>
+              <td>plucky: entity</td>
+              <td>plucky:has_agent_relation</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>--- What is the type of relation with the agent?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_type</td>
+              <td>ISAAR: [5.3.2 Category of relationship]</td>
+              <td>EAC-CPF:&lt;cpfRelation cpfRelationType=&quot;[value]&quot;&gt;</td>
+              <td>colleague of</td>
+              <td>member of</td>
+            </tr>
+            <tr>
+              <td>--- What is the person/corporate body related?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_agent</td>
+              <td>ISAAR: [5.3.1 Name/Identifier of the related corporate body, person or family]</td>
+              <td>EAC-CPF:&lt;cpfRelation&gt;</td>
+              <td>Jules Verne</td>
+              <td>Bulletin of the Societe de geographie</td>
+            </tr>
+            <tr>
+              <td>--- What does that relation mean?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_meaning</td>
+              <td>ISAAR: [5.3.3 Description of relationship]</td>
+              <td>EAC-CPF:&lt;relationEntry&gt;</td>
+              <td>Initially inspired by Verne, Nellie later became acquaintances with him.</td>
+              <td>inspiration to base his novels on geographic facts</td>
+            </tr>
+            <tr>
+              <td>--- When did this relation start?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_start</td>
+              <td>ISAAR: [5.3.4 Dates of the relationship]</td>
+              <td>EAC-CPF:&lt;dateRange&gt;</td>
+              <td>1889-11-23</td>
+              <td>1865-1898</td>
+            </tr>
+            <tr>
+              <td>Which resources refer to the same person?</td>
+              <td>plucky:entity</td>
+              <td>plucky:sameAs</td>
+              <td> </td>
+              <td>OWL:sameAs</td>
+              <td> </td>
+              <td>http://dbpedia.org/page/Nellie_Bly/</td>
+              <td>http://el.dbpedia.org/page/%CE%99%CE%BF%CF%8D%CE%BB%CE%B9%CE%BF%CF%82_%CE%92%CE%B5%CF%81%CE%BD</td>
+            </tr>
+            <tr>
+              <td>Which resource has the person as primary topic?</td>
+              <td>plucky:entity</td>
+              <td>plucky:isPrimaryTopicOf</td>
+              <td> </td>
+              <td>FOAF:isPrimaryTopicOf</td>
+              <td> </td>
+              <td>https://en.wikipedia.org/wiki/Nellie_Bly</td>
+              <td>https://en.wikipedia.org/wiki/Jules_Verne</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="desc-table">
+        <table class="table">
+          <thead>
+            <tr>
+              <th title="Field #1">Question</th>
+              <th title="Field #2">Subject</th>
+              <th title="Field #3">Predicate</th>
+              <th title="Field #4">Predicate is based on</th>
+              <th title="Field #5">EXAMPLE 1</th>
+              <th title="Field #6">EXAMPLE 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>What type of entity?</td>
+              <td>plucky:entity</td>
+              <td>plucky:is_entity_type</td>
+              <td>RDF:type</td>
+              <td>Place</td>
+              <td>Place</td>
+            </tr>
+            <tr>
+              <td>What is the name of the place?</td>
+              <td>plucky:entity</td>
+              <td>plucky:place_name</td>
+              <td>GN:name</td>
+              <td>Brindisi</td>
+              <td>Jersey City</td>
+            </tr>
+            <tr>
+              <td>What is an alternative name of the place?</td>
+              <td>plucky:entity</td>
+              <td>plucky:alt_name</td>
+              <td>GN:alternativeName</td>
+              <td>Brìnnisi, Brundisium, Brentésion</td>
+              <td>Jersey City</td>
+            </tr>
+            <tr>
+              <td>In which country is it located?</td>
+              <td>plucky:entity</td>
+              <td>plucky:in_country</td>
+              <td>GN:countryCode</td>
+              <td>Italy</td>
+              <td>United States</td>
+            </tr>
+            <tr>
+              <td>What is the latitude?</td>
+              <td>plucky:entity</td>
+              <td>plucky: latitude</td>
+              <td>WGS84_POS:lat</td>
+              <td>40.633</td>
+              <td>40.714</td>
+            </tr>
+            <tr>
+              <td>What is the longitude?</td>
+              <td>plucky:entity</td>
+              <td>plucky: longitude</td>
+              <td>WGS84_POS:long</td>
+              <td>17.933</td>
+              <td>-74.071</td>
+            </tr>
+            <tr>
+              <td>What is the map location?</td>
+              <td>plucky:entity</td>
+              <td>plucky:map_location</td>
+              <td>GN:locationMap</td>
+              <td>http://www.geonames.org/3181528/brindisi.html</td>
+              <td>http://www.geonames.org/3181528/jerseycity.html</td>
+            </tr>
+            <tr>
+              <td>What is the wikipedia article location?</td>
+              <td>plucky:entity</td>
+              <td>plucky:wiki_article</td>
+              <td>GN:wikipediaArticle</td>
+              <td>https://en.wikipedia.org/wiki/Brindisi</td>
+              <td>https://en.wikipedia.org/wiki/Jersey_City,_New_Jersey</td>
+            </tr>
+            <tr>
+              <td>What is the population of the place?</td>
+              <td>plucky:entity</td>
+              <td>plucky:population</td>
+              <td>GN:population</td>
+              <td>87141</td>
+              <td>247,597</td>
+            </tr>
+            <tr>
+              <td>Which resources refer to the same place?</td>
+              <td>plucky:entity</td>
+              <td>plucky:sameAs</td>
+              <td>OWL:sameAs</td>
+              <td>https://www.wikidata.org/wiki/Q13496</td>
+              <td>https://www.wikidata.org/wiki/Q26339</td>
+            </tr>
+            <tr>
+              <td>Which resource has the place as primary topic?</td>
+              <td>plucky:entity</td>
+              <td>plucky:isPrimaryTopicOf</td>
+              <td>FOAF:isPrimaryTopicOf</td>
+              <td>https://en.wikipedia.org/wiki/Brindisi</td>
+              <td>https://en.wikipedia.org/wiki/Jersey_City,_New_Jersey</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="desc-table">
+        <table class="table">
+          <thead>
+            <tr>
+              <th title="Field #1">Question</th>
+              <th title="Field #2">Subject</th>
+              <th title="Field #3">Predicate</th>
+              <th title="Field #4">subclass</th>
+              <th title="Field #5">Predicate is based on</th>
+              <th title="Field #6">eac-cpf or CDWALITE equivalent</th>
+              <th title="Field #7">EXAMPLE 1</th>
+              <th title="Field #8">EXAMPLE 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>What is the type?</td>
+              <td>plucky:entity</td>
+              <td>plucky:is_entity_type</td>
+              <td> </td>
+              <td>RDF:type</td>
+              <td> </td>
+              <td>Concept</td>
+              <td>Concept</td>
+            </tr>
+            <tr>
+              <td>What is the subject?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_subject</td>
+              <td> </td>
+              <td>DC:subject</td>
+              <td> </td>
+              <td>Second Industrial Revolution</td>
+              <td>Transcontinental Railroad</td>
+            </tr>
+            <tr>
+              <td>What is the controlled version of the name?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_authorized_name</td>
+              <td> </td>
+              <td>RDFS:label</td>
+              <td> </td>
+              <td>Second Industrial Revolution</td>
+              <td>First Transcontinental Railroad</td>
+            </tr>
+            <tr>
+              <td>What are other versions of the name?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_other_name</td>
+              <td> </td>
+              <td>ISAAR: 5.1.5 Other forms of name</td>
+              <td>EAC-CPF:nameEntryParallel</td>
+              <td>Technological Revolution</td>
+              <td>Great Transcontinental Railroad / Pacific Railroad / Overland Route</td>
+            </tr>
+            <tr>
+              <td>What is a summary of the subject/concept?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_description</td>
+              <td> </td>
+              <td>DC:description</td>
+              <td> </td>
+              <td>Phase of rapid industrialization in the final third of the 19th century and the beginning of the 20th.</td>
+              <td>Continuous railroad line constructed between 1863 and 1869 that connected the existing eastern U.S. rail network at Omaha, Nebraska/Council Bluffs, Iowa with the Pacific coast at the Oakland Long Wharf on San Francisco Bay.</td>
+            </tr>
+            <tr>
+              <td>Which is the representation of the subject/object?</td>
+              <td>plucky: entity</td>
+              <td>plucky:has_representation</td>
+              <td> </td>
+              <td>FOAF:description</td>
+              <td> </td>
+              <td>Soleil couchant à Ivry</td>
+              <td>The Last Spike</td>
+            </tr>
+            <tr>
+              <td>Which is the subject&#39;s relation to a place?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_place_relation</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>--- What is the related place?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:related_place</td>
+              <td>DC:location</td>
+              <td> </td>
+              <td>Europe</td>
+              <td>United States of America</td>
+            </tr>
+            <tr>
+              <td>--- What does that relation mean?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_meaning</td>
+              <td>DC:description</td>
+              <td> </td>
+              <td>Rapid industrial development happened primarily in Britain and Germany</td>
+              <td>Constructed in the United States of America</td>
+            </tr>
+            <tr>
+              <td>Which is the subject&#39;s relation to a date?</td>
+              <td>plucky: entity</td>
+              <td>plucky:has_date_relation</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>--- What is the related date?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:related_date</td>
+              <td>DC:date</td>
+              <td> </td>
+              <td>1870</td>
+              <td>1863</td>
+            </tr>
+            <tr>
+              <td>--- What does that relation mean?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_meaning</td>
+              <td>DC:description</td>
+              <td> </td>
+              <td>Beginning of Second Industrial Revolution</td>
+              <td>Beginning of the construction of the First Transcontinental Railroad</td>
+            </tr>
+            <tr>
+              <td>Who is the subject&#39;s relation to an agent?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_agent_relation</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>--- Who is the related agent?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:related_person</td>
+              <td>ISAAR: [5.3.1 Name/Identifier of the related corporate body, person or family]</td>
+              <td>EAC-CPF:cpfRelation</td>
+              <td>http://viaf.org/viaf/40171429</td>
+              <td>http://viaf.org/viaf/1429598</td>
+            </tr>
+            <tr>
+              <td>--- What does the relation mean?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_meaning</td>
+              <td>DC:description</td>
+              <td> </td>
+              <td>He developed a more sophisticated process to eliminate the phosphorus from iron, allowing the mass-production of steel, crucial to the Second Industrial Revolution</td>
+              <td>Fervent supporter of the central route railroad, lobbied vigorously in favor of the project and undertook the survey of the route through the rugged Sierra Nevada, one of the chief obstacles of the project. In 1852, Judah was chief engineer for the newly formed Sacramento Valley Railroad, the first railroad built west of the Mississippi River.</td>
+            </tr>
+            <tr>
+              <td>--- What is the authority control version of the person&#39;s name?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:has_authorized_name</td>
+              <td>ISAAR: 5.1.2 Authorized form of name</td>
+              <td>EAC-CPF:nameEntry</td>
+              <td>Sidney Gilchrist Thomas</td>
+              <td>Theodore Judah</td>
+            </tr>
+            <tr>
+              <td>--- What are other versions of the person&#39;s name?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:has_other_name</td>
+              <td>ISAAR: 5.1.5 Other forms of name</td>
+              <td>EAC-CPF:nameEntryParallel</td>
+              <td>Sidney Gilchchrist  Thomas</td>
+              <td>Theodore Dehone Judah</td>
+            </tr>
+            <tr>
+              <td>--- What is the preferred person&#39;s name?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:has_preferred_name</td>
+              <td>CDWA:28.2.2 [Person/Corporate Body Name;  Name Type]</td>
+              <td>CDWALITE:nameCreator</td>
+              <td>Sidney Gilchrist Thomas</td>
+              <td>Theodore Judah</td>
+            </tr>
+            <tr>
+              <td>What is the subject&#39;s relation to an event?</td>
+              <td>plucky:entity</td>
+              <td>plucky:has_event_relation</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>--- What is the event related?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:related_event</td>
+              <td>EAD:&lt;event&gt;</td>
+              <td> </td>
+              <td>Industrial Revolution</td>
+              <td>Big Four</td>
+            </tr>
+            <tr>
+              <td>--- What are other versions of the name of the event ?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:has_other_name</td>
+              <td>ISAAR: 5.1.5 Other forms of name</td>
+              <td>EAC-CPF:nameEntryParallel</td>
+              <td>First Industrial Revolution / Age of Industrialization</td>
+              <td>The Associates</td>
+            </tr>
+            <tr>
+              <td>--- What does that relation mean?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:relation_meaning</td>
+              <td>DC:description</td>
+              <td> </td>
+              <td>The Second Industrial Revolution built on the ideas and inventions of the First Industrial Revolution</td>
+              <td>Name popularly given to the famous and influential businessmen, philanthropists and railroad tycoons who built the Central Pacific Railroad, (C.P.R.R.), which formed the western portion through the Sierra Nevada and the Rocky Mountains of the First Transcontinental Railroad in the United States, built from the mid-continent at the Mississippi River to the Pacific Ocean during the middle and late 1860s. Composed of Leland Stanford, (1824–1893), Collis Potter Huntington, (1821–1900), Mark Hopkins (1813–1878), and Charles Crocker, (1822–1888), the four themselves however, personally preferred to be known as &quot;The Associates.&quot;</td>
+            </tr>
+            <tr>
+              <td>--- Where?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:event_place</td>
+              <td>EAD:&lt;place&gt;</td>
+              <td> </td>
+              <td>Europe</td>
+              <td>United States of America</td>
+            </tr>
+            <tr>
+              <td>--- When?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:event_date</td>
+              <td>EAD:&lt;eventdatetime&gt;</td>
+              <td> </td>
+              <td>1760-1840</td>
+              <td>1860</td>
+            </tr>
+            <tr>
+              <td>--- What?</td>
+              <td> </td>
+              <td> </td>
+              <td>plucky:event_type</td>
+              <td>EAD:&lt;eventtype&gt;</td>
+              <td> </td>
+              <td>Concept</td>
+              <td>Decade of prominence</td>
+            </tr>
+            <tr>
+              <td>Which resources refer to the same concept?</td>
+              <td>plucky:entity</td>
+              <td>plucky:sameAs</td>
+              <td> </td>
+              <td>OWL:sameAs</td>
+              <td> </td>
+              <td>http://ushistoryscene.com/article/second-industrial-revolution/</td>
+              <td>http://it.dbpedia.org/resource/First_Transcontinental_Railroad/html</td>
+            </tr>
+            <tr>
+              <td>Which resource has the concept as primary topic?</td>
+              <td>plucky:entity</td>
+              <td>plucky:isPrimaryTopicOf</td>
+              <td> </td>
+              <td>FOAF:isPrimaryTopicOf</td>
+              <td> </td>
+              <td>https://en.wikipedia.org/wiki/Second_Industrial_Revolution</td>
+              <td>https://en.wikipedia.org/wiki/Transcontinental_railroad</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      </div>
+      <hr>
+    </div>
+    -->
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        <p>© 2019 Copyright: <a href="https://www.unibo.it/en">University of Bologna</a></p>
+        <p>Delfina Sol Pandiani, Eleonora Peruch, Severin Josef Burg</p>
+      </div>
+
+    </footer>
+  </div>
+
+  <script>
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+  });
+  </script>
+
+</body>
+</html>

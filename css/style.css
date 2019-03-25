@@ -44,6 +44,10 @@ hr {
   border-radius: 2px;
 }
 
+textarea {
+  width: 100%;
+  border: none;
+}
 
 /* Navbar */
 
@@ -69,6 +73,10 @@ hr {
 
 .nav-link p.active {
   color: #557754;
+}
+
+.fas {
+  padding-top: 5px;
 }
 
 
@@ -141,6 +149,15 @@ hr {
   background-color: #fff;
 }
 
+.tab-pane ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.tab-pane li {
+  padding-bottom: 12pt;
+}
+
 
 /* Graph */
 
@@ -206,7 +223,7 @@ hr {
 .container-fluid > section{
   padding-top: 7rem;
 }
-
+/*
 @media(min-width:576px) {
   .container-fluid > section:target  {
     padding-top: 10.5rem;
@@ -229,8 +246,17 @@ hr {
   .container-fluid > section:target  {
     padding-top: 6.5rem;
   }
+}*/
+
+.desc-table {
+  max-width: 100%;
 }
 
+
+.desc-table > .table th, .table tr, .table td {
+  padding: 0;
+  margin: 0;
+}
 
 /* Toggle Sidebar */
 
@@ -252,7 +278,8 @@ hr {
   position: fixed;
   right: 0;
   height: 100%;
-  overflow-y: auto;
+  overflow-y: scroll;
+  background-color: #FFFFFF;
   border-left: 1px solid #e5e5e5;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -286,28 +313,49 @@ hr {
   list-style: none;
 }
 
-.sidebar-nav li {
+.dropdown-title > div a:before {
+    float: right !important;
+    font-family: Helvetica;
+    content: "–";
+}
+
+.dropdown-title > div.collapsed a:before {
+    content: "+";
+}
+
+.sidebar-collapse {
+  margin: 0;
+  padding: 0 0 0 15px;
+  list-style: none;
+}
+
+.sidebar-nav li,
+.sidebar-collapse li {
   text-indent: 20px;
   line-height: 40px;
 }
 
-.sidebar-nav li p {
+.sidebar-nav li p,
+.sidebar-collapse li p {
   margin-top: 20px;
   margin-bottom: 10px;
   border-bottom: 1px solid #e5e5e5;
 }
 
-.sidebar-nav li a {
+.sidebar-nav li a,
+.sidebar-collapse li a {
   display: block;
   text-decoration: none;
   color: #999999;
 }
 
-.sidebar-nav li a:hover {
+.sidebar-nav li a:hover,
+.sidebar-collapse li a:hover {
   color: #557754;
 }
 
-.sidebar-nav li a.active {
+.sidebar-nav li a.active,
+.sidebar-collapse li a.active {
   display: block;
   text-decoration: none;
   color: #557754;
