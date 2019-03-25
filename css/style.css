@@ -188,6 +188,7 @@ textarea {
 
 /* Navigation Items / Alignement */
 
+/*
 .nav-horizontal {
   z-index: 1;
   width: 100%;
@@ -223,7 +224,7 @@ textarea {
 .container-fluid > section{
   padding-top: 7rem;
 }
-/*
+
 @media(min-width:576px) {
   .container-fluid > section:target  {
     padding-top: 10.5rem;
@@ -309,7 +310,7 @@ textarea {
   position: absolute;
   top: 0;
   margin: 0;
-  padding: 0;
+  padding: 0 0 6.5rem 0;
   list-style: none;
 }
 
