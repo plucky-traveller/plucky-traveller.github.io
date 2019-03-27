@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:gn="http://www.geonames.org/ontology/ontology_v3.1.rdf"
+xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+xmlns:owl="http://www.w3.org/2002/07/owl#"
+xmlns:foaf= "http://xmlns.com/foaf/spec//index.rdf"
+xml:base="http://www.semanticweb.org/plucky/Brindisi">
+  <rdf:description rdf:about="http://www.semanticweb.org/plucky/Brindisi">
+    <rdf:type>Place</rdf:type>
+    <gn:name>Brindisi</gn:name>
+    <gn:alternativeName>Brìnnisi</gn:alternativeName>
+    <gn:alternativeName>Brundisium</gn:alternativeName>
+    <gn:alternativeName>Brentésion</gn:alternativeName>
+    <gn:countrycode>IT</gn:countrycode>
+    <wgs84_pos:lat>40.6333</wgs84_pos:lat>
+    <wgs84_pos:long>17.9333</wgs84_pos:long>
+    <gn:population>87141</gn:population>
+    <gn:locationMap rdf:resource="http://www.geonames.org/3181528/brindisi.html"/>
+    <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Brindisi"/>
+
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q13496"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/page/Brindisi"/>
+    <owl:sameAs rdf:resource="https://cs.dbpedia.org/page/Brindisi"/>
+    <owl:sameAs rdf:resource="http://de.dbpedia.org/page/Brindisi"/>
+    <owl:sameAs rdf:resource="http://ed.dbpedia.org/page/Brindisi"/>
+    <owl:sameAs rdf:resource="http://eu.dbpedia.org/page/Brindisi"/>
+    <owl:sameAs rdf:resource="http://it.dbpedia.org/page/Brindisi"/>
+    <owl:sameAs rdf:resource="http://nl.dbpedia.org/page/Brindisi"/>
+    <owl:sameAs rdf:resource="http://pl.dbpedia.org/page/Brindisi"/>
+    <owl:sameAs rdf:resource="http://pt.dbpedia.org/page/Brindisi"/>
+    <owl:sameAs rdf:resource="http://dati.isprambiente.it/id/place/brindisi/html"/>
+    <owl:sameAs rdf:resource="http://linkedgeodata.org/page/triplify/node68528589"/>
+    <owl:sameAs rdf:resource="https://portal.dnb.de/opac.htm?method=simpleSearch&amp;cqlMode=true&amp;query=nid%3D4080536-0"/>
+    <foaf:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Brindisi"/>
+
+  </rdf:description>
+</rdf:RDF>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:plucky="http://www.plucky.com/plucky-schema"
+xmlns:dc="http://dublincore.org/schemas/xmls/qdc/2003/04/02/dc.xsd"
+xmlns:dcterms="http://dublincore.org/schemas/xmls/qdc/dcterms.xsd"
+xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"
+xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+xmlns:ead="https://raw.githubusercontent.com/SAA-SDT/EAD3/v1.1.0/ead3.xsd"
+xmlns:owl="http://www.w3.org/2002/07/owl#"
+xmlns:foaf= "http://xmlns.com/foaf/spec//index.rdf"
+xml:base="http://www.semanticweb.org/plucky/NellieBly">
+  <rdf:description rdf:about="http://www.semanticweb.org/plucky/NellieBly">
+    <eac-cpf:entity>Person</eac-cpf:entity>
+    <eac-cpf:nameEntry>Nellie Bly</eac-cpf:nameEntry>
+    <eac-cpf:nameEntryParallel>Elizabeth Cochran Seaman</eac-cpf:nameEntryParallel>
+    <cdwalite:nameCreator>Nellie Bly</cdwalite:nameCreator>
+    <cdwalite:nationalityCreator>American</cdwalite:nationalityCreator>
+    <cdwalite:nationalityCreator>White</cdwalite:nationalityCreator>
+    <eac-cpf:biogHist>
+      Nellie Bly was an American journalist who was widely known for her record-breaking trip around the world in 72 days, in emulation of Jules Verne's fictional character Phileas Fogg, and an exposé in which she worked undercover to report on a mental institution from within. She was a pioneer in her field, and launched a new kind of investigative journalism. Bly was also a writer, industrialist, inventor, and a charity worker.
+    </eac-cpf:biogHist>
+    <cdwalite:genderCreator>Female</cdwalite:genderCreator>
+
+    <plucky:has_life_role rdf:parseType="Resource">
+			<eac-cpf:function>Journalist</eac-cpf:function>
+			<eac-cpf:daterange>1850-1905</eac-cpf:daterange>
+	  </plucky:has_life_role>
+
+    <ead:event rdf:parseType="Resource">
+      <ead:event>Birth</ead:event>
+      <ead:place rdf:resource="http://dbpedia.org/page/Burrell_Township,_Armstrong_County,_Pennsylvania"/>
+      <ead:eventdatetime>1864-05-05</ead:eventdatetime>
+    </ead:event>
+
+    <ead:event rdf:parseType="Resource">
+      <ead:event>Death</ead:event>
+      <ead:place>New York City, New York, USA</ead:place>
+      <ead:eventdatetime>1992-01-27</ead:eventdatetime>
+    </ead:event>
+
+    <ead:event rdf:parseType="Resource">
+      <ead:event>Met Jules Verne</ead:event>
+      <ead:place>Amiens</ead:place>
+      <ead:eventdatetime rdf:resource="http://dbpedia.org/page/1889"/>
+    </ead:event>
+
+    <plucky:has_resource_relation rdf:parseType="Resource">
+      <eac-cpf:resourceRelationType>Author of</eac-cpf:resourceRelationType>
+      <dcterms:relation rdf:resource="http://www.semanticweb.org/plucky/Aroundtheworldin72days"/>
+      <dc:description>
+        Book by journalist Elizabeth Jane Cochrane, writing under her pseudonym, Nellie Bly. The chronicle details her 72-day trip around the world, which was inspired by the book, Around the World in Eighty Days by Jules Verne.
+      </dc:description>
+      <dc:date>1890</dc:date>
+    </plucky:has_resource_relation>
+
+    <plucky:has_agent_relation rdf:parseType="Resource">
+      <eac-cpf:cpfRelation eac-cpf:cpfRelationType="colleague of"/>
+      <eac-cpf:cpfRelation rdf:resource="http://dbpedia.org/page/Jules_Verne"/>
+      <eac-cpf:relationEntry>Initially inspired by Verne, Nellie later became acquaintances with him.</eac-cpf:relationEntry>
+      <eac-cpf:daterange>1889-11-23</eac-cpf:daterange>
+    </plucky:has_agent_relation>
+
+
+    <owl:sameAs rdf:resource="https://viaf.org/viaf/816475/"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q230299"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/page/Nellie_Bly/"/>
+    <owl:sameAs rdf:resource="http://cs.dbpedia.org/page/Nellie_Bly"/>
+    <owl:sameAs rdf:resource="http://de.dbpedia.org/page/Nellie_Bly"/>
+    <owl:sameAs rdf:resource="http://es.dbpedia.org/page/Nellie_Bly"/>
+    <owl:sameAs rdf:resource="http://eu.dbpedia.org/page/Nellie_Bly"/>
+    <owl:sameAs rdf:resource="http://fr.dbpedia.org/page/Nellie_Bly"/>
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/page/Nellie_Bly/"/>
+    <owl:sameAs rdf:resource="http://it.dbpedia.org/page/Nellie_Bly/"/>
+    <owl:sameAs rdf:resource="http://nl.dbpedia.org/page/Nellie_Bly/"/>
+    <owl:sameAs rdf:resource="http://pl.dbpedia.org/page/Nellie_Bly/"/>
+    <owl:sameAs rdf:resource="http://pt.dbpedia.org/page/Nellie_Bly/"/>
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/page/%E3%83%8D%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%96%E3%83%A9%E3%82%A4"/>
+    <owl:sameAs rdf:resource="http://ko.dbpedia.org/page/%EB%84%AC%EB%A6%AC_%EB%B8%94%EB%9D%BC%EC%9D%B4"/>
+    <foaf:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Nellie_Bly"/>
+
+  </rdf:description>
+</rdf:RDF>

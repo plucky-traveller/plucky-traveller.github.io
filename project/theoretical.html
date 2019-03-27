@@ -23,20 +23,20 @@
     <!-- Navigation --->
     <nav class="navbar fixed-top navbar-expand navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="../index.html">Plucky <i>traveller</i></a>
+        <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" id="logo">Plucky <i>traveller</i></a>
         <div class="navbar-nav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="../index.html"><p>Home</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../project.html"><p class="active">Project</p></a>
+              <a class="nav-link" href="../overview.html"><p class="active">Project</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../about.html"><p>About</p></a>
+              <a class="nav-link" href="../contact.html"><p>Contact</p></a>
             </li>
             <div class="d-lg-none">
-              <a href="#menu-toggle" id="menu-toggle"><p class="fas fa-bars"></p></a>
+              <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="fas fa-bars"></i></a>
             </div>
           </ul>
         </div>
@@ -46,106 +46,111 @@
 
   <div id="wrapper">
     <div id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <li>
-          <p>Theoretical Part</p>
-        </li>
-        <li>
-          <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="collapsed"><a href="items.html">Exemplary Items</a></div></div>
-          <div id="collapseOne" class="collapse" data-parent="#accordion">
-            <ul class="sidebar-collapse">
-              <li>
-                <a id="v-pills-engraving-tab" data-toggle="pill" href="#v-pills-engraving" role="tab" aria-controls="v-pills-engraving" aria-selected="true">Wood Engraving</a>
-              </li>
-              <li>
-                <a id="v-pills-doodle-tab" data-toggle="pill" href="#v-pills-doodle" role="tab" aria-controls="v-pills-doodle" aria-selected="false">Google Doogle</a>
-              </li>
-              <li>
-                <a id="v-pills-game-tab" data-toggle="pill" href="#v-pills-game" role="tab" aria-controls="v-pills-game" aria-selected="false">Boardgame</a>
-              </li>
-              <li>
-                <a id="v-pills-article-tab" data-toggle="pill" href="#v-pills-article" role="tab" aria-controls="v-pills-article" aria-selected="false">Article</a>
-              </li>
-              <li>
-                <a id="v-pills-audioBook-tab" data-toggle="pill" href="#v-pills-audioBook" role="tab" aria-controls="v-pills-audioBook" aria-selected="false">Audio Book</a>
-              </li>
-              <li>
-                <a id="v-pills-book-tab" data-toggle="pill" href="#v-pills-book" role="tab" aria-controls="v-pills-book" aria-selected="false">Book</a>
-              </li>
-              <li>
-                <a id="v-pills-bulletin-tab" data-toggle="pill" href="#v-pills-bulletin" role="tab" aria-controls="v-pills-bulletin" aria-selected="false">Bulletin</a>
-              </li>
-              <li>
-                <a id="v-pills-artwork-tab" data-toggle="pill" href="#v-pills-artwork" role="tab" aria-controls="v-pills-artwork" aria-selected="false">Artwork</a>
-              </li>
-              <li>
-                <a id="v-pills-map-tab" data-toggle="pill" href="#v-pills-map" role="tab" aria-controls="v-pills-map" aria-selected="false">Map</a>
-              </li>
-              <li>
-                <a id="v-pills-picture-tab" data-toggle="pill" href="#v-pills-picture" role="tab" aria-controls="v-pills-picture" aria-selected="false">Picture</a>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <a href="ermodel.html">Entity Relationship</a>
-        </li>
-        <li>
-          <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed"><a href="alignement.html">Standard Alignement</a></div></div>
-          <div id="collapseTwo" class="collapse" data-parent="#accordion">
-            <ul class="sidebar-collapse">
-              <li>
-                <a href="#engraving">Wood Engraving</a>
+      <div id="accordion">
+        <ul class="sidebar-nav">
+          <li>
+            <a href="overview.html">Project Overview</a>
+          </li>
+          <li>
+            <p>Theoretical Part</p>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed"><a href="#">Exemplary Items</a></div></div>
+            <div id="collapseOne" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
                 <li>
+                  <a href="items/game.html">Boardgame</a>
                 </li>
-                <a href="#doodle">Google Doogle</a>
                 <li>
+                  <a href="items/doodle.html">Google Doogle</a>
                 </li>
-                <a href="#game">Boardgame</a>
                 <li>
+                  <a href="items/picture.html">Photographic Print</a>
                 </li>
-                <a href="#article">Article</a>
                 <li>
+                  <a href="items/map.html">Historical Map</a>
                 </li>
-                <a href="#audioBook">Audio Book</a>
                 <li>
+                  <a href="items/article.html">Historical Article</a>
                 </li>
-                <a href="#book">Book</a>
                 <li>
+                  <a href="items/book.html">Printed Monograph</a>
                 </li>
-                <a href="#bulletin">Bulletin</a>
                 <li>
+                  <a href="items/artwork.html">Oil Painting</a>
                 </li>
-                <a href="#artwork">Artwork</a>
                 <li>
+                  <a href="items/bulletin.html">Société Bulletin</a>
                 </li>
-                <a href="#map">Map</a>
                 <li>
+                  <a href="items/engraving.html">Wood Engraving</a>
                 </li>
-                <a href="#picture">Picture</a>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <a href="theoretical.html" class="active">Theoretical Model</a>
-        </li>
-        <li>
-          <a href="conceptual.html">Conceptual Model</a>
-        </li>
-        <li>
-          <p>Practical Part</p>
-        </li>
-        <li>
-          <a href="description.html">Descripton of Data</a>
-        </li>
-        <li>
-          <a href="xml.html">RDF / XML</a>
-        </li>
-        <li>
-          <a href="#">Interconnection</a>
-        </li>
-      </ul>
+                <li>
+                  <a href="items/audioBook.html">Audio Book</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="ermodel.html">E/R Model</a>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed"><a href="#">Standard Alignement</a></div></div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="alignement/game.html">Boardgame</a>
+                </li>
+                <li>
+                  <a href="alignement/doodle.html">Google Doogle</a>
+                </li>
+                <li>
+                  <a href="alignement/picture.html">Photographic Print</a>
+                </li>
+                <li>
+                  <a href="alignement/map.html">Historical Map</a>
+                </li>
+                <li>
+                  <a href="alignement/article.html">Historical Article</a>
+                </li>
+                <li>
+                  <a href="alignement/book.html">Printed Monograph</a>
+                </li>
+                <li>
+                  <a href="alignement/artwork.html">Oil Painting</a>
+                </li>
+                <li>
+                  <a href="alignement/bulletin.html">Société Bulletin</a>
+                </li>
+                <li>
+                  <a href="alignement/engraving.html">Wood Engraving</a>
+                </li>
+                <li>
+                  <a href="alignement/audioBook.html">Audio Book</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="theoretical.html" class="active">Theoretical Model</a>
+          </li>
+          <li>
+            <a href="conceptual.html">Conceptual Model</a>
+          </li>
+          <li>
+            <p>Practical Part</p>
+          </li>
+          <li>
+            <a href="description.html">Descripton of Data</a>
+          </li>
+          <li>
+            <a href="xml.html">RDF / XML</a>
+          </li>
+          <li>
+            <a href="interconnection.html">Interconnection</a>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <div id="page-content-wrapper">
@@ -191,19 +196,20 @@
             </p>
           </div>
         </div>
-        <hr>
       </div>
     </div>
 
-
+    <hr>
 
     <!-- Footer -->
     <footer class="page-footer font-small">
 
       <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">
-        <p>© 2019 Copyright: <a href="https://www.unibo.it/en">University of Bologna</a></p>
-        <p>Delfina Sol Pandiani, Eleonora Peruch, Severin Josef Burg</p>
+      <div class="footer-copyright text-center">
+        <div class="card-body" style="padding-top: 0;">
+          <p class="card-text"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"></a><br />The content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
+          <p class="card-text">The project was carried out by Delfina Sol Pandiani, Eleonora Peruch, Severin Josef Burg.</p>
+        </div>
       </div>
 
     </footer>
