@@ -164,7 +164,7 @@
             <p class="card-text">
               Plucky’s way of linking data in an open way was inspired by owl and foaf. Specifically, we widely re-used the attributes owl:sameAs and foaf:isPrimaryTopicOf. In this way, we were able to connect our RDF/XML files to other sources and repositories of knowledge such as dbpedia, wikidata etc.</p>
             <p class="card-text">
-              Below you can find a few examples of the URIs we invented and the kind of semantic interconnection we employed for each of the different types of entities:</p>
+              Below you can find a few examples of the URIs we invented:</p>
               <p class="card-text">
                 <b>1. PERSON</b> - Nellie Bly: www.semanticweb.org/plucky/NellieBly (clicking on the link you go to the section below. Same for place, date and subject)</br>
                 <b>2. PLACE</b> - Brindisi: www.semanticweb.org/plucky/Brindisi</br>
@@ -177,23 +177,26 @@
 
         <div class="card w-100" style="border: none;" id="person">
           <div class="card-body">
+            <p class="card-text">Below you can find specific details of the kind of semantic interconnection we employed for each of the different types of entities: </p>
             <h5 class="card-title"><b>1. PERSON</b> - Nellie Bly</h5>
             <p class="card-text">
-              URI: www.semanticweb.org/plucky/NellieBly<br>
-              By using "owl:sameAs rdf:resource="", a property of OWL Ontology, we connected this URI with multiple other resources, including:
-              1) owl:sameAs rdf:resource="<a href="https://viaf.org/viaf/816475/" target="_blank">https://viaf.org/viaf/816475/</a>” <br>
-              meaning that the URI of Nellie Bly, and her VIAF record share features. In this case, they both concern the person Nellie Bly.
+              <em>URI: www.semanticweb.org/plucky/NellieBly</em></p>
+            <p class="card-text">  
+              By using "owl:sameAs rdf:resource="", a property of OWL Ontology, we connected this URI with multiple other resources, including:</p>
+            <p class="card-text">
+              >1) owl:sameAs rdf:resource="<a href="https://viaf.org/viaf/816475/" target="_blank">https://viaf.org/viaf/816475/</a>” <br>
+              meaning that the URI of Nellie Bly, is connected to Nellie Bly's record in VIAF, an international authority database.
             </p>
             <p class="card-text">
-              2) owl:sameAs rdf:resource="<a href="https://www.wikidata.org/wiki/Q230299" target="_blank">https://www.wikidata.org/wiki/Q230299</a>”
-              "owl:sameAs", a property of OWL Ontology, is connected to “<a href="https://www.wikidata.org/wiki/Q230299" target="_blank">https://www.wikidata.org/wiki/Q230299</a>”. This means that “www.semanticweb.org/plucky/NellieBly", the URI of Nellie Bly, and “<a href="https://www.wikidata.org/wiki/Q230299" target="_blank">https://www.wikidata.org/wiki/Q230299</a>”, coming from wikidata, a a free and open knowledge base, share features. In this case they both concern the person Nellie Bly.
+              2) owl:sameAs rdf:resource="<a href="https://www.wikidata.org/wiki/Q230299" target="_blank">https://www.wikidata.org/wiki/Q230299</a>”<br>
+              meaning that the URI of Nellie Bly is connected to Nellie Bly's record in wikidata, a free and open knowledge base.
             </p>
             <p class="card-text">
-              owl:sameAs rdf:resource="<a href="http://dbpedia.org/page/Nellie_Bly/" target="_blank">http://dbpedia.org/page/Nellie_Bly/</a>”
-              "owl:sameAs", a property of OWL Ontology, is connected to “<a href="http://dbpedia.org/page/Nellie_Bly/" target="_blank">http://dbpedia.org/page/Nellie_Bly/</a>”. This means that “www.semanticweb.org/plucky/NellieBly", the URI of Nellie Bly, and “<a href="http://dbpedia.org/page/Nellie_Bly/" target="_blank">http://dbpedia.org/page/Nellie_Bly/</a>”, coming from DBpedia, a website containing a knowledge-base, share features. In this case they both concern the person Nellie Bly.
+             3) owl:sameAs rdf:resource="<a href="http://dbpedia.org/page/Nellie_Bly/" target="_blank">http://dbpedia.org/page/Nellie_Bly/</a>”<br>
+              meaning that the URI of Nellie Bly is connected to Nellie Bly's record in DBpedia, a website containing a knowledge-base.
             </p>
             <p class="card-text">
-              <b>XML examples for Nellie Bly:</b>
+              <b>Find the connections in RDF/XML examples for Nellie Bly:</b>
               <ul>
                 <li>Plucky ontology (<a href="../xml/nellie_plucky.xml" target="_blank">.xml</a>)</li>
                 <li>Various ontologies (<a href="../xml/nellie_mix.xml" target="_blank">.xml</a>)</li>
