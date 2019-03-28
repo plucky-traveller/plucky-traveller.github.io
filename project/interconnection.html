@@ -162,14 +162,14 @@
               We interconnected our data to other related items, in particular to the same authorities for names (people, places, subjects) and to other resources, creating semantic associations.
             </p>
             <p class="card-text">
-              Plucky’s way of linking data in an open way was inspired by owl and foaf. Specifically, we widely re-used the attributes owl:sameAs and foaf:isPrimaryTopicOf. In this way, we were able to connect our RDF/XML files to other sources and repositories of knowledge such as dbpedia, wikidata etc.</p>
+              Plucky’s way of linking data in an open way was <em>inspired by the owl and foaf ontologies</em>. Specifically, we widely re-used the attributes owl:sameAs and foaf:isPrimaryTopicOf. In this way, we were able to connect our RDF/XML files to other sources and repositories of knowledge such as dbpedia, wikidata etc.</p>
             <p class="card-text">
               Below you can find a few examples of the URIs we invented:</p>
               <p class="card-text">
-                <b>1. PERSON</b> - Nellie Bly: <em>www.semanticweb.org/plucky/NellieBly</em></br>
-                <b>2. PLACE</b> - Brindisi: <em>www.semanticweb.org/plucky/Brindisi</em></br>
-                <b>3. DATE</b> - 1873: <em>www.semanticweb.org/plucky/1873></em></br>
-                <b>4. SUBJECT/CONCEPT</b> - Second Industrial Revolution: <em>www.semanticweb.org/plucky/SecondIndustrialRevolution</em>
+                <b>1. PERSON</b><br>Nellie Bly: <em>www.semanticweb.org/plucky/NellieBly</em></br>
+                <b>2. PLACE</b><br>Brindisi: <em>www.semanticweb.org/plucky/Brindisi</em></br>
+                <b>3. DATE</b><br>1873: <em>www.semanticweb.org/plucky/1873></em></br>
+                <b>4. SUBJECT/CONCEPT</b><br>Second Industrial Revolution: <em>www.semanticweb.org/plucky/SecondIndustrialRevolution</em>
               </p>
             </div>
           </div>
@@ -264,20 +264,13 @@
         </div>
 
 
-
-
-
-
-
-
-
         <div class="card w-100" style="border: none;" id="subject">
           <div class="card-body">
             <h5 class="card-title"><b>4. SUBJECT/CONCEPT</b> - Second Industrial Revolution</h5>
             <p class="card-text">
               <em>URI: www.semanticweb.org/plucky/SecondIndustrialRevolution</em></p>
             <p class="card-text">  
-              By using <em>&lt;owl:sameAs rdf:resource=""&gt;</em>, a property of OWL Ontology, we connected this URI with multiple other resources, including:</p>
+              By using <em>&lt;owl:sameAs rdf:resource=""&gt;</em>, a property of OWL Ontology, and <em>&lt;foaf:isPrimaryTopicOf rdf:resource=""&gt;</em>, we connected this URI with multiple other resources, including:</p>
             <p class="card-text">
               1) owl:sameAs rdf:resource="<a href="http://ushistoryscene.com/article/second-industrial-revolution/" target="_blank">http://ushistoryscene.com/article/second-industrial-revolution/</a>” <br>
               meaning that the URI of the Second Industrial Revolution is connected to the Second Industrial Revolution's record in U.S. History Scene, a multimedia education website.
@@ -291,7 +284,7 @@
               meaning that the URI of the Second Industrial Revolution is connected to the Second Industrial Revolution's record in Wikipedia, specifically as the primary topic of that Wikipedia page.
             </p>
             <p class="card-text">
-              <b>Find these and other connections in the RDF/XML for Brindisi:</b>
+              <b>Find these and other connections in the RDF/XML for the Second Industrial Revolution:</b>
               <ul>
                 <li>Plucky ontology (<a href="../xml/ir_plucky.xml" target="_blank">.xml</a>)</li>
                 <li>Various ontologies (<a href="../xml/ir_mix.xml" target="_blank">.xml</a>)</li>
