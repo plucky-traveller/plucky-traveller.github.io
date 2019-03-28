@@ -168,7 +168,7 @@
               <p class="card-text">
                 <b>1. PERSON</b> - Nellie Bly: <em>www.semanticweb.org/plucky/NellieBly</em></br>
                 <b>2. PLACE</b> - Brindisi: <em>www.semanticweb.org/plucky/Brindisi</em></br>
-                <b>3. DATE</b> - 1873: <em>www.semanticweb.org/plucky/1873>/em></br>
+                <b>3. DATE</b> - 1873: <em>www.semanticweb.org/plucky/1873></em></br>
                 <b>4. SUBJECT/CONCEPT</b> - Second Industrial Revolution: <em>www.semanticweb.org/plucky/SecondIndustrialRevolution</em>
               </p>
             </div>
@@ -234,23 +234,28 @@
           </div>
         </div>
 
-        <div class="card w-100" style="border: none;">
+
+        <div class="card w-100" style="border: none;" id="date">
           <div class="card-body">
-            <h5 class="card-title"><b>3. DATE</b> - 1873: www.semanticweb.org/plucky/1873</h5>
+            <h5 class="card-title"><b>3. DATE</b> - 1873</h5>
             <p class="card-text">
-              owl:sameAs rdf:resource="<a href="https://www.wikidata.org/wiki/Q7757" target="_blank">https://www.wikidata.org/wiki/Q7757</a>"
-              "owl:sameAs", a property of OWL Ontology, is connected to "<a href="https://www.wikidata.org/wiki/Q7757" target="_blank">https://www.wikidata.org/wiki/Q7757</a>”. This means that “www.semanticweb.org/plucky/1873", the URI of the date 1873, and "<a href="https://www.wikidata.org/wiki/Q7757" target="_blank">https://www.wikidata.org/wiki/Q7757</a>”, coming from wikidata, a free and open knowledge base, share features. In this case they both concern the date 1873.
+              <em>URI: www.semanticweb.org/plucky/1873</em></p>
+            <p class="card-text">  
+              By using &lt;owl:sameAs rdf:resource=""&gt;, a property of OWL Ontology, we connected this URI with multiple other resources, including:</p>
+            <p class="card-text">
+              1) owl:sameAs rdf:resource="<a href="https://www.wikidata.org/wiki/Q7757" target="_blank">https://www.wikidata.org/wiki/Q7757</a>” <br>
+              meaning that the URI of 1873 is connected to 1873's record in wikidata, a free and open knowledge base.
             </p>
             <p class="card-text">
-              owl:sameAs rdf:resource="<a href="https://cs.dbpedia.org/page/1873" target="_blank">https://cs.dbpedia.org/page/1873</a>"
-              "owl:sameAs", a property of OWL Ontology, is connected to "<a href="https://cs.dbpedia.org/page/1873" target="_blank">https://cs.dbpedia.org/page/1873</a>”. This means that “www.semanticweb.org/plucky/1873", the URI of the date 1873, and "<a href="https://cs.dbpedia.org/page/1873" target="_blank">https://cs.dbpedia.org/page/1873</a>”, coming from DBpedia, a website containing a knowledge-base, share features. In this case they both concern the date 1873.
+              2) owl:sameAs rdf:resource="<a href="https://cs.dbpedia.org/page/1873" target="_blank">https://cs.dbpedia.org/page/1873</a>”<br>
+              meaning that the URI of 1873 is connected to 1873's record in DBpedia, a website containing a knowledge-base.
             </p>
             <p class="card-text">
-              foaf:isPrimaryTopicOf rdf:resource="<a href="https://en.wikipedia.org/wiki/1873" target="_blank">https://en.wikipedia.org/wiki/1873</a>"
-              “foaf:isPrimaryTopicOf”, a property of the FOAF Ontology, is connected to "<a href="https://en.wikipedia.org/wiki/1873" target="_blank">https://en.wikipedia.org/wiki/1873</a>”. This means that “www.semanticweb.org/plucky/1873", the URI of the date 1873, and "<a href="https://en.wikipedia.org/wiki/1873" target="_blank">https://en.wikipedia.org/wiki/1873</a>”, coming from wikipedia, a free online encyclopedia, share features. In this case they both concern the date 1873.
+             3) foaf:isPrimaryTopicOf rdf:resource="<a href="https://en.wikipedia.org/wiki/1873" target="_blank">https://en.wikipedia.org/wiki/1873</a>"<br>
+              meaning that the URI of 1873 is connected to 1873's record in Wikipedia, specifically as the primary topic of that specific Wikipedia page.
             </p>
             <p class="card-text">
-              <b>XML examples for 1873:</b>
+              <b>Find these and other connections in the RDF/XML for 1873:</b>
               <ul>
                 <li>Plucky ontology (<a href="../xml/date_plucky.xml" target="_blank">.xml</a>)</li>
                 <li>Various ontologies (<a href="../xml/date_mix.xml" target="_blank">.xml</a>)</li>
@@ -258,6 +263,12 @@
             </p>
           </div>
         </div>
+
+
+
+
+
+
 
         <div class="card w-100" style="border: none;">
           <div class="card-body">
