@@ -115,12 +115,12 @@ em:after {
 
 @media(max-width:768px) {
   .navbar {
-    padding: 0;
+    padding: 5px 0;
   }
 
   .navbar ul li a p {
     padding: 0;
-    margin: -1px;
+    margin: 0 -3px;
   }
 }
 
