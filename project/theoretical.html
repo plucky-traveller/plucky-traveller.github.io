@@ -30,7 +30,7 @@
               <a class="nav-link" href="../index.html"><p>Home</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../overview.html"><p class="active">Project</p></a>
+              <a class="nav-link" href="overview.html"><p class="active">Project</p></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../contact.html"><p>Contact</p></a>
@@ -135,16 +135,64 @@
             <a href="theoretical.html" class="active">Theoretical Model</a>
           </li>
           <li>
-            <a href="conceptual.html">Conceptual Model</a>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="collapsed"><a href="#">Conceptual Model</a></div></div>
+            <div id="collapseFive" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="conceptual/concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="conceptual/date.html">Date</a>
+                </li>
+                <li>
+                  <a href="conceptual/person.html">Person</a>
+                </li>
+                <li>
+                  <a href="conceptual/place.html">Place</a>
+                </li>
+              </ul>
+            </div>
           </li>
           <li>
             <p>Practical Part</p>
           </li>
           <li>
-            <a href="description.html">Descripton of Data</a>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="collapsed"><a href="#">Description of Data</a></div></div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="description/concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="description/date.html">Date</a>
+                </li>
+                <li>
+                  <a href="description/person.html">Person</a>
+                </li>
+                <li>
+                  <a href="description/place.html">Place</a>
+                </li>
+              </ul>
+            </div>
           </li>
           <li>
-            <a href="xml.html">RDF / XML</a>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="collapsed"><a href="#">XML / RDF</a></div></div>
+            <div id="collapseFour" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="xml/concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="xml/date.html">Date</a>
+                </li>
+                <li>
+                  <a href="xml/person.html">Person</a>
+                </li>
+                <li>
+                  <a href="xml/place.html">Place</a>
+                </li>
+              </ul>
+            </div>
           </li>
           <li>
             <a href="interconnection.html">Interconnection</a>
@@ -155,42 +203,37 @@
 
     <div id="page-content-wrapper">
       <div class="container-fluid" style="padding:0;">
-        <div class="card w-100" style="border: none;">
+        <div class="col" style="border: none;">
           <div class="card-body">
-            <h3>Theoretical Model</h3>
-          </div>
-        </div>
-
-        <div class="card w-100" style="border: none;">
-          <div class="card-body">
-            <h5 class="card-title">Person</h5>
+            <h5 class="card-title">Theoretical Model</h5>
+            <h3 class="card-title">Person</h3>
             <p class="card-text">
               For this project, the highest priorities in the description of people were to account for each <em>person’s life events, roles, and relations to other people and resources</em>. Because of this, we compared various ontologies (Dublin Core, ISBD, FRBR, ISAAR, CDWA, EAC-CPF, EAD) and realized that the most helpful ones were mostly ontologies created for the <em>representation of authority control</em> and people, corporate bodies, institutions, families, and groups. This is why we mostly adopted elements and relationships from <em>ISAAR</em> (International Standard Archival Authority Records for Corporate Bodies, Persons and Families) and <em>EAC-CPF</em> (Encoded Archival Context - Corporate bodies, Persons, and Families). Additionally, we found helpful to use some entities and relationships from <em>CDWA</em> (Categories for the Description of Works of Art)’s section on authority control, <em>EAD</em> (Encoded Archival Description), and <em>Dublin Core</em>. We decided to organize our model for the descriptions of persons with the aid of subclasses. This allows us to include specific details of major relations or predicates. For example, for a person’s relationship to another person or corporate body, we included subclasses that allow for additional details on type, place, description, and more.
             </p>
           </div>
         </div>
 
-        <div class="card w-100" style="border: none;">
+        <div class="col" style="border: none;">
           <div class="card-body">
-            <h5 class="card-title">Date</h5>
+            <h3 class="card-title">Date</h3>
             <p class="card-text">
               In the description of dates, we wanted to broaden the range of elements taken into consideration by including <em>relationships between dates and events, resources and people</em>. For this reason, different ontologies were adopted, such as the ISAAR, EAD, CDWA, Dublin Core. Nesting levels were used to use the date as a starting point for providing more detailed information concerning related events, resources and people and to link them together. Specifically, when dealing with the date as an information connected to a resource, we wanted to distinguish between the 'start' date of the resource (its creation or publication, for instance), and the date of archivization of that resource. This allowed to consider the resource and its evolution through time, giving the possibility to consider the transformation from the analogic to the digital domain.
             </p>
           </div>
         </div>
 
-        <div class="card w-100" style="border: none;">
+        <div class="col" style="border: none;">
           <div class="card-body">
-            <h5 class="card-title">Place</h5>
+            <h3 class="card-title">Place</h3>
             <p class="card-text">
               Following the same reasoning as person and date, we decided to make use of different ontologies in order to be able to cover all potential specifications and representations of places which are related to our items. Hence, the selection of ontologies such as <em>GeoName ontology</em> (GN) and <em>Basic Geo</em> (WGS84 lat/long) allowed us to specify information about the <em>precise location of places</em>, including alternative names of the place, country, latitude, longitude.
             </p>
           </div>
         </div>
 
-        <div class="card w-100" style="border: none;">
+        <div class="col" style="border: none;">
           <div class="card-body">
-            <h5 class="card-title">Concept</h5>
+            <h3 class="card-title">Concept</h3>
             <p class="card-text">
               The description of subjects and/or concepts followed a similar idea to the one describing persons, but with significant differences. The main idea was to describe a concept both through its <em>inherent characteristics and by its relations</em> to other concepts, people, events, and representations. The inclusion of predicates specifically to account for multiple potential names allows for a <em>greater linkage of ideas</em> (for example, Technological Revolution is accounted for as another name for the Second Industrial Revolution). Furthermore, our model includes predicates for connecting concepts to <em>summaries, related places, related dates, related people and related events</em>. The inclusion of subcategories for each of these relationships allows for a high level of detail.
             </p>

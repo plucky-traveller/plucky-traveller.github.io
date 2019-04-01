@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:rdf
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:plucky="http://www.plucky.com/plucky-schema"
+  xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"
+  xmlns:dc="http://dublincore.org/schemas/xmls/qdc/2003/04/02/dc.xsd"
+  xmlns:dcterms="http://dublincore.org/schemas/xmls/qdc/dcterms.xsd"
+  xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+  xmlns:ead="https://raw.githubusercontent.com/SAA-SDT/EAD3/v1.1.0/ead3.xsd"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:foaf="http://xmlns.com/foaf/spec//index.rdf"
+  xml:base="http://www.semanticweb.org/plucky/1873">
+  <rdf:description rdf:about="http://www.semanticweb.org/plucky/1873">
+    <eac-cpf:entityType>Date</eac-cpf:entityType>
+    <eac-cpf:date standardDate="YYYY"/>
+    <ead:date certainty="absolute certainty"/>
+
+    <plucky:has_resource_relation rdf:parseType="Resource">
+      <eac-cpf:resourceRelationType>date of publication</eac-cpf:resourceRelationType>
+      <dcterms:relation rdf:resource="https://gallica.bnf.fr/ark:/12148/btv1b8600244d/f1.image"/>
+      <cdwalite:dateQualifier>date of publication of the first edition of the resource</cdwalite:dateQualifier>
+      <dc:date>1873</dc:date>
+      <ead:date>2016-11-28</ead:date>
+      <cdwalite:latestDate>2018-07-24</cdwalite:latestDate>
+    </plucky:has_resource_relation>
+
+    <plucky:has_agent_relation rdf:parseType="Resource">
+      <eac-cpf:cpfRelation cpfRelationType="date of publication of agent's book"/>
+      <eac-cpf:cpfRelation rdf:resource="http://dbpedia.org/page/Jules_Verne"/>
+      <cdwalite:dateQualifier>In 1873, Jules Verne published one of his most famous adventure novels</cdwalite:dateQualifier>
+      <eac-cpf:function>Writer</eac-cpf:function>
+    </plucky:has_agent_relation>
+
+    <plucky:has_event_relation rdf:parseType="Resource">
+      <ead:event>5th World's Exposition</ead:event>
+      <eac-cpf:alternativeForm>World's Fair, Expo</eac-cpf:alternativeForm>
+      <cdwalite:dateQualifier>The date indicates when the World Exposition in Vienna was held. Its motto was Kultur und Erziehung (English: Culture and Education).</cdwalite:dateQualifier>
+      <ead:place>Vienna</ead:place>
+    </plucky:has_event_relation>
+
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q7757"/>
+    <owl:sameAs rdf:resource="https://cs.dbpedia.org/page/1873"/>
+    <owl:sameAs rdf:resource="http://de.dbpedia.org/resource/1873"/>
+    <owl:sameAs rdf:resource="http://el.dbpedia.org/resource/1873"/>
+    <owl:sameAs rdf:resource="http://es.dbpedia.org/resource/1873"/>
+    <owl:sameAs rdf:resource="http://eu.dbpedia.org/resource/1873"/>
+    <owl:sameAs rdf:resource="http://fr.dbpedia.org/resource/1873"/>
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/resource/1873"/>
+    <owl:sameAs rdf:resource="http://it.dbpedia.org/resource/1873"/>
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/1873"/>
+    <owl:sameAs rdf:resource="http://ko.dbpedia.org/resource/1873"/>
+    <owl:sameAs rdf:resource="http://nl.dbpedia.org/resource/1873"/>
+    <owl:sameAs rdf:resource="http://pl.dbpedia.org/resource/1873"/>
+    <owl:sameAs rdf:resource="http://pt.dbpedia.org/resource/1873"/>
+    <owl:sameAs rdf:resource="http://fr.dbpedia.org/resource/1873"/>
+    <owl:sameAs rdf:resource="http://wikidata.dbpedia.org/resource/Q7757"/>
+    <foaf:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/1873"/>
+
+  </rdf:description>
+</rdf:rdf>

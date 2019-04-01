@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Plucky – XML / RDF</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.3.2/vivus.js"></script>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+
+  <!-- Header --->
+
+  <header>
+
+    <!-- Navigation --->
+    <nav class="navbar fixed-top navbar-expand navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="../../index.html"><img src="../../img/logo.png" id="logo">Plucky <i>traveller</i></a>
+        <div class="navbar-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html"><p>Home</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../overview.html"><p class="active">Project</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../contact.html"><p>Contact</p></a>
+            </li>
+            <div class="d-lg-none">
+              <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="fas fa-bars"></i></a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="wrapper">
+    <div id="sidebar-wrapper">
+      <div id="accordion">
+        <ul class="sidebar-nav">
+          <li>
+            <a href="../overview.html">Project Overview</a>
+          </li>
+          <li>
+            <p>Theoretical Part</p>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed"><a href="#">Exemplary Items</a></div></div>
+            <div id="collapseOne" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../items/game.html">Boardgame</a>
+                </li>
+                <li>
+                  <a href="../items/doodle.html">Google Doogle</a>
+                </li>
+                <li>
+                  <a href="../items/picture.html">Photographic Print</a>
+                </li>
+                <li>
+                  <a href="../items/map.html">Historical Map</a>
+                </li>
+                <li>
+                  <a href="../items/article.html">Historical Article</a>
+                </li>
+                <li>
+                  <a href="../items/book.html">Printed Monograph</a>
+                </li>
+                <li>
+                  <a href="../items/artwork.html">Oil Painting</a>
+                </li>
+                <li>
+                  <a href="../items/bulletin.html">Société Bulletin</a>
+                </li>
+                <li>
+                  <a href="../items/engraving.html">Wood Engraving</a>
+                </li>
+                <li>
+                  <a href="../items/audioBook.html">Audio Book</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../ermodel.html">E/R Model</a>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed"><a href="#">Standard Alignement</a></div></div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../alignement/game.html">Boardgame</a>
+                </li>
+                <li>
+                  <a href="../alignement/doodle.html">Google Doogle</a>
+                </li>
+                <li>
+                  <a href="../alignement/picture.html">Photographic Print</a>
+                </li>
+                <li>
+                  <a href="../alignement/map.html">Historical Map</a>
+                </li>
+                <li>
+                  <a href="../alignement/article.html">Historical Article</a>
+                </li>
+                <li>
+                  <a href="../alignement/book.html">Printed Monograph</a>
+                </li>
+                <li>
+                  <a href="../alignement/artwork.html">Oil Painting</a>
+                </li>
+                <li>
+                  <a href="../alignement/bulletin.html">Société Bulletin</a>
+                </li>
+                <li>
+                  <a href="../alignement/engraving.html">Wood Engraving</a>
+                </li>
+                <li>
+                  <a href="../alignement/audioBook.html">Audio Book</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../theoretical.html">Theoretical Model</a>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="collapsed"><a href="#">Conceptual Model</a></div></div>
+            <div id="collapseFive" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../conceptual/concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="../conceptual/date.html">Date</a>
+                </li>
+                <li>
+                  <a href="../conceptual/person.html">Person</a>
+                </li>
+                <li>
+                  <a href="../conceptual/place.html">Place</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <p>Practical Part</p>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="collapsed"><a href="#">Description of Data</a></div></div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../description/concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="../description/date.html">Date</a>
+                </li>
+                <li>
+                  <a href="../description/person.html">Person</a>
+                </li>
+                <li>
+                  <a href="../description/place.html">Place</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour"><a href="#" class="active">XML / RDF</a></div></div>
+            <div id="collapseFour" class="collapse show" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="concept.html" class="active">Concept</a>
+                </li>
+                <li>
+                  <a href="date.html">Date</a>
+                </li>
+                <li>
+                  <a href="person.html">Person</a>
+                </li>
+                <li>
+                  <a href="place.html">Place</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../interconnection.html">Interconnection</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="card" style="border: none;">
+          <div class="card-body">
+            <h5 class="card-title">XML / RDF Files: Concept</h5>
+            <h3 class="card-title">Second Industrial Revolution</h3>
+          </div>
+        </div>
+
+        <div class="card" style="border: none;">
+          <div class="card-body">
+            <h5 class="card-title">Plucky Ontology</h5>
+            <p class="card-text">
+              <ul>
+                <li>Raw XML File (<a href="raw/irPlucky.xml" target="_blank">.xml</a>)</li>
+                <li>XML Visualisation (<a href="graph/irPlucky.png" target="_blank">.png</a>)</li>
+              </ul>
+            </p>
+            <p class="card-text">
+              <pre>
+                <code class="xml">
+  &#60;?xml version="1.0" encoding="UTF-8"?&#62;
+
+  &#60;rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:plucky="http://www.plucky.com/plucky-schema"
+  xml:base="http://www.semanticweb.org/plucky/SecondIndustrialRevolution"&#62;
+    &#60;rdf:description rdf:about="http://www.semanticweb.org/plucky/SecondIndustrialRevolution"&#62;
+      &#60;plucky:is_entity_type&#62;Concept&#60;/plucky:is_entity_type&#62;
+      &#60;plucky:has_subject&#62;Second Industrial Revolution&#60;/plucky:has_subject&#62;
+      &#60;plucky:has_authorized_name&#62;Second Industrial Revolution&#60;/plucky:has_authorized_name&#62;
+      &#60;plucky:has_other_name&#62;Technological Revolution&#60;/plucky:has_other_name&#62;
+      &#60;plucky:has_description&#62;
+        Phase of rapid industrialization in the final third of the 19th century and the beginning of the 20th.
+      &#60;/plucky:has_description&#62;
+      &#60;plucky:has_representation rdf:resource="https://www.musee-orsay.fr/fr/collections/catalogue-des-oeuvres/notice.html?nnumid=367"/&#62;
+
+      &#60;plucky:has_place_relation rdf:parseType="Resource"&#62;
+        &#60;plucky:related_place&#62;Europe&#60;/plucky:related_place&#62;
+        &#60;plucky:relation_meaning&#62;
+          Rapid industrial development happened primarily in Britain and Germany
+        &#60;/plucky:relation_meaning&#62;
+      &#60;/plucky:has_place_relation&#62;
+
+      &#60;plucky:has_date_relation rdf:parseType="Resource"&#62;
+        &#60;plucky:related_date&#62;1870&#60;/plucky:related_date&#62;
+        &#60;plucky:relation_meaning&#62;Beginning of Second Industrial Revolution&#60;/plucky:relation_meaning&#62;
+      &#60;/plucky:has_date_relation&#62;
+
+      &#60;plucky:has_agent_relation rdf:parseType="Resource"&#62;
+        &#60;plucky:related_person rdf:resource="https://viaf.org/viaf/40171429/"/&#62;
+        &#60;plucky:relation_meaning&#62;
+          He developed a more sophisticated process to eliminate the phosphorus from iron, allowing the mass-production of steel, crucial to the Second Industrial Revolution
+        &#60;/plucky:relation_meaning&#62;
+        &#60;plucky:has_authorized_name&#62;Sidney Gilchrist Thomas&#60;/plucky:has_authorized_name&#62;
+        &#60;plucky:has_other_name&#62;Sidney Gilchchrist  Thomas&#60;/plucky:has_other_name&#62;
+        &#60;plucky:has_preferred_name&#62;Sidney Gilchrist Thomas&#60;/plucky:has_preferred_name&#62;
+      &#60;/plucky:has_agent_relation&#62;
+
+     &#60;plucky:has_event_relation rdf:parseType="Resource"&#62;
+        &#60;plucky:related_event&#62;Industrial Revolution&#60;/plucky:related_event&#62;
+        &#60;plucky:has_other_name&#62;First Industrial Revolution / Age of Industrialization&#60;/plucky:has_other_name&#62;
+        &#60;plucky:relation_meaning&#62;
+          The Second Industrial Revolution built on the ideas and inventions of the First Industrial Revolution
+        &#60;/plucky:relation_meaning&#62;
+        &#60;plucky:event_place&#62;Europe&#60;/plucky:event_place&#62;
+        &#60;plucky:event_date&#62;1760-1840&#60;/plucky:event_date&#62;
+        &#60;plucky:event_type&#62;Concept&#60;/plucky:event_type&#62;
+      &#60;/plucky:has_event_relation&#62;
+
+      &#60;plucky:sameAs rdf:resource="http://ushistoryscene.com/article/second-industrial-revolution/"/&#62;
+      &#60;plucky:sameAs rdf:resource="https://study.com/academy/lesson/the-second-industrial-revolution-timeline-inventions.html"/&#62;
+      &#60;plucky:sameAs rdf:resource="https://de.wikipedia.org/wiki/Zweite_industrielle_Revolution"/&#62;
+      &#60;plucky:sameAs rdf:resource="https://es.wikipedia.org/wiki/Segunda_Revolución_Industrial"/&#62;
+      &#60;plucky:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Innovation_en_Europe_à_la_Belle_Époque"/&#62;
+      &#60;plucky:sameAs rdf:resource="https://it.wikipedia.org/wiki/Seconda_rivoluzione_industriale"/&#62;
+      &#60;plucky:sameAs rdf:resource="https://nl.wikipedia.org/wiki/Tweede_industriële_revolutie"/&#62;
+      &#60;plucky:sameAs rdf:resource="https://pl.wikipedia.org/wiki/Druga_rewolucja_przemysłowa"/&#62;
+      &#60;plucky:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Second_Industrial_Revolution"/&#62;
+
+    &#60;/rdf:description&#62;
+  &#60;/rdf:RDF&#62;
+                </code>
+              </pre>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="border: none;">
+          <div class="card-body">
+            <h5 class="card-title">Various Ontologies</h5>
+            <p class="card-text">
+              <ul>
+                <li>Raw XML File (<a href="raw/irMix.xml" target="_blank">.xml</a>)</li>
+                <li>XML Visualisation (<a href="graph/irMix.png" target="_blank">.png</a>)</li>
+              </ul>
+            </p>
+            <p class="card-text">
+              <pre>
+                <code class="xml">
+  &#60;?xml version="1.0" encoding="UTF-8"?&#62;
+
+  &#60;rdf:rdf
+  xmlns:rdf="https://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:plucky="http://www.plucky.com/plucky-schema"
+  xmlns:dc="http://dublincore.org/schemas/xmls/qdc/2003/04/02/dc.xsd"
+  xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+  xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"
+  xmlns:foaf="http://xmlns.com/foaf/spec//index.rdf"
+  xmlns:ead="https://raw.githubusercontent.com/SAA-SDT/EAD3/v1.1.0/ead3.xsd"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xml:base="http://www.semanticweb.org/waterlod/SecondIndustrialRevolution"&#62;
+    &#60;rdf:description rdf:about="http://www.semanticweb.org/plucky/SecondIndustrialRevolution"&#62;
+      &#60;rdf:type&#62;Concept&#60;/rdf:type&#62;
+      &#60;dc:subject&#62;Second Industrial Revolution&#60;/dc:subject&#62;
+      &#60;rdfs:label&#62;Second Industrial Revolution&#60;/rdfs:label&#62;
+      &#60;eac-cpf:nameEntryParallel&#62;Technological Revolution&#60;/eac-cpf:nameEntryParallel&#62;
+      &#60;dc:description&#62;
+        Phase of rapid industrialization in the final third of the 19th century and the beginning of the 20th.
+      &#60;/dc:description&#62;
+      &#60;foaf:description rdf:resource="https://www.musee-orsay.fr/fr/collections/catalogue-des-oeuvres/notice.html?nnumid=367"/&#62;
+
+      &#60;plucky:has_place_relation rdf:parseType="Resource"&#62;
+        &#60;dc:location&#62;Europe&#60;/dc:location&#62;
+        &#60;dc:description&#62;
+          Rapid industrial development happened primarily in Britain and Germany
+        &#60;/dc:description&#62;
+      &#60;/plucky:has_place_relation&#62;
+
+      &#60;plucky:has_date_relation rdf:parseType="Resource"&#62;
+        &#60;dc:date&#62;1870&#60;/dc:date&#62;
+        &#60;dc:description&#62;Beginning of Second Industrial Revolution&#60;/dc:description&#62;
+      &#60;/plucky:has_date_relation&#62;
+
+      &#60;plucky:has_agent_relation rdf:parseType="Resource"&#62;
+        &#60;eac-cpf:cpfRelation rdf:resource="https://viaf.org/viaf/40171429/"/&#62;
+        &#60;dc:description&#62;
+          He developed a more sophisticated process to eliminate the phosphorus from iron, allowing the mass-production of steel, crucial to the Second Industrial Revolution
+        &#60;/dc:description&#62;
+        &#60;eac-cpf:nameEntry&#62;Sidney Gilchrist Thomas&#60;/eac-cpf:nameEntry&#62;
+        &#60;eac-cpf:nameEntryParallel&#62;Sidney Gilchchrist  Thomas&#60;/eac-cpf:nameEntryParallel&#62;
+        &#60;cdwalite:nameCreator&#62;Sidney Gilchrist Thomas&#60;/cdwalite:nameCreator&#62;
+      &#60;/plucky:has_agent_relation&#62;
+
+     &#60;plucky:has_event_relation rdf:parseType="Resource"&#62;
+        &#60;ead:event&#62;Industrial Revolution&#60;/ead:event&#62;
+        &#60;eac-cpf:nameEntryParallel&#62;First Industrial Revolution / Age of Industrialization&#60;/eac-cpf:nameEntryParallel&#62;
+        &#60;dc:description&#62;
+          The Second Industrial Revolution built on the ideas and inventions of the First Industrial Revolution
+        &#60;/dc:description&#62;
+        &#60;ead:place&#62;Europe&#60;/ead:place&#62;
+        &#60;ead:eventdatetime&#62;1760-1840&#60;/ead:eventdatetime&#62;
+        &#60;ead:eventtype&#62;Concept&#60;/ead:eventtype&#62;
+      &#60;/plucky:has_event_relation&#62;
+
+      &#60;owl:sameAs rdf:resource="http://ushistoryscene.com/article/second-industrial-revolution/"/&#62;
+      &#60;owl:sameAs rdf:resource="https://study.com/academy/lesson/the-second-industrial-revolution-timeline-inventions.html"/&#62;
+      &#60;owl:sameAs rdf:resource="https://de.wikipedia.org/wiki/Zweite_industrielle_Revolution"/&#62;
+      &#60;owl:sameAs rdf:resource="https://es.wikipedia.org/wiki/Segunda_Revolución_Industrial"/&#62;
+      &#60;owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Innovation_en_Europe_à_la_Belle_Époque"/&#62;
+      &#60;owl:sameAs rdf:resource="https://it.wikipedia.org/wiki/Seconda_rivoluzione_industriale"/&#62;
+      &#60;owl:sameAs rdf:resource="https://nl.wikipedia.org/wiki/Tweede_industriële_revolutie"/&#62;
+      &#60;owl:sameAs rdf:resource="https://pl.wikipedia.org/wiki/Druga_rewolucja_przemysłowa"/&#62;
+      &#60;foaf:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Second_Industrial_Revolution"/&#62;
+
+    &#60;/rdf:description&#62;
+  &#60;/rdf:rdf&#62;
+                </code>
+              </pre>
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center">
+        <div class="card-body" style="padding-top: 0;">
+          <p class="card-text"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"></a><br />The content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
+          <p class="card-text">The project was carried out by Delfina Sol Pandiani, Eleonora Peruch, Severin Josef Burg.</p>
+        </div>
+      </div>
+
+    </footer>
+  </div>
+
+  <script>
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+  });
+  </script>
+
+</body>
+</html>

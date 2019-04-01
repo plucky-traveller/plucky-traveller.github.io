@@ -30,7 +30,7 @@
               <a class="nav-link" href="../index.html"><p>Home</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../overview.html"><p class="active">Project</p></a>
+              <a class="nav-link" href="overview.html"><p class="active">Project</p></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../contact.html"><p>Contact</p></a>
@@ -135,16 +135,64 @@
             <a href="theoretical.html">Theoretical Model</a>
           </li>
           <li>
-            <a href="conceptual.html">Conceptual Model</a>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="collapsed"><a href="#">Conceptual Model</a></div></div>
+            <div id="collapseFive" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="conceptual/concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="conceptual/date.html">Date</a>
+                </li>
+                <li>
+                  <a href="conceptual/person.html">Person</a>
+                </li>
+                <li>
+                  <a href="conceptual/place.html">Place</a>
+                </li>
+              </ul>
+            </div>
           </li>
           <li>
             <p>Practical Part</p>
           </li>
           <li>
-            <a href="description.html">Descripton of Data</a>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="collapsed"><a href="#">Description of Data</a></div></div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="description/concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="description/date.html">Date</a>
+                </li>
+                <li>
+                  <a href="description/person.html">Person</a>
+                </li>
+                <li>
+                  <a href="description/place.html">Place</a>
+                </li>
+              </ul>
+            </div>
           </li>
           <li>
-            <a href="xml.html">RDF / XML</a>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="collapsed"><a href="#">XML / RDF</a></div></div>
+            <div id="collapseFour" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="xml/concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="xml/date.html">Date</a>
+                </li>
+                <li>
+                  <a href="xml/person.html">Person</a>
+                </li>
+                <li>
+                  <a href="xml/place.html">Place</a>
+                </li>
+              </ul>
+            </div>
           </li>
           <li>
             <a href="interconnection.html" class="active">Interconnection</a>
@@ -155,7 +203,7 @@
 
     <div id="page-content-wrapper">
       <div class="container-fluid" style="padding:0;">
-        <div class="card w-100" style="border: none;">
+        <div class="col" style="border: none;">
           <div class="card-body">
             <h3 class="card-title">Interconnection</h3>
             <p class="card-text">
@@ -175,13 +223,13 @@
           </div>
         </div>
 
-        <div class="card w-100" style="border: none;" id="person">
+        <div class="col" style="border: none;" id="person">
           <div class="card-body">
             <p class="card-text">Below you can find specific details of the kind of semantic interconnection we employed for each of the different types of entities: </p>
             <h5 class="card-title"><b>1. PERSON</b> - Nellie Bly</h5>
             <p class="card-text">
               <em>URI: www.semanticweb.org/plucky/NellieBly</em></p>
-            <p class="card-text">  
+            <p class="card-text">
               By using <em>&lt;owl:sameAs rdf:resource=""&gt;</em>, a property of OWL Ontology, we connected this URI with multiple other resources, including:</p>
             <p class="card-text">
               1) owl:sameAs rdf:resource="<a href="https://viaf.org/viaf/816475/" target="_blank">https://viaf.org/viaf/816475/</a>” <br>
@@ -205,12 +253,12 @@
           </div>
         </div>
 
-        <div class="card w-100" style="border: none;" id="place">
+        <div class="col" style="border: none;" id="place">
           <div class="card-body">
             <h5 class="card-title"><b>2. PLACE</b> - Brindisi</h5>
             <p class="card-text">
               <em>URI: www.semanticweb.org/plucky/Brindisi</em></p>
-            <p class="card-text">  
+            <p class="card-text">
               By using <em>&lt;owl:sameAs rdf:resource=""&gt;</em>, a property of OWL Ontology, we connected this URI with multiple other resources, including:</p>
             <p class="card-text">
               1) owl:sameAs rdf:resource="<a href="https://www.wikidata.org/wiki/Q13496" target="_blank">https://www.wikidata.org/wiki/Q13496</a>” <br>
@@ -234,12 +282,12 @@
           </div>
         </div>
 
-        <div class="card w-100" style="border: none;" id="date">
+        <div class="col" style="border: none;" id="date">
           <div class="card-body">
             <h5 class="card-title"><b>3. DATE</b> - 1873</h5>
             <p class="card-text">
               <em>URI: www.semanticweb.org/plucky/1873</em></p>
-            <p class="card-text">  
+            <p class="card-text">
               By using <em>&lt;owl:sameAs rdf:resource=""&gt;</em>, a property of OWL Ontology, and <em>&lt;foaf:isPrimaryTopicOf rdf:resource=""&gt;</em>, we connected this URI with multiple other resources, including:</p>
             <p class="card-text">
               1) owl:sameAs rdf:resource="<a href="https://www.wikidata.org/wiki/Q7757" target="_blank">https://www.wikidata.org/wiki/Q7757</a>” <br>
@@ -264,12 +312,12 @@
         </div>
 
 
-        <div class="card w-100" style="border: none;" id="subject">
+        <div class="col" style="border: none;" id="subject">
           <div class="card-body">
             <h5 class="card-title"><b>4. SUBJECT/CONCEPT</b> - Second Industrial Revolution</h5>
             <p class="card-text">
               <em>URI: www.semanticweb.org/plucky/SecondIndustrialRevolution</em></p>
-            <p class="card-text">  
+            <p class="card-text">
               By using <em>&lt;owl:sameAs rdf:resource=""&gt;</em>, a property of OWL Ontology, and <em>&lt;foaf:isPrimaryTopicOf rdf:resource=""&gt;</em>, we connected this URI with multiple other resources, including:</p>
             <p class="card-text">
               1) owl:sameAs rdf:resource="<a href="http://ushistoryscene.com/article/second-industrial-revolution/" target="_blank">http://ushistoryscene.com/article/second-industrial-revolution/</a>” <br>

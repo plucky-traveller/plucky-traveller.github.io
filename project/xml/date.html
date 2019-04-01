@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Plucky – XML / RDF</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.3.2/vivus.js"></script>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+
+  <!-- Header --->
+
+  <header>
+
+    <!-- Navigation --->
+    <nav class="navbar fixed-top navbar-expand navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="../../index.html"><img src="../../img/logo.png" id="logo">Plucky <i>traveller</i></a>
+        <div class="navbar-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html"><p>Home</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../overview.html"><p class="active">Project</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../contact.html"><p>Contact</p></a>
+            </li>
+            <div class="d-lg-none">
+              <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="fas fa-bars"></i></a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="wrapper">
+    <div id="sidebar-wrapper">
+      <div id="accordion">
+        <ul class="sidebar-nav">
+          <li>
+            <a href="../overview.html">Project Overview</a>
+          </li>
+          <li>
+            <p>Theoretical Part</p>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed"><a href="#">Exemplary Items</a></div></div>
+            <div id="collapseOne" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../items/game.html">Boardgame</a>
+                </li>
+                <li>
+                  <a href="../items/doodle.html">Google Doogle</a>
+                </li>
+                <li>
+                  <a href="../items/picture.html">Photographic Print</a>
+                </li>
+                <li>
+                  <a href="../items/map.html">Historical Map</a>
+                </li>
+                <li>
+                  <a href="../items/article.html">Historical Article</a>
+                </li>
+                <li>
+                  <a href="../items/book.html">Printed Monograph</a>
+                </li>
+                <li>
+                  <a href="../items/artwork.html">Oil Painting</a>
+                </li>
+                <li>
+                  <a href="../items/bulletin.html">Société Bulletin</a>
+                </li>
+                <li>
+                  <a href="../items/engraving.html">Wood Engraving</a>
+                </li>
+                <li>
+                  <a href="../items/audioBook.html">Audio Book</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../ermodel.html">E/R Model</a>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed"><a href="#">Standard Alignement</a></div></div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../alignement/game.html">Boardgame</a>
+                </li>
+                <li>
+                  <a href="../alignement/doodle.html">Google Doogle</a>
+                </li>
+                <li>
+                  <a href="../alignement/picture.html">Photographic Print</a>
+                </li>
+                <li>
+                  <a href="../alignement/map.html">Historical Map</a>
+                </li>
+                <li>
+                  <a href="../alignement/article.html">Historical Article</a>
+                </li>
+                <li>
+                  <a href="../alignement/book.html">Printed Monograph</a>
+                </li>
+                <li>
+                  <a href="../alignement/artwork.html">Oil Painting</a>
+                </li>
+                <li>
+                  <a href="../alignement/bulletin.html">Société Bulletin</a>
+                </li>
+                <li>
+                  <a href="../alignement/engraving.html">Wood Engraving</a>
+                </li>
+                <li>
+                  <a href="../alignement/audioBook.html">Audio Book</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../theoretical.html">Theoretical Model</a>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="collapsed"><a href="#">Conceptual Model</a></div></div>
+            <div id="collapseFive" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../conceptual/concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="../conceptual/date.html">Date</a>
+                </li>
+                <li>
+                  <a href="../conceptual/person.html">Person</a>
+                </li>
+                <li>
+                  <a href="../conceptual/place.html">Place</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <p>Practical Part</p>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="collapsed"><a href="#">Description of Data</a></div></div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../description/concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="../description/date.html">Date</a>
+                </li>
+                <li>
+                  <a href="../description/person.html">Person</a>
+                </li>
+                <li>
+                  <a href="../description/place.html">Place</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour"><a href="#" class="active">XML / RDF</a></div></div>
+            <div id="collapseFour" class="collapse show" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="date.html" class="active">Date</a>
+                </li>
+                <li>
+                  <a href="person.html">Person</a>
+                </li>
+                <li>
+                  <a href="place.html">Place</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../interconnection.html">Interconnection</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="card" style="border: none;">
+          <div class="card-body">
+            <h5 class="card-title">XML / RDF Files: Date</h5>
+            <h3 class="card-title">1873</h3>
+          </div>
+        </div>
+
+        <div class="card" style="border: none;">
+          <div class="card-body">
+            <h5 class="card-title">Plucky Ontology</h5>
+            <p class="card-text">
+              <ul>
+                <li>Raw XML File (<a href="raw/datePlucky.xml" target="_blank">.xml</a>)</li>
+                <li>XML Visualisation (<a href="graph/datePlucky.png" target="_blank">.png</a>)</li>
+              </ul>
+            </p>
+            <p class="card-text">
+              <pre>
+                <code class="xml">
+  &#60;?xml version="1.0" encoding="UTF-8"?&#62;
+
+  &#60;rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:plucky="http://www.plucky.com/plucky-schema"
+  xml:base="http://www.semanticweb.org/plucky/1873"&#62;
+    &#60;rdf:Description rdf:about="http://www.semanticweb.org/plucky/1873"&#62;
+    &#60;plucky:data_format&#62;YYYY&#60;/plucky:data_format&#62;
+    &#60;plucky:has_certainty_degree&#62;absolute certainty&#60;/plucky:has_certainty_degree&#62;
+  	&#60;plucky:has_resource_relation rdf:parseType="Resource"&#62;
+      &#60;plucky:relation_type&#62;date of publication&#60;/plucky:relation_type&#62;
+      &#60;plucky:relation_resource rdf:resource="https://gallica.bnf.fr/ark:/12148/btv1b8600244d/f1.image"/&#62;
+      &#60;plucky:relation_meaning&#62;date of publication of the first edition of the resource&#60;/plucky:relation_meaning&#62;
+      &#60;plucky:relation_start&#62;1873&#60;/plucky:relation_start&#62;
+  	  &#60;plucky:resource_archiving_date&#62;2016-11-28&#60;/plucky:resource_archiving_date&#62;
+  	  &#60;plucky:update_date&#62;2018-07-24&#60;/plucky:update_date&#62;
+    &#60;/plucky:has_resource_relation&#62;
+
+  	&#60;plucky:has_agent_relation rdf:parseType="Resource"&#62;
+      &#60;plucky:relation_type&#62;date of publication of agent's book&#60;/plucky:relation_type&#62;
+      &#60;plucky:relation_agent rdf:resource="http://dbpedia.org/page/Jules_Verne"/&#62;
+      &#60;plucky:relation_meaning&#62;In 1873, Jules Verne published one of his most famous adventure novels&#60;/plucky:relation_meaning&#62;
+      &#60;plucky:has_life_role&#62;Writer&#60;/plucky:has_life_role&#62;
+    &#60;/plucky:has_agent_relation&#62;
+
+    &#60;plucky:has_event_relation rdf:parseType="Resource"&#62;
+  		&#60;plucky:related_event&#62;5th World's Exposition &#60;/plucky:related_event&#62;
+  		&#60;plucky:has_other_name&#62;World's Fair, Expo&#60;/plucky:has_other_name&#62;
+  		&#60;plucky:relation_meaning&#62;The date indicates when the World Exposition in Vienna was held. Its motto was Kultur und Erziehung (English: Culture and Education).&#60;/plucky:relation_meaning&#62;
+  		&#60;plucky:event_place&#62;Vienna&#60;/plucky:event_place&#62;
+  	&#60;/plucky:has_event_relation&#62;
+
+  	&#60;plucky:sameAs rdf:resource="https://www.wikidata.org/wiki/Q7757"/&#62;
+  	&#60;plucky:sameAs rdf:resource="https://cs.dbpedia.org/page/1873"/&#62;
+  	&#60;plucky:sameAs rdf:resource="http://de.dbpedia.org/resource/1873"/&#62;
+  	&#60;plucky:sameAs rdf:resource="http://el.dbpedia.org/resource/1873"/&#62;
+  	&#60;plucky:sameAs rdf:resource="http://es.dbpedia.org/resource/1873"/&#62;
+  	&#60;plucky:sameAs rdf:resource="http://eu.dbpedia.org/resource/1873"/&#62;
+  	&#60;plucky:sameAs rdf:resource="http://fr.dbpedia.org/resource/1873"/&#62;
+  	&#60;plucky:sameAs rdf:resource="http://id.dbpedia.org/resource/1873"/&#62;
+    &#60;plucky:sameAs rdf:resource="http://it.dbpedia.org/resource/1873"/&#62;
+    &#60;plucky:sameAs rdf:resource="http://ja.dbpedia.org/resource/1873"/&#62;
+  	&#60;plucky:sameAs rdf:resource="http://ko.dbpedia.org/resource/1873"/&#62;
+    &#60;plucky:sameAs rdf:resource="http://nl.dbpedia.org/resource/1873"/&#62;
+    &#60;plucky:sameAs rdf:resource="http://pl.dbpedia.org/resource/1873"/&#62;
+    &#60;plucky:sameAs rdf:resource="http://pt.dbpedia.org/resource/1873"/&#62;
+  	&#60;plucky:sameAs rdf:resource="http://fr.dbpedia.org/resource/1873"/&#62;
+    &#60;plucky:sameAs rdf:resource="http://wikidata.dbpedia.org/resource/Q7757"/&#62;
+  	&#60;plucky:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/1873"/&#62;
+
+    &#60;/rdf:Description&#62;
+  &#60;/rdf:RDF&#62;
+                </code>
+              </pre>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="border: none;">
+          <div class="card-body">
+            <h5 class="card-title">Various Ontologies</h5>
+            <p class="card-text">
+              <ul>
+                <li>Raw XML File (<a href="raw/dateMix.xml" target="_blank">.xml</a>)</li>
+                <li>XML Visualisation (<a href="graph/dateMix.png" target="_blank">.png</a>)</li>
+              </ul>
+            </p>
+            <p class="card-text">
+              <pre>
+                <code class="xml">
+  &#60;?xml version="1.0" encoding="UTF-8"?&#62;
+
+  &#60;rdf:rdf
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:plucky="http://www.plucky.com/plucky-schema"
+    xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"
+    xmlns:dc="http://dublincore.org/schemas/xmls/qdc/2003/04/02/dc.xsd"
+    xmlns:dcterms="http://dublincore.org/schemas/xmls/qdc/dcterms.xsd"
+    xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+    xmlns:ead="https://raw.githubusercontent.com/SAA-SDT/EAD3/v1.1.0/ead3.xsd"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:foaf="http://xmlns.com/foaf/spec//index.rdf"
+    xml:base="http://www.semanticweb.org/plucky/1873"&#62;
+    &#60;rdf:description rdf:about="http://www.semanticweb.org/plucky/1873"&#62;
+      &#60;eac-cpf:entityType&#62;Date&#60;/eac-cpf:entityType&#62;
+      &#60;eac-cpf:date standardDate="YYYY"/&#62;
+      &#60;ead:date certainty="absolute certainty"/&#62;
+
+      &#60;plucky:has_resource_relation rdf:parseType="Resource"&#62;
+        &#60;eac-cpf:resourceRelationType&#62;date of publication&#60;/eac-cpf:resourceRelationType&#62;
+        &#60;dcterms:relation rdf:resource="https://gallica.bnf.fr/ark:/12148/btv1b8600244d/f1.image"/&#62;
+        &#60;cdwalite:dateQualifier&#62;date of publication of the first edition of the resource&#60;/cdwalite:dateQualifier&#62;
+        &#60;dc:date&#62;1873&#60;/dc:date&#62;
+        &#60;ead:date&#62;2016-11-28&#60;/ead:date&#62;
+        &#60;cdwalite:latestDate&#62;2018-07-24&#60;/cdwalite:latestDate&#62;
+      &#60;/plucky:has_resource_relation&#62;
+
+      &#60;plucky:has_agent_relation rdf:parseType="Resource"&#62;
+        &#60;eac-cpf:cpfRelation cpfRelationType="date of publication of agent's book"/&#62;
+        &#60;eac-cpf:cpfRelation rdf:resource="http://dbpedia.org/page/Jules_Verne"/&#62;
+        &#60;cdwalite:dateQualifier&#62;In 1873, Jules Verne published one of his most famous adventure novels&#60;/cdwalite:dateQualifier&#62;
+        &#60;eac-cpf:function&#62;Writer&#60;/eac-cpf:function&#62;
+      &#60;/plucky:has_agent_relation&#62;
+
+      &#60;plucky:has_event_relation rdf:parseType="Resource"&#62;
+        &#60;ead:event&#62;5th World's Exposition&#60;/ead:event&#62;
+        &#60;eac-cpf:alternativeForm&#62;World's Fair, Expo&#60;/eac-cpf:alternativeForm&#62;
+        &#60;cdwalite:dateQualifier&#62;The date indicates when the World Exposition in Vienna was held. Its motto was Kultur und Erziehung (English: Culture and Education).&#60;/cdwalite:dateQualifier&#62;
+        &#60;ead:place&#62;Vienna&#60;/ead:place&#62;
+      &#60;/plucky:has_event_relation&#62;
+
+      &#60;owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q7757"/&#62;
+      &#60;owl:sameAs rdf:resource="https://cs.dbpedia.org/page/1873"/&#62;
+      &#60;owl:sameAs rdf:resource="http://de.dbpedia.org/resource/1873"/&#62;
+      &#60;owl:sameAs rdf:resource="http://el.dbpedia.org/resource/1873"/&#62;
+      &#60;owl:sameAs rdf:resource="http://es.dbpedia.org/resource/1873"/&#62;
+      &#60;owl:sameAs rdf:resource="http://eu.dbpedia.org/resource/1873"/&#62;
+      &#60;owl:sameAs rdf:resource="http://fr.dbpedia.org/resource/1873"/&#62;
+      &#60;owl:sameAs rdf:resource="http://id.dbpedia.org/resource/1873"/&#62;
+      &#60;owl:sameAs rdf:resource="http://it.dbpedia.org/resource/1873"/&#62;
+      &#60;owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/1873"/&#62;
+      &#60;owl:sameAs rdf:resource="http://ko.dbpedia.org/resource/1873"/&#62;
+      &#60;owl:sameAs rdf:resource="http://nl.dbpedia.org/resource/1873"/&#62;
+      &#60;owl:sameAs rdf:resource="http://pl.dbpedia.org/resource/1873"/&#62;
+      &#60;owl:sameAs rdf:resource="http://pt.dbpedia.org/resource/1873"/&#62;
+      &#60;owl:sameAs rdf:resource="http://fr.dbpedia.org/resource/1873"/&#62;
+      &#60;owl:sameAs rdf:resource="http://wikidata.dbpedia.org/resource/Q7757"/&#62;
+      &#60;foaf:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/1873"/&#62;
+
+    &#60;/rdf:description&#62;
+  &#60;/rdf:rdf&#62;
+                </code>
+              </pre>
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center">
+        <div class="card-body" style="padding-top: 0;">
+          <p class="card-text"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"></a><br />The content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
+          <p class="card-text">The project was carried out by Delfina Sol Pandiani, Eleonora Peruch, Severin Josef Burg.</p>
+        </div>
+      </div>
+
+    </footer>
+  </div>
+
+  <script>
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+  });
+  </script>
+
+</body>
+</html>

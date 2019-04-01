@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Plucky – Description of Data</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.3.2/vivus.js"></script>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+
+  <!-- Header --->
+
+  <header>
+
+    <!-- Navigation --->
+    <nav class="navbar fixed-top navbar-expand navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="../../index.html"><img src="../../img/logo.png" id="logo">Plucky <i>traveller</i></a>
+        <div class="navbar-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html"><p>Home</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../overview.html"><p class="active">Project</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../contact.html"><p>Contact</p></a>
+            </li>
+            <div class="d-lg-none">
+              <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="fas fa-bars"></i></a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="wrapper">
+    <div id="sidebar-wrapper">
+      <div id="accordion">
+        <ul class="sidebar-nav">
+          <li>
+            <a href="../overview.html">Project Overview</a>
+          </li>
+          <li>
+            <p>Theoretical Part</p>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed"><a href="#">Exemplary Items</a></div></div>
+            <div id="collapseOne" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../items/game.html">Boardgame</a>
+                </li>
+                <li>
+                  <a href="../items/doodle.html">Google Doogle</a>
+                </li>
+                <li>
+                  <a href="../items/picture.html">Photographic Print</a>
+                </li>
+                <li>
+                  <a href="../items/map.html">Historical Map</a>
+                </li>
+                <li>
+                  <a href="../items/article.html">Historical Article</a>
+                </li>
+                <li>
+                  <a href="../items/book.html">Printed Monograph</a>
+                </li>
+                <li>
+                  <a href="../items/artwork.html">Oil Painting</a>
+                </li>
+                <li>
+                  <a href="../items/bulletin.html">Société Bulletin</a>
+                </li>
+                <li>
+                  <a href="../items/engraving.html">Wood Engraving</a>
+                </li>
+                <li>
+                  <a href="../items/audioBook.html">Audio Book</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../ermodel.html">E/R Model</a>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed"><a href="#">Standard Alignement</a></div></div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../alignement/game.html">Boardgame</a>
+                </li>
+                <li>
+                  <a href="../alignement/doodle.html">Google Doogle</a>
+                </li>
+                <li>
+                  <a href="../alignement/picture.html">Photographic Print</a>
+                </li>
+                <li>
+                  <a href="../alignement/map.html">Historical Map</a>
+                </li>
+                <li>
+                  <a href="../alignement/article.html">Historical Article</a>
+                </li>
+                <li>
+                  <a href="../alignement/book.html">Printed Monograph</a>
+                </li>
+                <li>
+                  <a href="../alignement/artwork.html">Oil Painting</a>
+                </li>
+                <li>
+                  <a href="../alignement/bulletin.html">Société Bulletin</a>
+                </li>
+                <li>
+                  <a href="../alignement/engraving.html">Wood Engraving</a>
+                </li>
+                <li>
+                  <a href="../alignement/audioBook.html">Audio Book</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../theoretical.html">Theoretical Model</a>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="collapsed"><a href="#">Conceptual Model</a></div></div>
+            <div id="collapseFive" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../description/concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="../description/date.html">Date</a>
+                </li>
+                <li>
+                  <a href="../description/person.html">Person</a>
+                </li>
+                <li>
+                  <a href="../description/place.html">Place</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <p>Practical Part</p>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree"><a href="#" class="active">Description of Data</a></div></div>
+            <div id="collapseThree" class="collapse show" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="date.html">Date</a>
+                </li>
+                <li>
+                  <a href="person.html" class="active">Person</a>
+                </li>
+                <li>
+                  <a href="place.html">Place</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="collapsed"><a href="#">XML / RDF</a></div></div>
+            <div id="collapseFour" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../xml/concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="../xml/date.html">Date</a>
+                </li>
+                <li>
+                  <a href="../xml/person.html">Person</a>
+                </li>
+                <li>
+                  <a href="../xml/place.html">Place</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../interconnection.html">Interconnection</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="card" style="border: none;">
+          <div class="card-body">
+            <h5 class="card-title">Description of Data: Person</h5>
+            <h3 class="card-title">Nellie Bly</h3>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="table-col-25">Question</th>
+                  <th class="table-col-25">Predicate</th>
+                  <th class="table-col-50">Nellie Bly</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>What type of entity?</td>
+                  <td>plucky:is_entity_type</td>
+                  <td>Person</td>
+                </tr>
+                <tr>
+                  <td>What is the authority control version of the name?</td>
+                  <td>plucky:has_authorized_name</td>
+                  <td>Nellie Bly</td>
+                </tr>
+                <tr>
+                  <td>What are other versions of the name?</td>
+                  <td>plucky:has_other_name</td>
+                  <td>Elizabeth Cochran Seaman</td>
+                </tr>
+                <tr>
+                  <td>What is the preferred name?</td>
+                  <td>plucky:has_preferred_name</td>
+                  <td>Nellie Bly</td>
+                </tr>
+                <tr>
+                  <td>What is their nationality?</td>
+                  <td>plucky:has_citizenship</td>
+                  <td>American</td>
+                </tr>
+                <tr>
+                  <td>What is their ethnicity?</td>
+                  <td>plucky:has_ethnicity</td>
+                  <td>White</td>
+                </tr>
+                <tr>
+                  <td>What is their biographical history?</td>
+                  <td>plucky:bio_history</td>
+                  <td>Nellie Bly was an American journalist who was widely known for her record-breaking trip around the world in 72 days, in emulation of Jules Verne&#39;s fictional character Phileas Fogg, and an exposé in which she worked undercover to report on a mental institution from within. She was a pioneer in her field, and launched a new kind of investigative journalism. Bly was also a writer, industrialist, inventor, and a charity worker.</td>
+                </tr>
+                <tr>
+                  <td>What is their gender?</td>
+                  <td>plucky:has_gender</td>
+                  <td>Female</td>
+                </tr>
+                <tr>
+                  <td>What were their life roles?</td>
+                  <td>plucky:has_life_role</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>-- What was the role?</td>
+                  <td>plucky:role</td>
+                  <td>Journalist</td>
+                </tr>
+                <tr>
+                  <td>--- Duration of role?</td>
+                  <td>plucky:role_duration</td>
+                  <td>1880-1922</td>
+                </tr>
+                <tr>
+                  <td>What happened in the person&#39;s life?</td>
+                  <td>plucky:has_life_event</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>--- What?</td>
+                  <td>plucky:event_type</td>
+                  <td>Met Jules Verne</td>
+                </tr>
+                <tr>
+                  <td>--- Where?</td>
+                  <td>plucky:event_place</td>
+                  <td>Amiens</td>
+                </tr>
+                <tr>
+                  <td>--- When?</td>
+                  <td>plucky:event_date</td>
+                  <td>1889</td>
+                </tr>
+                <tr>
+                  <td>What is their relation with a resource?</td>
+                  <td>plucky:has_resource_relation</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>--- What is the type of relation with the resource?</td>
+                  <td>plucky:relation_type</td>
+                  <td>author of</td>
+                </tr>
+                <tr>
+                  <td>--- What is the resource related?</td>
+                  <td>plucky:relation_resource</td>
+                  <td>https://en.wikipedia.org/wiki/Around_the_World_in_Seventy-Two_Days</td>
+                </tr>
+                <tr>
+                  <td>--- What does that relation mean?</td>
+                  <td>plucky:relation_meaning</td>
+                  <td>Book by journalist Elizabeth Jane Cochrane, writing under her pseudonym, Nellie Bly. The chronicle details her 72-day trip around the world, which was inspired by the book, Around the World in Eighty Days by Jules Verne.</td>
+                </tr>
+                <tr>
+                  <td>--- When did this relation start?</td>
+                  <td>plucky:relation_start</td>
+                  <td>1890</td>
+                </tr>
+                <tr>
+                  <td>What is their relation with a person or corporate body?</td>
+                  <td>plucky:has_agent_relation</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>--- What is the type of relation with the agent?</td>
+                  <td>plucky:relation_type</td>
+                  <td>colleague of</td>
+                </tr>
+                <tr>
+                  <td>--- What is the person/corporate body related?</td>
+                  <td>plucky:relation_agent</td>
+                  <td>Jules Verne</td>
+                </tr>
+                <tr>
+                  <td>--- What does that relation mean?</td>
+                  <td>plucky:relation_meaning</td>
+                  <td>Initially inspired by Verne, Nellie later became acquaintances with him.</td>
+                </tr>
+                <tr>
+                  <td>--- When did this relation start?</td>
+                  <td>plucky:relation_start</td>
+                  <td>1889-11-23</td>
+                </tr>
+                <tr>
+                  <td>Which resources refer to the same person?</td>
+                  <td>plucky:sameAs</td>
+                  <td>http://dbpedia.org/page/Nellie_Bly/</td>
+                </tr>
+                <tr>
+                  <td>Which resource has the person as primary topic?</td>
+                  <td>plucky:isPrimaryTopicOf</td>
+                  <td>https://en.wikipedia.org/wiki/Nellie_Bly</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card" style="border: none;">
+          <div class="card-body">
+            <h3 class="card-title">Jules Verne</h3>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="table-col-25">Question</th>
+                  <th class="table-col-25">Predicate</th>
+                  <th class="table-col-50">Jules Verne</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>What type of entity?</td>
+                  <td>plucky:is_ntity_type</td>
+                  <td>Person</td>
+                </tr>
+                <tr>
+                  <td>What is the authority control version of the name?</td>
+                  <td>plucky:has_authorized_name</td>
+                  <td>Jules Verne</td>
+                </tr>
+                <tr>
+                  <td>What are other versions of the name?</td>
+                  <td>plucky:has_other_name</td>
+                  <td>Jules Gabriel Verne</td>
+                </tr>
+                <tr>
+                  <td>What is the preferred name?</td>
+                  <td>plucky:has_preferred_name</td>
+                  <td>Jules Verne</td>
+                </tr>
+                <tr>
+                  <td>What is their nationality?</td>
+                  <td>plucky:has_citizenship</td>
+                  <td>French</td>
+                </tr>
+                <tr>
+                  <td>What is their ethnicity?</td>
+                  <td>plucky:has_ethnicity</td>
+                  <td>White</td>
+                </tr>
+                <tr>
+                  <td>What is their biographical history?</td>
+                  <td>plucky:bio_history</td>
+                  <td>French writer who wrote fiction novels based on geographic facts</td>
+                </tr>
+                <tr>
+                  <td>What is their gender?</td>
+                  <td>plucky:has_gender</td>
+                  <td>Male</td>
+                </tr>
+                <tr>
+                  <td>What were their life roles?</td>
+                  <td>plucky:has_life_role</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>-- What was the role?</td>
+                  <td>plucky:role</td>
+                  <td>Writer</td>
+                </tr>
+                <tr>
+                  <td>--- Duration of role?</td>
+                  <td>plucky:role_duration</td>
+                  <td>1850-1905</td>
+                </tr>
+                <tr>
+                  <td>What happened in the person&#39;s life?</td>
+                  <td>plucky:has_life_event</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>--- What?</td>
+                  <td>plucky:event_type</td>
+                  <td>Wrote the book &quot;Around the World in 80 Days&quot;</td>
+                </tr>
+                <tr>
+                  <td>--- Where?</td>
+                  <td>plucky:event_place</td>
+                  <td>France</td>
+                </tr>
+                <tr>
+                  <td>--- When?</td>
+                  <td>plucky:event_date</td>
+                  <td>1873</td>
+                </tr>
+                <tr>
+                  <td>What is their relation with a resource?</td>
+                  <td>plucky:has_resource_relation</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>--- What is the type of relation with the resource?</td>
+                  <td>plucky:relation_type</td>
+                  <td>author of</td>
+                </tr>
+                <tr>
+                  <td>--- What is the resource related?</td>
+                  <td>plucky:relation_resource</td>
+                  <td>http://dbpedia.org/page/Around_the_World_in_Eighty_Days</td>
+                </tr>
+                <tr>
+                  <td>--- What does that relation mean?</td>
+                  <td>plucky:relation_meaning</td>
+                  <td>Around the World in Eighty Days (French: Le tour du monde en quatre-vingts jours) is an adventure novel by the French writer Jules Verne, published in 1873.</td>
+                </tr>
+                <tr>
+                  <td>--- When did this relation start?</td>
+                  <td>plucky:relation_start</td>
+                  <td>1889</td>
+                </tr>
+                <tr>
+                  <td>What is their relation with a person or corporate body?</td>
+                  <td>plucky:has_agent_relation</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>--- What is the type of relation with the agent?</td>
+                  <td>plucky:relation_type</td>
+                  <td>member of</td>
+                </tr>
+                <tr>
+                  <td>--- What is the person/corporate body related?</td>
+                  <td>plucky:relation_agent</td>
+                  <td>Bulletin of the Societe de geographie</td>
+                </tr>
+                <tr>
+                  <td>--- What does that relation mean?</td>
+                  <td>plucky:relation_meaning</td>
+                  <td>inspiration to base his novels on geographic facts</td>
+                </tr>
+                <tr>
+                  <td>--- When did this relation start?</td>
+                  <td>plucky:relation_start</td>
+                  <td>1865-1898</td>
+                </tr>
+                <tr>
+                  <td>Which resources refer to the same person?</td>
+                  <td>plucky:sameAs</td>
+                  <td>http://el.dbpedia.org/page/Ιούλιος_Βερν</td>
+                </tr>
+                <tr>
+                  <td>Which resource has the person as primary topic?</td>
+                  <td>plucky:isPrimaryTopicOf</td>
+                  <td>https://en.wikipedia.org/wiki/Jules_Verne</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center">
+        <div class="card-body" style="padding-top: 0;">
+          <p class="card-text"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"></a><br />The content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
+          <p class="card-text">The project was carried out by Delfina Sol Pandiani, Eleonora Peruch, Severin Josef Burg.</p>
+        </div>
+      </div>
+
+    </footer>
+  </div>
+
+  <script>
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+  });
+  </script>
+
+</body>
+</html>

@@ -44,15 +44,42 @@ hr {
   border-radius: 2px;
 }
 
-textarea {
-  width: 100%;
-  border: none;
+em {
+  font-style: normal;
+  position: relative;
+  display: inline-block;
 }
+
+em:after {
+  background: rgba(196,216,205,0.6);
+  z-index: -999;
+  content: ' ';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+#page-content-wrapper ul {
+  margin: 0;
+  padding-left: inherit;
+  text-indent: -15px;
+  list-style-type: none;
+}
+
+#page-content-wrapper ul > li:before {
+  content: "–";
+  padding-right: 5px;
+}
+
 
 
 /* Navbar */
 
 .navbar {
+  z-index: 990;
   background-color: rgba(255,255,255,.9);
   border-bottom: 1px solid #e5e5e5;
 }
@@ -161,26 +188,41 @@ textarea {
 .table {
   border-color: #e5e5e5;
   border-radius: 2px;
+  margin: 0 0 20px 0;
+}
+
+.table .table-col-7 {width: 7%;}
+.table .table-col-17 {width: 17%;}
+.table .table-col-25 {width: 25%;}
+.table .table-col-50 {width: 50%;}
+
+.table > tbody > tr > td,
+.table > thead > tr > th {
+  padding: 1px 5px;
   margin: 0;
 }
 
 .table > thead > tr > th {
-  border-color: #e5e5e5;
+  font-size: 0.95rem;
   border-top: none;
 }
 
 .table > tbody > tr > td{
-  border-color: #e5e5e5;
+  font-size: 0.8rem;
 }
 
-.desc-table {
-  max-width: 100%;
-}
 
-.desc-table > .table th, .table tr, .table td {
+/* XML / RDF */
+
+.xml {
   padding: 0;
-  margin: 0;
+  margin-top: -1rem;
 }
+
+.hljs {
+  background-color: #e5e5e5!important;
+}
+
 
 /* Toggle Sidebar */
 
@@ -198,7 +240,7 @@ textarea {
 }
 
 #sidebar-wrapper {
-  z-index: 1000;
+  z-index: 980;
   position: fixed;
   right: 0;
   height: 100%;
