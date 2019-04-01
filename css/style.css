@@ -113,6 +113,12 @@ em:after {
   color: #557754;
 }
 
+@media(max-width:768px) {
+  .navbar {
+    padding: 0;
+  }
+}
+
 .fas {
   padding-top: 5px;
 }
