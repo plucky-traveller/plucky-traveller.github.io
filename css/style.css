@@ -117,6 +117,11 @@ em:after {
   .navbar {
     padding: 0;
   }
+
+  .navbar ul li a p {
+    padding: 0;
+    margin: -1px;
+  }
 }
 
 .fas {
