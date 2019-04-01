@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Plucky – Conceptual Model</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.3.2/vivus.js"></script>
+</head>
+
+<body>
+
+  <!-- Header --->
+
+  <header>
+
+    <!-- Navigation --->
+    <nav class="navbar fixed-top navbar-expand navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="../../index.html"><img src="../img/logo.png" id="logo">Plucky <i>traveller</i></a>
+        <div class="navbar-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html"><p>Home</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../overview.html"><p class="active">Project</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../contact.html"><p>Contact</p></a>
+            </li>
+            <div class="d-lg-none">
+              <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="fas fa-bars"></i></a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="wrapper">
+    <div id="sidebar-wrapper">
+      <div id="accordion">
+        <ul class="sidebar-nav">
+          <li>
+            <a href="overview.html">Project Overview</a>
+          </li>
+          <li>
+            <p>Theoretical Part</p>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed"><a href="#">Exemplary Items</a></div></div>
+            <div id="collapseOne" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../items/game.html">Boardgame</a>
+                </li>
+                <li>
+                  <a href="../items/doodle.html">Google Doogle</a>
+                </li>
+                <li>
+                  <a href="../items/picture.html">Photographic Print</a>
+                </li>
+                <li>
+                  <a href="../items/map.html">Historical Map</a>
+                </li>
+                <li>
+                  <a href="../items/article.html">Historical Article</a>
+                </li>
+                <li>
+                  <a href="../items/book.html">Printed Monograph</a>
+                </li>
+                <li>
+                  <a href="../items/artwork.html">Oil Painting</a>
+                </li>
+                <li>
+                  <a href="../items/bulletin.html">Société Bulletin</a>
+                </li>
+                <li>
+                  <a href="../items/engraving.html">Wood Engraving</a>
+                </li>
+                <li>
+                  <a href="../items/audioBook.html">Audio Book</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../ermodel.html">E/R Model</a>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed"><a href="#">Standard Alignement</a></div></div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../alignement/game.html">Boardgame</a>
+                </li>
+                <li>
+                  <a href="../alignement/doodle.html">Google Doogle</a>
+                </li>
+                <li>
+                  <a href="../alignement/picture.html">Photographic Print</a>
+                </li>
+                <li>
+                  <a href="../alignement/map.html">Historical Map</a>
+                </li>
+                <li>
+                  <a href="../alignement/article.html">Historical Article</a>
+                </li>
+                <li>
+                  <a href="../alignement/book.html">Printed Monograph</a>
+                </li>
+                <li>
+                  <a href="../alignement/artwork.html">Oil Painting</a>
+                </li>
+                <li>
+                  <a href="../alignement/bulletin.html">Société Bulletin</a>
+                </li>
+                <li>
+                  <a href="../alignement/engraving.html">Wood Engraving</a>
+                </li>
+                <li>
+                  <a href="../alignement/audioBook.html">Audio Book</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../theoretical.html">Theoretical Model</a>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive"><a href="#" class="active">Conceptual Model</a></div></div>
+            <div id="collapseFive" class="collapse show" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="concept.html" class="active">Concept</a>
+                </li>
+                <li>
+                  <a href="date.html">Date</a>
+                </li>
+                <li>
+                  <a href="person.html">Person</a>
+                </li>
+                <li>
+                  <a href="place.html">Place</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <p>Practical Part</p>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="collapsed"><a href="#">Description of Data</a></div></div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../description/concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="../description/date.html">Date</a>
+                </li>
+                <li>
+                  <a href="../description/person.html">Person</a>
+                </li>
+                <li>
+                  <a href="../description/place.html">Place</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="collapsed"><a href="#">XML / RDF</a></div></div>
+            <div id="collapseFour" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../xml/concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="../xml/date.html">Date</a>
+                </li>
+                <li>
+                  <a href="../xml/person.html">Person</a>
+                </li>
+                <li>
+                  <a href="../xml/place.html">Place</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../interconnection.html">Interconnection</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="page-content-wrapper">
+      <div class="container-fluid" style="padding:0;">
+        <div class="col" style="border: none;">
+          <div class="card-body">
+            <h5 class="card-title">Conceptual Model</h5>
+            <h3 class="card-title">Concept</h3>
+            <p class="card-text">
+              The description of concepts prioritized both breadth and detailedness of relations between concepts. In this sense, we decided to continue with the creation of our own ontology with our own elements and predicates while reusing <em>reasoning inherent in RDF, Dublin Core, ISAAR, FOAF, and CDWA, EAD, and CRM</em>. The combinatorial use of these allowed our concept or subject elements to be described in high detail. For example, we included predicates specifically to account for the multiple potential names of a concept, by reusing the RDFs and ISAAR name predicates. While ISAAR is generally used for authority records, we deemed its “Other forms of name” category as a helpful predicate to include. This inclusion allows for a <em>greater linkage of ideas</em> (for example, Technological Revolution is accounted for as another name for the Second Industrial Revolution). We have also included a predicate to describe or include a summary based on the idea behind the Dublin Core’s description predicate. Furthermore, our model allows for a detailed description of places, dates, persons, and events related to the subject or concept in question. As with Persons, the utilization of subclasses is ideal for including greater levels of detail if they are available for each of these relations.
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th class="table-col-25">Question</th>
+                    <th class="table-col-7">Subject</th>
+                    <th class="table-col-17">Predicate</th>
+                    <th class="table-col-17">subclass</th>
+                    <th class="table-col-17">Predicate is based on</th>
+                    <th class="table-col-17">eac-cpf or CDWALITE equivalent</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>What is the type?</td>
+                    <td>plucky:entity</td>
+                    <td>plucky:is_entity_type</td>
+                    <td></td>
+                    <td>RDF:type</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>What is the subject?</td>
+                    <td>plucky:entity</td>
+                    <td>plucky:has_subject</td>
+                    <td></td>
+                    <td>DC:subject</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>What is the controlled version of the name?</td>
+                    <td>plucky:entity</td>
+                    <td>plucky:has_authorized_name</td>
+                    <td></td>
+                    <td>RDFS:label</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>What are other versions of the name?</td>
+                    <td>plucky:entity</td>
+                    <td>plucky:has_other_name</td>
+                    <td></td>
+                    <td>ISAAR: 5.1.5 Other forms of name</td>
+                    <td>EAC-CPF:nameEntryParallel</td>
+                  </tr>
+                  <tr>
+                    <td>What is a summary of the subject/concept?</td>
+                    <td>plucky:entity</td>
+                    <td>plucky:has_description</td>
+                    <td></td>
+                    <td>DC:description</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Which is the representation of the subject/object?</td>
+                    <td>plucky:entity</td>
+                    <td>plucky:has_representation</td>
+                    <td></td>
+                    <td>FOAF:description</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Which is the subject&#39;s relation to a place?</td>
+                    <td>plucky:entity</td>
+                    <td>plucky:has_place_relation</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>--- What is the related place?</td>
+                    <td></td>
+                    <td></td>
+                    <td>plucky:related_place</td>
+                    <td>DC:location</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>--- What does that relation mean?</td>
+                    <td></td>
+                    <td></td>
+                    <td>plucky:relation_meaning</td>
+                    <td>DC:description</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Which is the subject&#39;s relation to a date?</td>
+                    <td>plucky:entity</td>
+                    <td>plucky:has_date_relation</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>--- What is the related date?</td>
+                    <td></td>
+                    <td></td>
+                    <td>plucky:related_date</td>
+                    <td>DC:date</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>--- What does that relation mean?</td>
+                    <td></td>
+                    <td></td>
+                    <td>plucky:relation_meaning</td>
+                    <td>DC:description</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Who is the subject&#39;s relation to an agent?</td>
+                    <td>plucky:entity</td>
+                    <td>plucky:has_agent_relation</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>--- Who is the related agent?</td>
+                    <td></td>
+                    <td></td>
+                    <td>plucky:related_person</td>
+                    <td>ISAAR: [5.3.1 Name/Identifier of the related corporate body, person or family]</td>
+                    <td>EAC-CPF:cpfRelation</td>
+                  </tr>
+                  <tr>
+                    <td>--- What does the relation mean?</td>
+                    <td></td>
+                    <td></td>
+                    <td>plucky:relation_meaning</td>
+                    <td>DC:description</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>--- What is the authority control version of the person&#39;s name?</td>
+                    <td></td>
+                    <td></td>
+                    <td>plucky:has_authorized_name</td>
+                    <td>ISAAR: 5.1.2 Authorized form of name</td>
+                    <td>EAC-CPF:nameEntry</td>
+                  </tr>
+                  <tr>
+                    <td>--- What are other versions of the person&#39;s name?</td>
+                    <td></td>
+                    <td></td>
+                    <td>plucky:has_other_name</td>
+                    <td>ISAAR: 5.1.5 Other forms of name</td>
+                    <td>EAC-CPF:nameEntryParallel</td>
+                  </tr>
+                  <tr>
+                    <td>--- What is the preferred person&#39;s name?</td>
+                    <td></td>
+                    <td></td>
+                    <td>plucky:has_preferred_name</td>
+                    <td>CDWA:28.2.2 [Person/Corporate Body Name;  Name Type]</td>
+                    <td>CDWALITE:nameCreator</td>
+                  </tr>
+                  <tr>
+                    <td>What is the subject&#39;s relation to an event?</td>
+                    <td>plucky:entity</td>
+                    <td>plucky:has_event_relation</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>--- What is the event related?</td>
+                    <td></td>
+                    <td></td>
+                    <td>plucky:related_event</td>
+                    <td>EAD:&lt;event&gt;</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>--- What are other versions of the name of the event?</td>
+                    <td></td>
+                    <td></td>
+                    <td>plucky:has_other_name</td>
+                    <td>ISAAR: 5.1.5 Other forms of name</td>
+                    <td>EAC-CPF:nameEntryParallel</td>
+                  </tr>
+                  <tr>
+                    <td>--- What does that relation mean?</td>
+                    <td></td>
+                    <td></td>
+                    <td>plucky:relation_meaning</td>
+                    <td>DC:description</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>--- Where?</td>
+                    <td></td>
+                    <td></td>
+                    <td>plucky:event_place</td>
+                    <td>EAD:&lt;place&gt;</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>--- When?</td>
+                    <td></td>
+                    <td></td>
+                    <td>plucky:event_date</td>
+                    <td>EAD:&lt;eventdatetime&gt;</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>--- What?</td>
+                    <td></td>
+                    <td></td>
+                    <td>plucky:event_type</td>
+                    <td>EAD:&lt;eventtype&gt;</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Which resources refer to the same concept?</td>
+                    <td>plucky:entity</td>
+                    <td>plucky:sameAs</td>
+                    <td></td>
+                    <td>OWL:sameAs</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Which resource has the concept as primary topic?</td>
+                    <td>plucky:entity</td>
+                    <td>plucky:isPrimaryTopicOf</td>
+                    <td></td>
+                    <td>FOAF:isPrimaryTopicOf</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- Footer -->
+      <footer class="page-footer font-small">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center">
+          <div class="card-body" style="padding-top: 0;">
+            <p class="card-text"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"></a><br />The content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
+            <p class="card-text">The project was carried out by Delfina Sol Pandiani, Eleonora Peruch, Severin Josef Burg.</p>
+          </div>
+        </div>
+
+      </footer>
+    </div>
+  </div>
+
+  <script>
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+  });
+  </script>
+
+</body>
+</html>
