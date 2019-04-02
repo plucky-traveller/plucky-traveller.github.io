@@ -27,6 +27,12 @@ hr {
   margin: 3rem 0;
 }
 
+.jumping-point {
+  position: relative;
+  top: -8rem;
+  z-index: -999;
+}
+
 .card {
   border: none;
   background-color: none;
