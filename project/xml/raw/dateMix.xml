@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<rdf:rdf
+<rdf:RDF
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:plucky="http://www.plucky.com/plucky-schema"
-  xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"
   xmlns:dc="http://dublincore.org/schemas/xmls/qdc/2003/04/02/dc.xsd"
   xmlns:dcterms="http://dublincore.org/schemas/xmls/qdc/dcterms.xsd"
+  xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"
   xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
   xmlns:ead="https://raw.githubusercontent.com/SAA-SDT/EAD3/v1.1.0/ead3.xsd"
   xmlns:owl="http://www.w3.org/2002/07/owl#"
-  xmlns:foaf="http://xmlns.com/foaf/spec//index.rdf"
+  xmlns:foaf= "http://xmlns.com/foaf/spec//index.rdf"
   xml:base="http://www.semanticweb.org/plucky/1873">
   <rdf:description rdf:about="http://www.semanticweb.org/plucky/1873">
     <eac-cpf:entityType>Date</eac-cpf:entityType>
-    <eac-cpf:date standardDate="YYYY"/>
-    <ead:date certainty="absolute certainty"/>
+    <eac-cpf:date eac-cpf:standardDate="YYYY"/>
+    <ead:date eac-cpf:certainty="absolute certainty"/>
 
     <plucky:has_resource_relation rdf:parseType="Resource">
       <eac-cpf:resourceRelationType>date of publication</eac-cpf:resourceRelationType>
@@ -26,7 +26,7 @@
     </plucky:has_resource_relation>
 
     <plucky:has_agent_relation rdf:parseType="Resource">
-      <eac-cpf:cpfRelation cpfRelationType="date of publication of agent's book"/>
+      <eac-cpf:cpfRelation eac-cpf:cpfRelationType="date of publication of agent's book"/>
       <eac-cpf:cpfRelation rdf:resource="http://dbpedia.org/page/Jules_Verne"/>
       <cdwalite:dateQualifier>In 1873, Jules Verne published one of his most famous adventure novels</cdwalite:dateQualifier>
       <eac-cpf:function>Writer</eac-cpf:function>
@@ -58,4 +58,4 @@
     <foaf:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/1873"/>
 
   </rdf:description>
-</rdf:rdf>
+</rdf:RDF>
