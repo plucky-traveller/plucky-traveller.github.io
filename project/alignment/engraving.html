@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Plucky – Metadata Standard Alignement</title>
+  <title>Plucky – Metadata Standard alignment</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Bad+Script|Roboto" rel="stylesheet">
@@ -95,7 +95,7 @@
             <a href="../ermodel.html">E/R Model</a>
           </li>
           <li>
-            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><a href="#" class="active">Standard Alignement</a></div></div>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><a href="#" class="active">Standard alignment</a></div></div>
             <div id="collapseTwo" class="collapse show" data-parent="#accordion">
               <ul class="sidebar-collapse">
                 <li>
@@ -117,13 +117,13 @@
                   <a href="book.html">Printed Monograph</a>
                 </li>
                 <li>
-                  <a href="artwork.html" class="active">Oil Painting</a>
+                  <a href="artwork.html">Oil Painting</a>
                 </li>
                 <li>
                   <a href="bulletin.html">Société Bulletin</a>
                 </li>
                 <li>
-                  <a href="engraving.html">Wood Engraving</a>
+                  <a href="engraving.html" class="active">Wood Engraving</a>
                 </li>
                 <li>
                   <a href="audioBook.html">Audio Book</a>
@@ -205,8 +205,8 @@
       <div class="container-fluid">
         <div class="card w-100" style="border: none;">
           <div class="card-body">
-            <h5 class="card-title">Metadata Standard Alignement</h5>
-            <h3 class="card-title">Soleil couchant à Ivry</h3>
+            <h5 class="card-title">Metadata Standard alignment</h5>
+            <h3 class="card-title">Reception of Nellie Bly at Jersey City</h3>
             <p class="card-text">
               <table class="table">
                 <thead>
@@ -218,225 +218,174 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td rowspan="4">What is the title?</td>
+                    <td rowspan="4">Who is the author?</td>
                     <td>CDWA</td>
-                    <td>3. TITLES OR NAMES</td>
-                  </tr>
-                  <tr>
-                    <td>DC</td>
-                    <td>Title</td>
-                  </tr>
-                  <tr>
-                    <td>EAD</td>
-                    <td>title &#60;title&#62;, &#60;defitem&#62;, &#60;label&#62;</td>
-                  </tr>
-                  <tr>
-                    <td>VRA Core</td>
-                    <td>&#60;vra: title&#62; in &#60;vra: work&#62;</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="4">Who is the painter?</td>
-                    <td>CDWA</td>
-                    <td>4.1.3. Creator Identity</td>
+                    <td>4.1.3. Creator Identity CORE</td>
                   </tr>
                   <tr>
                     <td>DC</td>
                     <td>Creator</td>
                   </tr>
                   <tr>
+                    <td>ISAD</td>
+                    <td>2.1. Name of Creator</td>
+                  </tr>
+                  <tr>
                     <td>EAD</td>
                     <td>author &#60;author&#62;, &#60;persname&#62; origination &#60;origination&#62;</td>
                   </tr>
                   <tr>
-                    <td>VRA Core</td>
-                    <td>&#60;vra: agent&#62;&#60;display> in &#60;vra: work&#62;</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="4">Who is the owner?</td>
+                    <td rowspan="4">Who/which is the subject?</td>
                     <td>CDWA</td>
-                    <td>23. OWNERSHIP/COLLECTING HISTORY</td>
+                    <td>1.1. Catalog Level, 1.2. Object/Work Type</td>
                   </tr>
                   <tr>
                     <td>DC</td>
-                    <td>Source</td>
+                    <td>subject</td>
                   </tr>
                   <tr>
-                    <td>EAD</td>
-                    <td>-</td>
-                  </tr>
-                  <tr>
-                    <td>VRA Core</td>
-                    <td>&#60;vra: location type="owner"&#62;</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="4">Who is the subject?</td>
-                    <td>CDWA</td>
-                    <td>16. SUBJECT MATTER</td>
-                  </tr>
-                  <tr>
-                    <td>DC</td>
-                    <td>Subject</td>
+                    <td>ISAD</td>
+                    <td>3.1. Scope and content</td>
                   </tr>
                   <tr>
                     <td>EAD</td>
                     <td>subject &#60;subject&#62;</td>
                   </tr>
                   <tr>
-                    <td>VRA Core</td>
-                    <td>&#60;descriptionSet&#62;</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="4">Where was it painted?</td>
+                    <td rowspan="4">Which is the title?</td>
                     <td>CDWA</td>
-                    <td>4.3. Creation Place/Original Location</td>
+                    <td>3.1. Title Text, 26.2.3. Image Title/Name</td>
                   </tr>
                   <tr>
                     <td>DC</td>
-                    <td>Coverage</td>
+                    <td>title</td>
+                  </tr>
+                  <tr>
+                    <td>ISAD</td>
+                    <td>1.2. Title</td>
+                  </tr>
+                  <tr>
+                    <td>EAD</td>
+                    <td>title &#60;title&#62;, &#60;defitem&#62;, &#60;label&#62;</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="4">When was it published?</td>
+                    <td>CDWA</td>
+                    <td>4.2. Creation Date, 26.2.6. Image Date</td>
+                  </tr>
+                  <tr>
+                    <td>DC</td>
+                    <td>Date</td>
+                  </tr>
+                  <tr>
+                    <td>ISAD</td>
+                    <td>1.3. Dates</td>
+                  </tr>
+                  <tr>
+                    <td>EAD</td>
+                    <td>date &#60;date&#62;</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="4">Where was it published?</td>
+                    <td>CDWA</td>
+                    <td>29.2. Place Name CORE</td>
+                  </tr>
+                  <tr>
+                    <td>DC</td>
+                    <td>coverage</td>
+                  </tr>
+                  <tr>
+                    <td>ISAD</td>
+                    <td>5.4. Publication note</td>
                   </tr>
                   <tr>
                     <td>EAD</td>
                     <td>Geographical Name &#60;geoname&#62;</td>
                   </tr>
                   <tr>
-                    <td>VRA Core</td>
-                    <td>&#60;locationSet&#62;</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="4">Where is it now?</td>
+                    <td rowspan="4">Which is the language?</td>
                     <td>CDWA</td>
-                    <td>21. CURRENT LOCATION</td>
+                    <td>3.4 Title Language</td>
                   </tr>
                   <tr>
                     <td>DC</td>
-                    <td>Coverage</td>
+                    <td>language</td>
+                  </tr>
+                  <tr>
+                    <td>ISAD</td>
+                    <td>4.3. Language/scripts of material</td>
                   </tr>
                   <tr>
                     <td>EAD</td>
-                    <td>&#60;repository&#62;</td>
+                    <td>Language &#60;language&#62;</td>
                   </tr>
                   <tr>
-                    <td>VRA Core</td>
-                    <td>&#60;locationSet&#62;</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="4">When was it painted?</td>
+                    <td rowspan="4">Is there a caption/descriptive note?</td>
                     <td>CDWA</td>
-                    <td>4.2. Creation Date</td>
+                    <td>18.1. Descriptive Note Text</td>
                   </tr>
                   <tr>
                     <td>DC</td>
-                    <td>Date.Created</td>
+                    <td>description</td>
+                  </tr>
+                  <tr>
+                    <td>ISAD</td>
+                    <td>1.4. Level of description</td>
                   </tr>
                   <tr>
                     <td>EAD</td>
-                    <td>&#60;unitdate&#62;</td>
+                    <td>Descriptive Note &#60;descriptivenote&#62;</td>
                   </tr>
                   <tr>
-                    <td>VRA Core</td>
-                    <td>&#60;dateSet&#62;</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="4">When was the painting started?</td>
+                    <td rowspan="4">Which is its current location?</td>
                     <td>CDWA</td>
-                    <td>4.2.1. Earliest Date</td>
+                    <td>21.1. Current Location Description</td>
                   </tr>
                   <tr>
                     <td>DC</td>
-                    <td>-</td>
+                    <td>coverage</td>
+                  </tr>
+                  <tr>
+                    <td>ISAD</td>
+                    <td>5.1. Existence and location of originals</td>
                   </tr>
                   <tr>
                     <td>EAD</td>
-                    <td>-</td>
+                    <td>Geographical Name &#60;geoname&#62;</td>
                   </tr>
                   <tr>
-                    <td>VRA Core</td>
-                    <td>&#60;vra: date type="creation"&#62; &#60;earliestDate&#62;</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="4">When was the painting finished?</td>
+                    <td rowspan="4">Who is the owner?</td>
                     <td>CDWA</td>
-                    <td>4.2.2. Latest Date</td>
+                    <td>23.5. Owner/Agent</td>
                   </tr>
                   <tr>
                     <td>DC</td>
-                    <td>-</td>
+                    <td>contributor</td>
+                  </tr>
+                  <tr>
+                    <td>ISAD</td>
+                    <td>4.1. Conditions governing access</td>
                   </tr>
                   <tr>
                     <td>EAD</td>
-                    <td>-</td>
+                    <td>&#60;persname&#62;</td>
                   </tr>
                   <tr>
-                    <td>VRA Core</td>
-                    <td>&#60;vra: date type="creation"&#62; &#60;latestDate&#62;</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="4">What is the technique?</td>
+                    <td rowspan="4">Which is the current state of the item?</td>
                     <td>CDWA</td>
-                    <td>7. MATERIALS/TECHNIQUES</td>
+                    <td>15.1. Conservation/Treatment Description, 14.1. Condition/Examination Description, 9.1. State Description</td>
                   </tr>
                   <tr>
                     <td>DC</td>
-                    <td>Format.Extent</td>
+                    <td>description</td>
+                  </tr>
+                  <tr>
+                    <td>ISAD</td>
+                    <td>4.4. Physical characteristics and technical requirements</td>
                   </tr>
                   <tr>
                     <td>EAD</td>
-                    <td>-</td>
-                  </tr>
-                  <tr>
-                    <td>VRA Core</td>
-                    <td>&#60;vra: materials&#62;&#60;display&#62;</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="4">What is the school?</td>
-                    <td>CDWA</td>
-                    <td>5. STYLES/PERIODS/GROUPS/ MOVEMENTS</td>
-                  </tr>
-                  <tr>
-                    <td>DC</td>
-                    <td>Coverage.Temporal</td>
-                  </tr>
-                  <tr>
-                    <td>EAD</td>
-                    <td>-</td>
-                  </tr>
-                  <tr>
-                    <td>VRA Core</td>
-                    <td>&#60;vra: stylePeriod&#62;</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="4">What are the dimensions?</td>
-                    <td>CDWA</td>
-                    <td>6. MEASUREMENTS</td>
-                  </tr>
-                  <tr>
-                    <td>DC</td>
-                    <td>Format.Extent</td>
-                  </tr>
-                  <tr>
-                    <td>EAD</td>
-                    <td>&#60;physdesc&#62; &#60;dimensions&#62;</td>
-                  </tr>
-                  <tr>
-                    <td>VRA Core</td>
-                    <td>&#60;vra: measurements&#62;&#60;display&#62;</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="4">What are the right?</td>
-                    <td>CDWA</td>
-                    <td>22. COPYRIGHT/RESTRICTIONS </td>
-                  </tr>
-                  <tr>
-                    <td>DC</td>
-                    <td>Rights</td>
-                  </tr>
-                  <tr>
-                    <td>EAD</td>
-                    <td>&#60;rightsdeclaration&#62;</td>
-                  </tr>
-                  <tr>
-                    <td>VRA Core</td>
-                    <td>&#60;rightsSet&#62;</td>
+                    <td>Publication Status</td>
                   </tr>
                 </tbody>
               </table>
@@ -460,14 +409,13 @@
 
       </footer>
     </div>
-  </div>
 
-  <script>
-  $("#menu-toggle").click(function(e) {
-    e.preventDefault();
-    $("#wrapper").toggleClass("toggled");
-  });
-  </script>
+    <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+    </script>
 
-</body>
-</html>
+  </body>
+  </html>

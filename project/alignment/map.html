@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Plucky – Metadata Standard Alignement</title>
+  <title>Plucky – Metadata Standard alignment</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Bad+Script|Roboto" rel="stylesheet">
@@ -95,7 +95,7 @@
             <a href="../ermodel.html">E/R Model</a>
           </li>
           <li>
-            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo"><a href="#" class="active">Standard Alignement</a></div></div>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><a href="#" class="active">Standard alignment</a></div></div>
             <div id="collapseTwo" class="collapse show" data-parent="#accordion">
               <ul class="sidebar-collapse">
                 <li>
@@ -108,10 +108,10 @@
                   <a href="picture.html">Photographic Print</a>
                 </li>
                 <li>
-                  <a href="map.html">Historical Map</a>
+                  <a href="map.html" class="active">Historical Map</a>
                 </li>
                 <li>
-                  <a href="article.html" class="active">Historical Article</a>
+                  <a href="article.html">Historical Article</a>
                 </li>
                 <li>
                   <a href="book.html">Printed Monograph</a>
@@ -205,8 +205,8 @@
       <div class="container-fluid">
         <div class="card w-100" style="border: none;">
           <div class="card-body">
-            <h5 class="card-title">Metadata Standard Alignement</h5>
-            <h3 class="card-title">Phineas Fogg Outdone: A Plucky Female Journalist.</h3>
+            <h5 class="card-title">Metadata Standard alignment</h5>
+            <h3 class="card-title">World map on the Mercator projection</h3>
             <p class="card-text">
               <table class="table">
                 <thead>
@@ -218,175 +218,79 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td rowspan="5">What/who is the subject?</td>
-                    <td>DC</td>
-                    <td>Subject</td>
+                    <td rowspan="4">What is the title?</td>
+                    <td>CDWA</td>
+                    <td>3. TITLES OR NAMES</td>
                   </tr>
                   <tr>
-                    <td>EAD</td>
-                    <td>&#60;scopecontent&#62;</td>
-                  </tr>
-                  <tr>
-                    <td>FRBR</td>
-                    <td>has summarization of content</td>
-                  </tr>
-                  <tr>
-                    <td>ISBD</td>
-                    <td>7.10.2 Note providing a summary </td>
-                  </tr>
-                  <tr>
-                    <td>MARC</td>
-                    <td>600 Subject added entry</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="5">What is the title?</td>
                     <td>DC</td>
                     <td>Title</td>
                   </tr>
                   <tr>
                     <td>EAD</td>
-                    <td>&#60;unittitle&#62;</td>
+                    <td>title &#60;title&#62;, &#60;defitem&#62;, &#60;label&#62;</td>
                   </tr>
                   <tr>
-                    <td>FRBR</td>
-                    <td>has title of the manifestation</td>
+                    <td>VRA Core</td>
+                    <td>&#60;vra: title&#62; in &#60;vra: work&#62;</td>
                   </tr>
                   <tr>
-                    <td>ISBD</td>
-                    <td>1.1 Title</td>
+                    <td rowspan="4">Who is the author?</td>
+                    <td>CDWA</td>
+                    <td>4.1.3. Creator Identity</td>
                   </tr>
                   <tr>
-                    <td>MARC</td>
-                    <td>240 Uniform title</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="5">Who are the authors?</td>
                     <td>DC</td>
                     <td>Creator</td>
                   </tr>
                   <tr>
                     <td>EAD</td>
-                    <td>&#60;bioghist&#62;</td>
+                    <td>author &#60;author&#62;, &#60;persname&#62; origination &#60;origination&#62;</td>
                   </tr>
                   <tr>
-                    <td>FRBR</td>
-                    <td>has edition or issue designation</td>
+                    <td>VRA Core</td>
+                    <td>&#60;vra: agent&#62;&#60;display> in &#60;vra: work&#62;</td>
                   </tr>
                   <tr>
-                    <td>ISBD</td>
-                    <td>1.4 Statement of responsability</td>
+                    <td rowspan="4">What is the subject?</td>
+                    <td>CDWA</td>
+                    <td>16. SUBJECT MATTER</td>
                   </tr>
                   <tr>
-                    <td>MARC</td>
-                    <td>1XX - Main Entries-General Information</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="5">When was it published?</td>
                     <td>DC</td>
-                    <td>Date</td>
+                    <td>Subject</td>
                   </tr>
                   <tr>
                     <td>EAD</td>
-                    <td>&#60;publicationstmt&#62;</td>
+                    <td>subject &#60;subject&#62;</td>
                   </tr>
                   <tr>
-                    <td>FRBR</td>
-                    <td>-</td>
+                    <td>VRA Core</td>
+                    <td>&#60;descriptionSet&#62;</td>
                   </tr>
                   <tr>
-                    <td>ISBD</td>
-                    <td>4.3 Date of publication, production and/or distribution </td>
+                    <td rowspan="4">Where was it printed?</td>
+                    <td>CDWA</td>
+                    <td>4.3. Creation Place/Original Location</td>
                   </tr>
                   <tr>
-                    <td>MARC</td>
-                    <td>260 - Publication, Distribution, etc.</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="5">Where was it published?</td>
                     <td>DC</td>
                     <td>Coverage</td>
                   </tr>
                   <tr>
                     <td>EAD</td>
-                    <td>&#60;publicationstmt&#62;</td>
+                    <td>Geographical Name &#60;geoname&#62;</td>
                   </tr>
                   <tr>
-                    <td>FRBR</td>
-                    <td>has place of publication or distribution</td>
+                    <td>VRA Core</td>
+                    <td>&#60;locationSet&#62;</td>
                   </tr>
                   <tr>
-                    <td>ISBD</td>
-                    <td>4.1 Place of publication, production and/or distribution </td>
+                    <td rowspan="4">Where is it now?</td>
+                    <td>CDWA</td>
+                    <td>21. CURRENT LOCATION</td>
                   </tr>
                   <tr>
-                    <td>MARC</td>
-                    <td>260 - Publication, Distribution, etc.</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="5">What is the language?</td>
-                    <td>DC</td>
-                    <td>Language</td>
-                  </tr>
-                  <tr>
-                    <td>EAD</td>
-                    <td>&#60;langmaterial&#62;</td>
-                  </tr>
-                  <tr>
-                    <td>FRBR</td>
-                    <td>has language of expression</td>
-                  </tr>
-                  <tr>
-                    <td>ISBD</td>
-                    <td>7.1.2 Note on nature, scope, form, purpose or language </td>
-                  </tr>
-                  <tr>
-                    <td>MARC</td>
-                    <td>041	Language code</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="5">Who is the publisher?</td>
-                    <td>DC</td>
-                    <td>Publisher</td>
-                  </tr>
-                  <tr>
-                    <td>EAD</td>
-                    <td>&#60;publisher&#62;</td>
-                  </tr>
-                  <tr>
-                    <td>FRBR</td>
-                    <td>has publisher or distributor</td>
-                  </tr>
-                  <tr>
-                    <td>ISBD</td>
-                    <td>4.2 Name of publisher, producer and/or distributor </td>
-                  </tr>
-                  <tr>
-                    <td>MARC</td>
-                    <td>260 - Publication, Distribution, etc.</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="5">What are the rights?</td>
-                    <td>DC</td>
-                    <td>Rights</td>
-                  </tr>
-                  <tr>
-                    <td>EAD</td>
-                    <td>&#60;rightsdeclaration&#62;</td>
-                  </tr>
-                  <tr>
-                    <td>FRBR</td>
-                    <td>has terms of availability</td>
-                  </tr>
-                  <tr>
-                    <td>ISBD</td>
-                    <td>8.3 Terms of availability</td>
-                  </tr>
-                  <tr>
-                    <td>MARC</td>
-                    <td>020 International Standard Book Number [subfield $c -- Terms of availability]</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="5">Where is it now?</td>
                     <td>DC</td>
                     <td>Coverage</td>
                   </tr>
@@ -395,16 +299,59 @@
                     <td>&#60;repository&#62;</td>
                   </tr>
                   <tr>
-                    <td>FRBR</td>
-                    <td>-</td>
+                    <td>VRA Core</td>
+                    <td>&#60;locationSet&#62;</td>
                   </tr>
                   <tr>
-                    <td>ISBD</td>
-                    <td>-</td>
+                    <td rowspan="4">When was it printed?</td>
+                    <td>CDWA</td>
+                    <td>4.2. Creation Date</td>
                   </tr>
                   <tr>
-                    <td>MARC</td>
-                    <td>850 - Holding Institution, 852 - Location</td>
+                    <td>DC</td>
+                    <td>Date.Created</td>
+                  </tr>
+                  <tr>
+                    <td>EAD</td>
+                    <td>&#60;unitdate&#62;</td>
+                  </tr>
+                  <tr>
+                    <td>VRA Core</td>
+                    <td>&#60;dateSet&#62;</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="4">What are the dimensions?</td>
+                    <td>CDWA</td>
+                    <td>6. MEASUREMENTS</td>
+                  </tr>
+                  <tr>
+                    <td>DC</td>
+                    <td>Format.Extent</td>
+                  </tr>
+                  <tr>
+                    <td>EAD</td>
+                    <td>&#60;physdesc&#62; &#60;dimensions&#62;</td>
+                  </tr>
+                  <tr>
+                    <td>VRA Core</td>
+                    <td>&#60;vra: measurements&#62;&#60;display&#62;</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="4">What are the right?</td>
+                    <td>CDWA</td>
+                    <td>22. COPYRIGHT/RESTRICTIONS </td>
+                  </tr>
+                  <tr>
+                    <td>DC</td>
+                    <td>Rights</td>
+                  </tr>
+                  <tr>
+                    <td>EAD</td>
+                    <td>&#60;rightsdeclaration&#62;</td>
+                  </tr>
+                  <tr>
+                    <td>VRA Core</td>
+                    <td>&#60;rightsSet&#62;</td>
                   </tr>
                 </tbody>
               </table>
