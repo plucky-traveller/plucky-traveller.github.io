@@ -14,7 +14,7 @@
   <rdf:description rdf:about="http://www.semanticweb.org/plucky/1873">
     <eac-cpf:entityType>Date</eac-cpf:entityType>
     <eac-cpf:date eac-cpf:standardDate="YYYY"/>
-    <ead:date eac-cpf:certainty="absolute certainty"/>
+    <ead:date ead:certainty="absolute certainty"/>
 
     <plucky:has_resource_relation rdf:parseType="Resource">
       <eac-cpf:resourceRelationType>date of publication</eac-cpf:resourceRelationType>
