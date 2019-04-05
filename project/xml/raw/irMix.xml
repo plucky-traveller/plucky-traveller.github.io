@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<rdf:rdf
-xmlns:rdf="https://www.w3.org/1999/02/22-rdf-syntax-ns#"
-xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 xmlns:plucky="http://www.plucky.com/plucky-schema"
 xmlns:dc="http://dublincore.org/schemas/xmls/qdc/2003/04/02/dc.xsd"
-xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+xmlns:dcterms="http://dublincore.org/schemas/xmls/qdc/dcterms.xsd"
 xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"
-xmlns:foaf="http://xmlns.com/foaf/spec//index.rdf"
+xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
 xmlns:ead="https://raw.githubusercontent.com/SAA-SDT/EAD3/v1.1.0/ead3.xsd"
 xmlns:owl="http://www.w3.org/2002/07/owl#"
+xmlns:foaf= "http://xmlns.com/foaf/spec//index.rdf"
 xml:base="http://www.semanticweb.org/waterlod/SecondIndustrialRevolution">
   <rdf:description rdf:about="http://www.semanticweb.org/plucky/SecondIndustrialRevolution">
     <rdf:type>Concept</rdf:type>
     <dc:subject>Second Industrial Revolution</dc:subject>
-    <rdfs:label>Second Industrial Revolution</rdfs:label>
     <eac-cpf:nameEntryParallel>Technological Revolution</eac-cpf:nameEntryParallel>
     <dc:description>
       Phase of rapid industrialization in the final third of the 19th century and the beginning of the 20th.
@@ -65,4 +64,4 @@ xml:base="http://www.semanticweb.org/waterlod/SecondIndustrialRevolution">
     <foaf:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Second_Industrial_Revolution"/>
 
   </rdf:description>
-</rdf:rdf>
+</rdf:RDF>
