@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Plucky – XML / RDF</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Delfina Sol Pandiani, Eleonora Peruch, Severin Josef Burg">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../../img/logo.png" type="image/png" sizes="16x16">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.3.2/vivus.js"></script>
+  <link rel="stylesheet" href="../../css/hljs/atom-one-light.css">
+  <script src="../../js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+
+  <!-- Header --->
+
+  <header>
+
+    <!-- Navigation --->
+    <nav class="navbar fixed-top navbar-expand navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="../../index.html"><img src="../../img/logo.png" id="logo">Plucky <i>traveller</i></a>
+        <div class="navbar-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html"><p>Home</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../overview.html"><p class="active">Project</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../contact.html"><p>Contact</p></a>
+            </li>
+            <div class="d-lg-none">
+              <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="fas fa-bars"></i></a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="wrapper">
+    <div id="sidebar-wrapper">
+      <div id="accordion">
+        <ul class="sidebar-nav">
+          <li>
+            <a href="../overview.html">Project Overview</a>
+          </li>
+          <li>
+            <p>Theoretical Part</p>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed"><a href="#">Exemplary Items</a></div></div>
+            <div id="collapseOne" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../items/game.html">Boardgame</a>
+                </li>
+                <li>
+                  <a href="../items/doodle.html">Google Doogle</a>
+                </li>
+                <li>
+                  <a href="../items/picture.html">Photographic Print</a>
+                </li>
+                <li>
+                  <a href="../items/map.html">Historical Map</a>
+                </li>
+                <li>
+                  <a href="../items/article.html">Historical Article</a>
+                </li>
+                <li>
+                  <a href="../items/book.html">Printed Monograph</a>
+                </li>
+                <li>
+                  <a href="../items/artwork.html">Oil Painting</a>
+                </li>
+                <li>
+                  <a href="../items/bulletin.html">Société Bulletin</a>
+                </li>
+                <li>
+                  <a href="../items/engraving.html">Wood Engraving</a>
+                </li>
+                <li>
+                  <a href="../items/audioBook.html">Audio Book</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../ermodel.html">E/R Model</a>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed"><a href="#">Standard Alignment</a></div></div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../alignment/game.html">Boardgame</a>
+                </li>
+                <li>
+                  <a href="../alignment/doodle.html">Google Doogle</a>
+                </li>
+                <li>
+                  <a href="../alignment/picture.html">Photographic Print</a>
+                </li>
+                <li>
+                  <a href="../alignment/map.html">Historical Map</a>
+                </li>
+                <li>
+                  <a href="../alignment/article.html">Historical Article</a>
+                </li>
+                <li>
+                  <a href="../alignment/book.html">Printed Monograph</a>
+                </li>
+                <li>
+                  <a href="../alignment/artwork.html">Oil Painting</a>
+                </li>
+                <li>
+                  <a href="../alignment/bulletin.html">Société Bulletin</a>
+                </li>
+                <li>
+                  <a href="../alignment/engraving.html">Wood Engraving</a>
+                </li>
+                <li>
+                  <a href="../alignment/audioBook.html">Audio Book</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../theoretical.html">Theoretical Model</a>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="collapsed"><a href="#">Conceptual Model</a></div></div>
+            <div id="collapseFive" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../conceptual/concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="../conceptual/date.html">Date</a>
+                </li>
+                <li>
+                  <a href="../conceptual/person.html">Person</a>
+                </li>
+                <li>
+                  <a href="../conceptual/place.html">Place</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <p>Practical Part</p>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="collapsed"><a href="#">Description of Data</a></div></div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="../description/concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="../description/date.html">Date</a>
+                </li>
+                <li>
+                  <a href="../description/person.html">Person</a>
+                </li>
+                <li>
+                  <a href="../description/place.html">Place</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown-title"><div data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour"><a href="#" class="active">XML / RDF</a></div></div>
+            <div id="collapseFour" class="collapse show" data-parent="#accordion">
+              <ul class="sidebar-collapse">
+                <li>
+                  <a href="concept.html">Concept</a>
+                </li>
+                <li>
+                  <a href="date.html">Date</a>
+                </li>
+                <li>
+                  <a href="person.html" class="active">Person</a>
+                </li>
+                <li>
+                  <a href="place.html">Place</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../interconnection.html">Interconnection</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="card" style="border: none;">
+          <div class="card-body">
+            <h5 class="card-title">XML / RDF Files: Person</h5>
+            <h3 class="card-title">Nellie Bly</h3>
+          </div>
+        </div>
+
+        <div class="jumping-point" id="plucky"></div>
+
+        <div class="card" style="border: none;">
+          <div class="card-body">
+            <h5 class="card-title">Plucky Ontology</h5>
+            <p class="card-text">
+              <ul>
+                <li>Raw XML File (<a href="raw/nelliePlucky.xml" target="_blank">.xml</a>)</li>
+                <li>XML Visualisation (<a href="graph/nelliePlucky.png" target="_blank">.png</a>)</li>
+              </ul>
+            </p>
+            <p class="card-text">
+              <pre>
+                <code class="xml">
+  &#60;?xml version="1.0" encoding="UTF-8"?&#62;
+
+  &#60;rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:plucky="http://www.semanticweb.org/plucky"
+
+  &#60;!-- OWL Header --&#62;
+  	&#60;owl:Ontology rdf:about="http://www.semanticweb.org/plucky"&#62;
+  		&#60;dc:title&#62;The Plucky Ontology&#60;/dc:title&#62;
+  		&#60;dc:description&#62;An example ontology written for the purpose of describing ideas and events related to historical circumnavigation.&#60;/dc:description&#62;
+  	&#60;/owl:Ontology&#62;
+
+	&#60;!-- OWL Class Definition - Entity --&#62;
+	&#60;owl:Class rdf:about="http://www.semanticweb.org/plucky#is_entity_type"&#62;
+		&#60;rdfs:label&#62;The type of object or entity being described&#60;/rdfs:label&#62;
+		&#60;rdfs:comment&#62;The class of all entity types.&#60;/rdfs:comment&#62;
+	&#60;/owl:Class&#62;
+
+	&#60;!-- OWL Subclass Definition - Person --&#62;
+	&#60;owl:Class rdf:about="http://www.semanticweb.org/plucky#person"&#62;
+		&#60;!-- Person is a subclassification of is_entity_type --&#62;
+		&#60;rdfs:subClassOf rdf:resource="http://www.semanticweb.org/plucky#is_entity_type/&#62;
+		&#60;rdfs:label&#62;Persons&#60;/rdfs:label&#62;
+		&#60;rdfs:comment&#62;Entities that are persons, also known as human beings.&#60;/rdfs:comment&#62;
+	&#60;/owl:Class&#62;
+
+	&#60;!-- OWL Subclass Definition - Shrub --&#62;
+	&#60;owl:Class rdf:about="http://www.semanticweb.org/plucky#place"&#62;
+  	&#60;!-- Place is a subclassification of is_entity_type --&#62;
+  	&#60;rdfs:subClassOf rdf:resource="http://www.semanticweb.org/plucky#is_entity_type/&#62;
+		&#60;rdfs:label&#62;Places&#60;/rdfs:label&#62;
+		&#60;rdfs:comment&#62;A particular position, point, or area in space; a location. Usually refers to towns, cities, countries or continents.&#60;/rdfs:comment&#62;
+	&#60;/owl:Class&#62;
+
+	&#60;!-- Individual (Instance) Example RDF Statement --&#62;
+	&#60;rdf:Description rdf:about="http://www.semanticweb.org/plucky/NellieBly"&#62;
+		&#60;!-- Nellie Bly is a type (instance) of the Persons classification --&#62;
+		&#60;rdf:type rdf:resource="http://www.semanticweb.org/plucky#person"/&#62;
+
+	&#60;/rdf:Description&#62;
+
+&#60;/rdf:RDF&#62;
+                </code>
+              </pre>
+            </p>
+          </div>
+        </div>
+
+      <hr>
+
+      <!-- Footer -->
+      <footer class="page-footer font-small">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center">
+          <div class="card-body" style="padding-top: 0;">
+            <p class="card-text"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"></a><br />The content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
+            <p class="card-text">The project was carried out by Delfina Sol Pandiani, Eleonora Peruch, Severin Josef Burg.</p>
+          </div>
+        </div>
+
+      </footer>
+    </div>
+  </div>
+
+  <script>
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+  });
+  </script>
+
+</body>
+</html>
