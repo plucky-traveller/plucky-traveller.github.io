@@ -5,7 +5,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 xmlns:plucky="http://www.plucky.com/plucky-schema"
 xml:base="http://www.semanticweb.org/plucky/NellieBly">
   <rdf:description rdf:about="http://www.semanticweb.org/plucky/NellieBly">
-    <plucky:is_entity_type>Person</plucky:is_entity_type>
+    <plucky:is_entity_type rdf:resource="http://www.semanticweb.org/plucky#person"/>
     <plucky:has_authorized_name>Nellie Bly</plucky:has_authorized_name>
     <plucky:has_other_name>Elizabeth Cochran Seaman</plucky:has_other_name>
     <plucky:has_preferred_name>Nellie Bly</plucky:has_preferred_name>
