@@ -12,7 +12,7 @@ xmlns:owl="http://www.w3.org/2002/07/owl#"
 xmlns:foaf= "http://xmlns.com/foaf/spec//index.rdf"
 xml:base="http://www.semanticweb.org/plucky/NellieBly">
   <rdf:description rdf:about="http://www.semanticweb.org/plucky/NellieBly">
-    <eac-cpf:entity>Person</eac-cpf:entity>
+    <rdf:type rdf:resource="http://www.semanticweb.org/plucky#person"/>
     <eac-cpf:nameEntry>Nellie Bly</eac-cpf:nameEntry>
     <eac-cpf:nameEntryParallel>Elizabeth Cochran Seaman</eac-cpf:nameEntryParallel>
     <cdwalite:nameCreator>Nellie Bly</cdwalite:nameCreator>
