@@ -8,9 +8,9 @@
   xmlns:plucky="http://www.semanticweb.org/plucky">
 
 	<owl:Ontology rdf:about="http://www.semanticweb.org/plucky">
-  		<dc:title>The Plucky Ontology</dc:title>
-  		<dc:description>An example ontology written for the purpose of describing ideas and events related to historical circumnavigation.</dc:description>
-  	</owl:Ontology>
+    <dc:title>The Plucky Ontology</dc:title>
+    <dc:description>An example ontology written for the purpose of describing ideas and events related to historical circumnavigation.</dc:description>
+  </owl:Ontology>
 
 	<owl:Class rdf:about="http://www.semanticweb.org/plucky#is_entity_type">
 		<rdfs:label>The type of object or entity being described</rdfs:label>

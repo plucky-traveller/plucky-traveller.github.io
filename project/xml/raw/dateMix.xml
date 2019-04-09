@@ -28,14 +28,18 @@
     <plucky:has_agent_relation rdf:parseType="Resource">
       <eac-cpf:cpfRelation eac-cpf:cpfRelationType="date of publication of agent's book"/>
       <eac-cpf:cpfRelation rdf:resource="http://dbpedia.org/page/Jules_Verne"/>
-      <cdwalite:dateQualifier>In 1873, Jules Verne published one of his most famous adventure novels</cdwalite:dateQualifier>
+      <cdwalite:dateQualifier>
+        In 1873, Jules Verne published one of his most famous adventure novels
+      </cdwalite:dateQualifier>
       <eac-cpf:function>Writer</eac-cpf:function>
     </plucky:has_agent_relation>
 
     <plucky:has_event_relation rdf:parseType="Resource">
       <ead:event>5th World's Exposition</ead:event>
       <eac-cpf:alternativeForm>World's Fair, Expo</eac-cpf:alternativeForm>
-      <cdwalite:dateQualifier>The date indicates when the World Exposition in Vienna was held. Its motto was Kultur und Erziehung (English: Culture and Education).</cdwalite:dateQualifier>
+      <cdwalite:dateQualifier>
+        The date indicates when the World Exposition in Vienna was held. Its motto was Kultur und Erziehung (English: Culture and Education).
+      </cdwalite:dateQualifier>
       <ead:place>Vienna</ead:place>
     </plucky:has_event_relation>
 
