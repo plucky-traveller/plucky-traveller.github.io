@@ -1,5 +1,5 @@
-var visited = sessionStorage.getItem('visit');
-if (visited == null || document.location.href == sessionStorage.getItem('lastPage')) {
+var visited = 0;
+if (visited) {
   $.fn.fadingin = function(fadein) {
     this.css("display", "none");
     this.fadeIn(fadein);
@@ -16,6 +16,5 @@ if (visited == null || document.location.href == sessionStorage.getItem('lastPag
   $(document).ready(function() {
     $(".fade-content").fadingin(7000, 1000);
   });
-  sessionStorage.setItem('visit', 1);
+  visited = 1
 }
-sessionStorage.setItem('lastPage', document.location.href);
