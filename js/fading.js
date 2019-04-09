@@ -23,10 +23,10 @@ if (visited === null) {
 else {
   
    $(document).ready(function() {
-    $(".collage").fadingout(0, 12000);
+    $(".collage").hide();
   });
   
  $(document).ready(function() {
-    $(".fade-content").hide();
+    $(".fade-content").fadingin(0, 1000);
   });
 }
