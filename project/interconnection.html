@@ -218,19 +218,83 @@
               Below you can find a few examples of the URIs we invented:
             </p>
             <p class="card-text">
-              <b>1. <a href="#person">PERSON</a></b></br>Nellie Bly: <em>www.semanticweb.org/plucky/NellieBly</em></br>
-              <b>2. <a href="#place">PLACE</a></b></br>Brindisi: <em>www.semanticweb.org/plucky/Brindisi</em></br>
-              <b>3. <a href="#date">DATE</a></b></br>1873: <em>www.semanticweb.org/plucky/1873></em></br>
-              <b>4. <a href="#concept">SUBJECT/CONCEPT</a></b></br>Second Industrial Revolution: <em>www.semanticweb.org/plucky/SecondIndustrialRevolution</em>
+              <b>1. <a href="#concept">CONCEPT</a></b></br>Second Industrial Revolution: <em>www.semanticweb.org/plucky/SecondIndustrialRevolution</em>
+              <b>2. <a href="#date">DATE</a></b></br>1873: <em>www.semanticweb.org/plucky/1873></em></br>
+              <b>3. <a href="#person">PERSON</a></b></br>Nellie Bly: <em>www.semanticweb.org/plucky/NellieBly</em></br>
+              <b>4. <a href="#place">PLACE</a></b></br>Brindisi: <em>www.semanticweb.org/plucky/Brindisi</em></br>
             </p>
             <p class="card-text">In the following, you can find specific details of the kind of semantic interconnection we employed for each of the different types of entities: </p>
+          </div>
+        </div>
+
+        <div class="col" style="border: none;" id="concept">
+          <hr class="hr-interconnection">
+          <div class="card-body interconnection">
+            <h5 class="card-title"><b>1. CONCEPT</b> - Second Industrial Revolution</h5>
+            <p class="card-text">
+              <em>URI: www.semanticweb.org/plucky/SecondIndustrialRevolution</em>
+            </p>
+            <p class="card-text">
+              By using <em>&lt;owl:sameAs rdf:resource=""&gt;</em>, a property of OWL Ontology, and <em>&lt;foaf:isPrimaryTopicOf rdf:resource=""&gt;</em>, we connected this URI with multiple other resources, including:
+            </p>
+            <p class="card-text">
+              1) owl:sameAs rdf:resource="<a href="http://ushistoryscene.com/article/second-industrial-revolution/" target="_blank">http://ushistoryscene.com/article/second-industrial-revolution/</a>”</br>
+              meaning that the URI of the Second Industrial Revolution is connected to the Second Industrial Revolution's record in U.S. History Scene, a multimedia education website.
+            </p>
+            <p class="card-text">
+              2) owl:sameAs rdf:resource="<a href="https://study.com/academy/lesson/the-second-industrial-revolution-timeline-inventions.html" target="_blank">https://study.com/academy/lesson/the-second-industrial-revolution-timeline-inventions.html</a>”</br>
+              meaning that the URI of the Second Industrial Revolution is connected to the Second Industrial Revolution's record in Study.com, an online educational platform.
+            </p>
+            <p class="card-text">
+              3) foaf:isPrimaryTopicOf rdf:resource="<a href="https://en.wikipedia.org/wiki/Second_Industrial_Revolution" target="_blank">https://en.wikipedia.org/wiki/Second_Industrial_Revolution</a>"</br>
+              meaning that the URI of the Second Industrial Revolution is connected to the Second Industrial Revolution's record in Wikipedia, specifically as the primary topic of that Wikipedia page.
+            </p>
+            <p class="card-text">
+              <b>Find these and other connections in the RDF/XML for the Second Industrial Revolution:</b>
+              <ul>
+                <li><a href="xml/concept.html#plucky">Plucky ontology</a></li>
+                <li><a href="xml/concept.html#various">Various ontologies</a></li>
+              </ul>
+            </p>
+          </div>
+        </div>
+
+        <div class="col" style="border: none;" id="date">
+          <hr class="hr-interconnection">
+          <div class="card-body interconnection">
+            <h5 class="card-title"><b>2. DATE</b> - 1873</h5>
+            <p class="card-text">
+              <em>URI: www.semanticweb.org/plucky/1873</em>
+            </p>
+            <p class="card-text">
+              By using <em>&lt;owl:sameAs rdf:resource=""&gt;</em>, a property of OWL Ontology, and <em>&lt;foaf:isPrimaryTopicOf rdf:resource=""&gt;</em>, we connected this URI with multiple other resources, including:
+            </p>
+            <p class="card-text">
+              1) owl:sameAs rdf:resource="<a href="https://www.wikidata.org/wiki/Q7757" target="_blank">https://www.wikidata.org/wiki/Q7757</a>”</br>
+              meaning that the URI of 1873 is connected to 1873's record in wikidata, a free and open knowledge base.
+            </p>
+            <p class="card-text">
+              2) owl:sameAs rdf:resource="<a href="https://cs.dbpedia.org/page/1873" target="_blank">https://cs.dbpedia.org/page/1873</a>”</br>
+              meaning that the URI of 1873 is connected to 1873's record in DBpedia, a website containing a knowledge-base.
+            </p>
+            <p class="card-text">
+              3) foaf:isPrimaryTopicOf rdf:resource="<a href="https://en.wikipedia.org/wiki/1873" target="_blank">https://en.wikipedia.org/wiki/1873</a>"</br>
+              meaning that the URI of 1873 is connected to 1873's record in Wikipedia, specifically as the primary topic of that specific Wikipedia page.
+            </p>
+            <p class="card-text">
+              <b>Find these and other connections in the RDF/XML for 1873:</b>
+              <ul>
+                <li><a href="xml/date.html#plucky">Plucky ontology</a></li>
+                <li><a href="xml/date.html#various">Various ontologies</a></li>
+              </ul>
+            </p>
           </div>
         </div>
 
         <div class="col" style="border: none;" id="person">
           <hr class="hr-interconnection">
           <div class="card-body interconnection">
-            <h5 class="card-title"><b>1. PERSON</b> - Nellie Bly</h5>
+            <h5 class="card-title"><b>3. PERSON</b> - Nellie Bly</h5>
             <p class="card-text">
               <em>URI: www.semanticweb.org/plucky/NellieBly</em>
             </p>
@@ -262,7 +326,7 @@
         <div class="col" style="border: none;" id="place">
           <hr class="hr-interconnection">
           <div class="card-body interconnection">
-            <h5 class="card-title"><b>2. PLACE</b> - Brindisi</h5>
+            <h5 class="card-title"><b>4. PLACE</b> - Brindisi</h5>
             <p class="card-text">
               <em>URI: www.semanticweb.org/plucky/Brindisi</em>
             </p>
@@ -286,70 +350,6 @@
               <ul>
                 <li><a href="xml/place.html#plucky">Plucky ontology</a></li>
                 <li><a href="xml/place.html#various">Various ontologies</a></li>
-              </ul>
-            </p>
-          </div>
-        </div>
-
-        <div class="col" style="border: none;" id="date">
-          <hr class="hr-interconnection">
-          <div class="card-body interconnection">
-            <h5 class="card-title"><b>3. DATE</b> - 1873</h5>
-            <p class="card-text">
-              <em>URI: www.semanticweb.org/plucky/1873</em>
-            </p>
-            <p class="card-text">
-              By using <em>&lt;owl:sameAs rdf:resource=""&gt;</em>, a property of OWL Ontology, and <em>&lt;foaf:isPrimaryTopicOf rdf:resource=""&gt;</em>, we connected this URI with multiple other resources, including:
-            </p>
-            <p class="card-text">
-              1) owl:sameAs rdf:resource="<a href="https://www.wikidata.org/wiki/Q7757" target="_blank">https://www.wikidata.org/wiki/Q7757</a>”</br>
-              meaning that the URI of 1873 is connected to 1873's record in wikidata, a free and open knowledge base.
-            </p>
-            <p class="card-text">
-              2) owl:sameAs rdf:resource="<a href="https://cs.dbpedia.org/page/1873" target="_blank">https://cs.dbpedia.org/page/1873</a>”</br>
-              meaning that the URI of 1873 is connected to 1873's record in DBpedia, a website containing a knowledge-base.
-            </p>
-            <p class="card-text">
-              3) foaf:isPrimaryTopicOf rdf:resource="<a href="https://en.wikipedia.org/wiki/1873" target="_blank">https://en.wikipedia.org/wiki/1873</a>"</br>
-              meaning that the URI of 1873 is connected to 1873's record in Wikipedia, specifically as the primary topic of that specific Wikipedia page.
-            </p>
-            <p class="card-text">
-              <b>Find these and other connections in the RDF/XML for 1873:</b>
-              <ul>
-                <li><a href="xml/date.html#plucky">Plucky ontology</a></li>
-                <li><a href="xml/date.html#various">Various ontologies</a></li>
-              </ul>
-            </p>
-          </div>
-        </div>
-
-        <div class="col" style="border: none;" id="concept">
-          <hr class="hr-interconnection">
-          <div class="card-body interconnection">
-            <h5 class="card-title"><b>4. SUBJECT/CONCEPT</b> - Second Industrial Revolution</h5>
-            <p class="card-text">
-              <em>URI: www.semanticweb.org/plucky/SecondIndustrialRevolution</em>
-            </p>
-            <p class="card-text">
-              By using <em>&lt;owl:sameAs rdf:resource=""&gt;</em>, a property of OWL Ontology, and <em>&lt;foaf:isPrimaryTopicOf rdf:resource=""&gt;</em>, we connected this URI with multiple other resources, including:
-            </p>
-            <p class="card-text">
-              1) owl:sameAs rdf:resource="<a href="http://ushistoryscene.com/article/second-industrial-revolution/" target="_blank">http://ushistoryscene.com/article/second-industrial-revolution/</a>”</br>
-              meaning that the URI of the Second Industrial Revolution is connected to the Second Industrial Revolution's record in U.S. History Scene, a multimedia education website.
-            </p>
-            <p class="card-text">
-              2) owl:sameAs rdf:resource="<a href="https://study.com/academy/lesson/the-second-industrial-revolution-timeline-inventions.html" target="_blank">https://study.com/academy/lesson/the-second-industrial-revolution-timeline-inventions.html</a>”</br>
-              meaning that the URI of the Second Industrial Revolution is connected to the Second Industrial Revolution's record in Study.com, an online educational platform.
-            </p>
-            <p class="card-text">
-              3) foaf:isPrimaryTopicOf rdf:resource="<a href="https://en.wikipedia.org/wiki/Second_Industrial_Revolution" target="_blank">https://en.wikipedia.org/wiki/Second_Industrial_Revolution</a>"</br>
-              meaning that the URI of the Second Industrial Revolution is connected to the Second Industrial Revolution's record in Wikipedia, specifically as the primary topic of that Wikipedia page.
-            </p>
-            <p class="card-text">
-              <b>Find these and other connections in the RDF/XML for the Second Industrial Revolution:</b>
-              <ul>
-                <li><a href="xml/concept.html#plucky">Plucky ontology</a></li>
-                <li><a href="xml/concept.html#various">Various ontologies</a></li>
               </ul>
             </p>
           </div>
