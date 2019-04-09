@@ -4,8 +4,8 @@ $.fn.fadingin = function(fadein) {
   };
 
 $.fn.fadingout = function(fadeout) {
-    this.css('display', 'none');
-  };
+    this.fadeOut(fadeout);
+};
 
 var visited = sessionStorage.getItem('visit');
 if (visited === null) {
@@ -27,6 +27,6 @@ else {
   });
   
  $(document).ready(function() {
-    $(".fade-content").fadingin(0, 1000);
+    $(".fade-content").hide();
   });
 }
