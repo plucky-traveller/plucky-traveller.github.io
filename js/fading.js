@@ -1,13 +1,14 @@
-var visited = sessionStorage.getItem('visit');
-if (visited === null) {
-  $.fn.fadingin = function(fadein) {
+$.fn.fadingin = function(fadein) {
     this.css("display", "none");
     this.fadeIn(fadein);
   };
 
-  $.fn.fadingout = function(fadeout) {
+$.fn.fadingout = function(fadeout) {
     this.fadeOut(fadeout);
   };
+
+var visited = sessionStorage.getItem('visit');
+if (visited === null) {
 
   $(document).ready(function() {
     $(".collage").fadingout(4000, 12000);
@@ -29,4 +30,3 @@ else {
     $(".fade-content").fadingin(400, 1000);
   });
 }
-sessionStorage.setItem('lastPage', document.location.href);
