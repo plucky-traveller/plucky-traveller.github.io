@@ -15,8 +15,29 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.3.2/vivus.js"></script>
 </head>
-<body>
+<script>
+  $.fn.pagefade = function(fadein) {
+        this.css("display", "none");
+        this.fadeIn(fadein);
+};
 
+$.fn.imgfade = function(fadeout) {
+        this.fadeOut(fadeout);
+};
+
+
+$(document).ready(function() {
+$("#therest").pagefade(3000, 1000);
+});
+
+
+$(document).ready(function() {
+$("#backimg").imgfade(2000, 1000);;
+});
+  </script>
+<body>
+<img id="backimg" src="img/collage.png" alt="" size="cover">
+  <div id="therest">
   <!-- Header --->
 
   <header>
@@ -163,6 +184,6 @@
     </div>
 
   </footer>
-
+</div>
 </body>
 </html>
