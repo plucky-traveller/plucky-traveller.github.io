@@ -16,6 +16,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.3.2/vivus.js"></script>
 </head>
 <script>
+  $('nav').affix({
+      offset: {
+        top: $('#services').offset().top
+      }
+});	
+  
   $.fn.pagefade = function(fadein) {
         this.css("display", "none");
         this.fadeIn(fadein);
@@ -35,6 +41,7 @@ $(document).ready(function() {
 $("#backimg").imgfade(2000, 1000);;
 });
   </script>
+  
 <body>
 <img id="backimg" src="img/collage.png" alt="" size="cover">
   <div id="therest">
@@ -43,7 +50,7 @@ $("#backimg").imgfade(2000, 1000);;
   <header>
 
     <!-- Navigation --->
-    <nav class="navbar fixed-top navbar-expand navbar-light">
+    <nav id="nav" class="navbar fixed-top navbar-expand navbar-light">
       <div class="container">
         <a class="navbar-brand" href="index.html"><img src="img/logo.png" id="logo">Plucky <i>traveller</i></a>
         <div class="navbar-nav">
