@@ -1,4 +1,6 @@
-$.fn.fadingin = function(fadein) {
+var visited = sessionStorage.getItem('visit');
+if (visited == null || document.location.href == sessionStorage.getItem('lastPage')) {
+  $.fn.fadingin = function(fadein) {
     this.css("display", "none");
     this.fadeIn(fadein);
   };
@@ -7,11 +9,6 @@ $.fn.fadingin = function(fadein) {
     this.fadeOut(fadeout);
   };
 
-var visited = sessionStorage.getItem('visit');
-
-if (visited == null || document.location.href == sessionStorage.getItem('lastPage')) 
-    console.log(visited);
-    console.log(document.location.href);
   $(document).ready(function() {
     $(".collage").fadingout(4000, 12000);
   });
