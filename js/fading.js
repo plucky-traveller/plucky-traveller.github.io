@@ -1,6 +1,6 @@
-var visited = sessionStorage.getItem('visit');
-if (visited == null || document.location.href == sessionStorage.getItem('lastPage')) {
-  $.fn.fadingin = function(fadein) {
+var visited = 0
+
+$.fn.fadingin = function(fadein) {
     this.css("display", "none");
     this.fadeIn(fadein);
   };
@@ -9,6 +9,7 @@ if (visited == null || document.location.href == sessionStorage.getItem('lastPag
     this.fadeOut(fadeout);
   };
 
+if (visited == 0) {
   $(document).ready(function() {
     $(".collage").fadingout(4000, 12000);
   });
@@ -18,4 +19,10 @@ if (visited == null || document.location.href == sessionStorage.getItem('lastPag
   });
   sessionStorage.setItem('visit', 1);
 }
-sessionStorage.setItem('lastPage', document.location.href);
+
+else {
+    $(document).ready(function() {
+    $(".fade-content").fadingin(400, 1000);
+  });
+  sessionStorage.setItem('visit', 1);
+}
