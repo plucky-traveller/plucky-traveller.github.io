@@ -4,7 +4,7 @@ $.fn.fadingin = function(fadein) {
   };
 
 $.fn.fadingout = function(fadeout) {
-    this.fadeOut(fadeout);
+    this.slideUp(fadeout);
   };
 
 var visited = sessionStorage.getItem('visit');
