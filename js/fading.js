@@ -1,6 +1,5 @@
 var visited = sessionStorage.getItem('visit');
 if (visited === null) {
-  console.log("loop");
   $.fn.fadingin = function(fadein) {
     this.css("display", "none");
     this.fadeIn(fadein);
@@ -18,5 +17,16 @@ if (visited === null) {
     $(".fade-content").fadingin(7000, 1000);
   });
   sessionStorage.setItem('visit', 1);
+}
+
+else {
+  
+   $(document).ready(function() {
+    $(".collage").fadingout(400, 12000);
+  });
+  
+ $(document).ready(function() {
+    $(".fade-content").fadingin(400, 1000);
+  });
 }
 sessionStorage.setItem('lastPage', document.location.href);
