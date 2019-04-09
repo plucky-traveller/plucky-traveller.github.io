@@ -1,5 +1,5 @@
 var visited = sessionStorage.getItem('visit');
-if (visited === null || document.location.href === sessionStorage.getItem('lastPage')) {
+if (visited === null) {
   $.fn.fadingin = function(fadein) {
     this.css("display", "none");
     this.fadeIn(fadein);
