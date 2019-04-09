@@ -3,8 +3,8 @@ $.fn.fadingin = function(fadein) {
     this.fadeIn(fadein);
   };
 
-$.fn.fadingout = function(fadeout) {
-    this.slideUp(fadeout);
+$.fn.fadingout = function() {
+    this.slideUp(4000);
   };
 
 var visited = sessionStorage.getItem('visit');
