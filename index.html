@@ -14,161 +14,170 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.3.2/vivus.js"></script>
+  <script src="js/fading.js"></script>
 </head>
 
 <body>
   <!-- Header --->
 
-  <header>
-
-    <!-- Navigation --->
-    <nav class="navbar fixed-top navbar-expand navbar-light">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="img/logo.png" id="logo">Plucky <i>traveller</i></a>
-        <div class="navbar-nav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"><p class="active">Home</p></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="project/overview.html"><p>Project</p></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html"><p>Contact</p></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <div class="container-fluid" style="padding: 0!important;">
-    <div class="card w-100" style="border: none;">
-      <div class="card-body" style="width: 100vw; padding: 0!important; margin: -10px 0 -10% 0;">
-        <img src="img/map.svg" class="card-img-top" alt="World map" style="object-fit: fill;">
-      </div>
-    </div>
+  <div class="collage">
+    <img src="img/collage.png">
   </div>
 
-  <!--- style="width: 110%; margin: -20px auto -10% -13%;" ---->
+  <div class="fade-content">
 
-  <div class="container-fluid">
-    <div class="row justify-content-center">
-      <div class="col col-lg-11 col-xl-10" style="border: none; background: none; margin-top: 0%;">
-        <div class="card-body">
-          <h4 class="card-title"><i>The Story</i></h4>
-          <p class="card-text">Hailed by 19th century newspapers as a <em>“plucky little woman”</em>, <a href="#nelly">Nellie Bly</a> was a chart-buster female journalist. In 1890, she broke all records with her trip around the world in only 72 days. In emulation of <a href="#jules">Jules Verne's</a> fictional story Around the World in 80 Days, Nellie’s trip was both record-breaking in terms of speed, as well as stereotype-breaking regarding the 19th century vision of women.</p>
-          <p class="card-text">During her travels, the daring young woman – barely 24 during her solo worldwide trip – met with writer <em>Jules Verne</em>, member of the Society of Geography and prophet influencing the development of modern technologies before his time. The speed with which Nellie travelled was possible due to the Industrial Revolution’s technological innovations in modes of transport.</p>
-          <p class="card-text">The way Nellie’s accomplishments were portrayed was heavily influenced by contemporary stereotypes about women’s nature and roles. Her return was greeted with a celebration, in which ironically only men were allowed to participate. Her success was later used as a theme for books and games. Her account of her travels, <em>Around the World in 72 Days</em>, provides evidence of her adventure-seeking and fearless nature.</p>
+    <header>
+
+      <!-- Navigation --->
+      <nav class="navbar fixed-top navbar-expand navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" id="logo">Plucky <i>traveller</i></a>
+          <div class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><p class="active">Home</p></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="project/overview.html"><p>Project</p></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"><p>Contact</p></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-fluid" style="padding: 0!important;">
+      <div class="card w-100" style="border: none;">
+        <div class="card-body" style="width: 100vw; padding: 0!important; margin: -10px 0 -10% 0;">
+          <img src="img/map.svg" class="card-img-top" alt="World map" style="object-fit: fill;">
         </div>
       </div>
     </div>
-    <hr>
-  </div>
 
-  <div class="container-fluid">
-    <div class="row justify-content-center">
-      <div class="col col-lg-11 col-xl-10" style="border: none; background: none;">
-        <div class="card-body">
-          <h4 class="card-title"><i>The Project</i></h4>
-          <div class="container" id="overview">
-            <div class="row">
-              <div class="col-sm-6 col-md-4">
-                <a href="project/overview.html"><p><i class="fas fa-eye"></i></i>Project Overview</p></a>
+    <!--- style="width: 110%; margin: -20px auto -10% -13%;" ---->
+
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col col-lg-11 col-xl-10" style="border: none; background: none; margin-top: 0%;">
+          <div class="card-body">
+            <h4 class="card-title"><i>The Story</i></h4>
+            <p class="card-text">Hailed by 19th century newspapers as a <em>“plucky little woman”</em>, <a href="#nelly">Nellie Bly</a> was a chart-buster female journalist. In 1890, she broke all records with her trip around the world in only 72 days. In emulation of <a href="#jules">Jules Verne's</a> fictional story Around the World in 80 Days, Nellie’s trip was both record-breaking in terms of speed, as well as stereotype-breaking regarding the 19th century vision of women.</p>
+            <p class="card-text">During her travels, the daring young woman – barely 24 during her solo worldwide trip – met with writer <em>Jules Verne</em>, member of the Society of Geography and prophet influencing the development of modern technologies before his time. The speed with which Nellie travelled was possible due to the Industrial Revolution’s technological innovations in modes of transport.</p>
+            <p class="card-text">The way Nellie’s accomplishments were portrayed was heavily influenced by contemporary stereotypes about women’s nature and roles. Her return was greeted with a celebration, in which ironically only men were allowed to participate. Her success was later used as a theme for books and games. Her account of her travels, <em>Around the World in 72 Days</em>, provides evidence of her adventure-seeking and fearless nature.</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col col-lg-11 col-xl-10" style="border: none; background: none;">
+          <div class="card-body">
+            <h4 class="card-title"><i>The Project</i></h4>
+            <div class="container" id="overview">
+              <div class="row">
+                <div class="col-sm-6 col-md-4">
+                  <a href="project/overview.html"><p><i class="fas fa-eye"></i></i>Project Overview</p></a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <a href="project/items.html"><p><i class="fas fa-spinner"></i>Exemplary Items</p></a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <a href="project/ermodel.html"><p><i class="fas fa-sitemap"></i>E/R Model</p></a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <a href="project/alignment.html"><p><i class="fas fa-grip-lines"></i></i>Standard Alignment</p></a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <a href="project/theoretical.html"><p><i class="fas fa-brain"></i>Theoretical Model</p></a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <a href="project/conceptual/concept.html"><p><i class="fas fa-ruler-combined"></i>Conceptual Model</p></a>
+                </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <a href="project/items.html"><p><i class="fas fa-spinner"></i>Exemplary Items</p></a>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <a href="project/ermodel.html"><p><i class="fas fa-sitemap"></i>E/R Model</p></a>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <a href="project/alignment.html"><p><i class="fas fa-grip-lines"></i></i>Standard Alignment</p></a>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <a href="project/theoretical.html"><p><i class="fas fa-brain"></i>Theoretical Model</p></a>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <a href="project/conceptual/concept.html"><p><i class="fas fa-ruler-combined"></i>Conceptual Model</p></a>
+              <div class="row">
+                <div class="col-sm-6 col-md-4">
+                  <a href="project/description/concept.html"><p><i class="fas fa-i-cursor"></i>Description of Data</p></a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <a href="project/xml/pluckyOwl.html"><p><i class="fas fa-code"></i>RDF / XML</p></a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <a href="project/interconnection.html"><p><i class="fas fa-code-branch"></i>Interconnection</p></a>
+                </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-sm-6 col-md-4">
-                <a href="project/description/concept.html"><p><i class="fas fa-i-cursor"></i>Description of Data</p></a>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <a href="project/xml/pluckyOwl.html"><p><i class="fas fa-code"></i>RDF / XML</p></a>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <a href="project/interconnection.html"><p><i class="fas fa-code-branch"></i>Interconnection</p></a>
-              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+    <div class="jumping-point" id="nelly"></div>
+
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-md-3 col-lg-4 col-xl-3" style="border: none;">
+          <div class="card-body">
+            <div class="portrait">
+              <img src="img/nelliePortrait.jpg" class="card-img-top" alt="Nellie Bly">
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <hr>
-  </div>
-
-  <div class="jumping-point" id="nelly"></div>
-
-  <div class="container-fluid">
-    <div class="row justify-content-center">
-      <div class="col-md-3 col-lg-4 col-xl-3" style="border: none;">
-        <div class="card-body">
-          <div class="portrait">
-            <img src="img/nelliePortrait.jpg" class="card-img-top" alt="Nellie Bly">
+        <div class="col-md-9 col-lg-7" style="border: none;">
+          <div class="card-body">
+            <img  src="img/nellieSignature.png" alt="Nellie Bly" id="nellieSignature"></img>
+            <h4 class="card-title">Nelly Bly</h4>
+            <p class="card-text">Born Elizabeth Cochran Seaman, Nellie Bly became widely known for her record-breaking trip around the world, and for an exposé in which she worked undercover to report on a mental institution from within. Challenged to investigate one of New York’s most notorious mental hospitals, Bly decided to feign mental illness to gain admission and expose how patients were treated. She also rose to the occasion when she was given 2-day’s notice about her upcoming world-circling trip.</p>
+            <p class="card-text">Her courageous and bold nature has cemented Bly’s legacy as one of the foremost female journalists in history and a pioneer in the field of investigative journalism. Also a writer, industrialist, inventor, and a charity worker, Bly was and is widely recognised for her inspiring life. Her admirers include individuals and companies alike, and her life has been honoured with multiple artworks, projects, and even VR experiences.</p>
           </div>
         </div>
       </div>
-      <div class="col-md-9 col-lg-7" style="border: none;">
-        <div class="card-body">
-          <img  src="img/nellieSignature.png" alt="Nellie Bly" id="nellieSignature"></img>
-          <h4 class="card-title">Nelly Bly</h4>
-          <p class="card-text">Born Elizabeth Cochran Seaman, Nellie Bly became widely known for her record-breaking trip around the world, and for an exposé in which she worked undercover to report on a mental institution from within. Challenged to investigate one of New York’s most notorious mental hospitals, Bly decided to feign mental illness to gain admission and expose how patients were treated. She also rose to the occasion when she was given 2-day’s notice about her upcoming world-circling trip.</p>
-          <p class="card-text">Her courageous and bold nature has cemented Bly’s legacy as one of the foremost female journalists in history and a pioneer in the field of investigative journalism. Also a writer, industrialist, inventor, and a charity worker, Bly was and is widely recognised for her inspiring life. Her admirers include individuals and companies alike, and her life has been honoured with multiple artworks, projects, and even VR experiences.</p>
-        </div>
-      </div>
+      <hr>
     </div>
-    <hr>
-  </div>
 
-  <div class="jumping-point" id="jules"></div>
+    <div class="jumping-point" id="jules"></div>
 
-  <div class="container-fluid">
-    <div class="row justify-content-center">
-      <div class="col-md-3 col-lg-4 col-xl-3" style="border: none;">
-        <div class="card-body">
-          <div class="portrait">
-            <img src="img/julesPortrait.jpg" class="card-img-top" alt="Jules Vernes">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-md-3 col-lg-4 col-xl-3" style="border: none;">
+          <div class="card-body">
+            <div class="portrait">
+              <img src="img/julesPortrait.jpg" class="card-img-top" alt="Jules Vernes">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9 col-lg-7" style="border: none;">
+          <div class="card-body">
+            <img  src="img/julesSignature.png" alt="Jules Vernes Signature" id="julesSignature"></img>
+            <h4 class="card-title">Jules Vernes</h4>
+            <p class="card-text">The "Father of Science Fiction", Jules Gabriel Verne is considered a major literary writer in his native France and around Europe. Some of his books include <i>Journey to the Centre of the Earth</i> (1864), <i>From the Earth to the Moon</i> (1865), <i>Twenty Thousand Leagues Under the Sea</i> (1870), and <i>Around the World in Eighty Days</i> (1873). In love with literature and theatre, Verne also wrote several plays. In his works, scientific facts dialogue with his adventure narratives, revealing Verne’s constant effort to combine his two fields of interest.</p>
+            <p class="card-text">His fictional work <i>Around the World in Eighty Days</i> describes the challenge of a trip around the world made possible by some new technologies in the Industrial Revolution era. Two travellers, the London gentleman Phileas Fogg and his emotional butler Passepartout, leave for the daring enterprise to win a bet. They travel on a steamer to Egypt and towards India, jump on a train to reach Calcutta, cross the China Sea until Hong Kong and Japan, visit San Francisco and New York to eventually return to Britain crossing the Atlantic Ocean. The breathtaking story has inspired real trips, theatrical and literary adaptations, such as Nellie Bly’s novel, beside television and radio programmes, cartoons, board games and even attractions in amusement parks.</p>
           </div>
         </div>
       </div>
-      <div class="col-md-9 col-lg-7" style="border: none;">
-        <div class="card-body">
-          <img  src="img/julesSignature.png" alt="Jules Vernes Signature" id="julesSignature"></img>
-          <h4 class="card-title">Jules Vernes</h4>
-          <p class="card-text">The "Father of Science Fiction", Jules Gabriel Verne is considered a major literary writer in his native France and around Europe. Some of his books include <i>Journey to the Centre of the Earth</i> (1864), <i>From the Earth to the Moon</i> (1865), <i>Twenty Thousand Leagues Under the Sea</i> (1870), and <i>Around the World in Eighty Days</i> (1873). In love with literature and theatre, Verne also wrote several plays. In his works, scientific facts dialogue with his adventure narratives, revealing Verne’s constant effort to combine his two fields of interest.</p>
-          <p class="card-text">His fictional work <i>Around the World in Eighty Days</i> describes the challenge of a trip around the world made possible by some new technologies in the Industrial Revolution era. Two travellers, the London gentleman Phileas Fogg and his emotional butler Passepartout, leave for the daring enterprise to win a bet. They travel on a steamer to Egypt and towards India, jump on a train to reach Calcutta, cross the China Sea until Hong Kong and Japan, visit San Francisco and New York to eventually return to Britain crossing the Atlantic Ocean. The breathtaking story has inspired real trips, theatrical and literary adaptations, such as Nellie Bly’s novel, beside television and radio programmes, cartoons, board games and even attractions in amusement parks.</p>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center">
+        <div class="card-body" style="padding-top: 0;">
+          <p class="card-text"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"></a><br />The content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
+          <p class="card-text">The project was carried out by Delfina Sol Pandiani, Eleonora Peruch, Severin Josef Burg.</p>
         </div>
       </div>
-    </div>
+
+    </footer>
+
   </div>
-
-  <hr>
-
-  <!-- Footer -->
-  <footer class="page-footer font-small">
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center">
-      <div class="card-body" style="padding-top: 0;">
-        <p class="card-text"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"></a><br />The content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
-        <p class="card-text">The project was carried out by Delfina Sol Pandiani, Eleonora Peruch, Severin Josef Burg.</p>
-      </div>
-    </div>
-
-  </footer>
 
 </body>
 </html>
