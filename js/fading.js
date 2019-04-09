@@ -7,6 +7,10 @@ $.fn.fadingout = function(fadeout) {
     this.fadeOut(fadeout);
 };
 
+$.fn.hideThis = function() {
+    this.css("display", "none");
+};
+
 var visited = sessionStorage.getItem('visit');
 if (visited === null) {
 
@@ -23,7 +27,7 @@ if (visited === null) {
 else {
   
    $(document).ready(function() {
-    $(".collage").hide();
+    $(".collage").hideThis();
   });
   
  $(document).ready(function() {
