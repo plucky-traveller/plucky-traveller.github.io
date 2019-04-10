@@ -34,17 +34,26 @@ html {
 }
 
 .btn-primary-outline {
+  color: #000000;
   background-color: rgba(0,0,0,0.1);
-  border-color: black;
+  border: 1px solid #000000;
   border-radius: 2px;
-  box-shadow: none;
-  padding: 5px;
+  padding: 10px;
 }
 
 .btn-primary-outline i {
   padding: 5px;
   font-family: 'Bad Script';
 }
+
+.btn-primary-outline:hover {
+
+  background-color: rgba(85, 119, 84,0.5);
+  -webkit-transition: all 0.5s ease;
+  color: #000000;
+  text-decoration: none;
+}
+
 /* Position text in the middle */
 .middle {
   position: absolute;
