@@ -142,7 +142,7 @@ em:after {
   color: #557754;
 }
 
-@media(max-width:768px) {
+@media(max-width:808px) {
   .navbar {
     padding: 5px 0;
   }
