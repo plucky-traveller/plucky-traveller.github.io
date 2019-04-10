@@ -144,7 +144,7 @@ em:after {
 
 @media(max-width:768px) {
   .navbar {
-    padding: inherit 0;
+    padding: 0 inherit;
   }
 
   .navbar ul li a p {
