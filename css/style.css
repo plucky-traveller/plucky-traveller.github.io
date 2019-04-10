@@ -153,7 +153,7 @@ em:after {
   }
 
   img#logo {
-    display: none;
+    display: none!important;
   }
 }
 
