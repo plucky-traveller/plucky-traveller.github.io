@@ -151,6 +151,10 @@ em:after {
     padding: 0;
     margin: 0 -3px;
   }
+
+  img#logo {
+    display: none;
+  }
 }
 
 .fas {
