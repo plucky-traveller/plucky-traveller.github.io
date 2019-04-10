@@ -1,21 +1,6 @@
 
 /* General */
 
-.collage {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index:1000;
-}
-
-.collage img {
-  position: static;
-  top: 0;
-  left: 0;
-  min-width: 100vw;
-  min-height: 100vh;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   padding-top: 4.5rem;
@@ -144,7 +129,8 @@ em:after {
 
 @media(max-width:768px) {
   .navbar {
-    padding: 0 inherit;
+    padding-top: inherit;
+    padding-bottom: inherit;
   }
 
   .navbar ul li a p {
