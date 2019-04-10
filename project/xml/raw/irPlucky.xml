@@ -3,6 +3,8 @@
 <rdf:RDF
 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 xmlns:plucky="http://www.plucky.com/plucky-schema"
+xmlns:owl="http://www.w3.org/2002/07/owl#"
+xmlns:foaf= "http://xmlns.com/foaf/spec//index.rdf"
 xml:base="http://www.semanticweb.org/plucky/SecondIndustrialRevolution">
   <rdf:description rdf:about="http://www.semanticweb.org/plucky/SecondIndustrialRevolution">
     <plucky:is_entity_type>Concept</plucky:is_entity_type>
@@ -47,15 +49,15 @@ xml:base="http://www.semanticweb.org/plucky/SecondIndustrialRevolution">
       <plucky:event_type>Concept</plucky:event_type>
     </plucky:has_event_relation>
 
-    <plucky:sameAs rdf:resource="http://ushistoryscene.com/article/second-industrial-revolution/"/>
-    <plucky:sameAs rdf:resource="https://study.com/academy/lesson/the-second-industrial-revolution-timeline-inventions.html"/>
-    <plucky:sameAs rdf:resource="https://de.wikipedia.org/wiki/Zweite_industrielle_Revolution"/>
-    <plucky:sameAs rdf:resource="https://es.wikipedia.org/wiki/Segunda_Revolución_Industrial"/>
-    <plucky:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Innovation_en_Europe_à_la_Belle_Époque"/>
-    <plucky:sameAs rdf:resource="https://it.wikipedia.org/wiki/Seconda_rivoluzione_industriale"/>
-    <plucky:sameAs rdf:resource="https://nl.wikipedia.org/wiki/Tweede_industriële_revolutie"/>
-    <plucky:sameAs rdf:resource="https://pl.wikipedia.org/wiki/Druga_rewolucja_przemysłowa"/>
-    <plucky:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Second_Industrial_Revolution"/>
+    <owl:sameAs rdf:resource="http://ushistoryscene.com/article/second-industrial-revolution/"/>
+    <owl:sameAs rdf:resource="https://study.com/academy/lesson/the-second-industrial-revolution-timeline-inventions.html"/>
+    <owl:sameAs rdf:resource="https://de.wikipedia.org/wiki/Zweite_industrielle_Revolution"/>
+    <owl:sameAs rdf:resource="https://es.wikipedia.org/wiki/Segunda_Revolución_Industrial"/>
+    <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Innovation_en_Europe_à_la_Belle_Époque"/>
+    <owl:sameAs rdf:resource="https://it.wikipedia.org/wiki/Seconda_rivoluzione_industriale"/>
+    <owl:sameAs rdf:resource="https://nl.wikipedia.org/wiki/Tweede_industriële_revolutie"/>
+    <owl:sameAs rdf:resource="https://pl.wikipedia.org/wiki/Druga_rewolucja_przemysłowa"/>
+    <foaf:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Second_Industrial_Revolution"/>
 
   </rdf:description>
 </rdf:RDF>

@@ -3,6 +3,8 @@
 <rdf:RDF
 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 xmlns:plucky="http://www.plucky.com/plucky-schema"
+xmlns:owl="http://www.w3.org/2002/07/owl#"
+xmlns:foaf= "http://xmlns.com/foaf/spec//index.rdf"
 xml:base="http://www.semanticweb.org/plucky/NellieBly">
   <rdf:description rdf:about="http://www.semanticweb.org/plucky/NellieBly">
     <plucky:is_entity_type rdf:resource="http://www.semanticweb.org/plucky#person"/>
@@ -56,22 +58,22 @@ xml:base="http://www.semanticweb.org/plucky/NellieBly">
     </plucky:has_agent_relation>
 
 
-    <plucky:sameAs rdf:resource="https://viaf.org/viaf/816475/"/>
-    <plucky:sameAs rdf:resource="https://www.wikidata.org/wiki/Q230299"/>
-    <plucky:sameAs rdf:resource="http://dbpedia.org/page/Nellie_Bly/"/>
-    <plucky:sameAs rdf:resource="http://cs.dbpedia.org/page/Nellie_Bly"/>
-    <plucky:sameAs rdf:resource="http://de.dbpedia.org/page/Nellie_Bly"/>
-    <plucky:sameAs rdf:resource="http://es.dbpedia.org/page/Nellie_Bly"/>
-    <plucky:sameAs rdf:resource="http://eu.dbpedia.org/page/Nellie_Bly"/>
-    <plucky:sameAs rdf:resource="http://fr.dbpedia.org/page/Nellie_Bly"/>
-    <plucky:sameAs rdf:resource="http://id.dbpedia.org/page/Nellie_Bly/"/>
-    <plucky:sameAs rdf:resource="http://it.dbpedia.org/page/Nellie_Bly/"/>
-    <plucky:sameAs rdf:resource="http://nl.dbpedia.org/page/Nellie_Bly/"/>
-    <plucky:sameAs rdf:resource="http://pl.dbpedia.org/page/Nellie_Bly/"/>
-    <plucky:sameAs rdf:resource="http://pt.dbpedia.org/page/Nellie_Bly/"/>
-    <plucky:sameAs rdf:resource="http://ja.dbpedia.org/page/%E3%83%8D%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%96%E3%83%A9%E3%82%A4"/>
-    <plucky:sameAs rdf:resource="http://ko.dbpedia.org/page/%EB%84%AC%EB%A6%AC_%EB%B8%94%EB%9D%BC%EC%9D%B4"/>
-    <plucky:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Nellie_Bly"/>
+    <owl:sameAs rdf:resource="https://viaf.org/viaf/816475/"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q230299"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/page/Nellie_Bly/"/>
+    <owl:sameAs rdf:resource="http://cs.dbpedia.org/page/Nellie_Bly"/>
+    <owl:sameAs rdf:resource="http://de.dbpedia.org/page/Nellie_Bly"/>
+    <owl:sameAs rdf:resource="http://es.dbpedia.org/page/Nellie_Bly"/>
+    <owl:sameAs rdf:resource="http://eu.dbpedia.org/page/Nellie_Bly"/>
+    <owl:sameAs rdf:resource="http://fr.dbpedia.org/page/Nellie_Bly"/>
+    <owl:sameAs rdf:resource="http://id.dbpedia.org/page/Nellie_Bly/"/>
+    <owl:sameAs rdf:resource="http://it.dbpedia.org/page/Nellie_Bly/"/>
+    <owl:sameAs rdf:resource="http://nl.dbpedia.org/page/Nellie_Bly/"/>
+    <owl:sameAs rdf:resource="http://pl.dbpedia.org/page/Nellie_Bly/"/>
+    <owl:sameAs rdf:resource="http://pt.dbpedia.org/page/Nellie_Bly/"/>
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/page/%E3%83%8D%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%96%E3%83%A9%E3%82%A4"/>
+    <owl:sameAs rdf:resource="http://ko.dbpedia.org/page/%EB%84%AC%EB%A6%AC_%EB%B8%94%EB%9D%BC%EC%9D%B4"/>
+    <foaf:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Nellie_Bly"/>
 
   </rdf:description>
 </rdf:RDF>
