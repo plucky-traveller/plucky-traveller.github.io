@@ -143,9 +143,9 @@ em:after {
 }
 
 @media(max-width:768px) {
-  .navbar {
+  /*.navbar {
     padding: 5px 0;
-  }
+  }*/
 
   .navbar ul li a p {
     padding: 0;
