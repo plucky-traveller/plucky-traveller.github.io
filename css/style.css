@@ -367,6 +367,18 @@ em:after {
   cursor: pointer;
 }
 
+@media(max-width:768px) {
+  .dropdown-title > div:before {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .dropdown-title > div.collapsed:before {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+}
+
 .sidebar-collapse {
   margin: 0;
   padding: 0 0 0 15px;
