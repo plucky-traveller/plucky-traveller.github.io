@@ -34,11 +34,11 @@ html {
 }
 
 .btn-primary-outline {
-    background-color: rgba(0,0,0,0.1);
-    border-color: black;
-    border-radius: 2px;
-    box-shadow: none;
-    padding: 5px;
+  background-color: rgba(0,0,0,0.1);
+  border-color: black;
+  border-radius: 2px;
+  box-shadow: none;
+  padding: 5px;
 }
 
 .btn-primary-outline i {

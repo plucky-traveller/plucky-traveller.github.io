@@ -341,14 +341,26 @@ em:after {
   list-style: none;
 }
 
-.dropdown-title > div a:before {
-    float: right !important;
-    font-family: Helvetica;
-    content: "–";
+.dropdown-title > div a {
+  width: 200px;
 }
 
-.dropdown-title > div.collapsed a:before {
-    content: "+";
+.dropdown-title > div:before {
+  float: right !important;
+  font-family: Helvetica;
+  content: "–";
+}
+
+.dropdown-title > div:hover {
+  cursor: pointer;
+}
+
+.dropdown-title > div.collapsed:before {
+  content: "+";
+}
+
+.dropdown-title > div.collapsed:hover {
+  cursor: pointer;
 }
 
 .sidebar-collapse {
