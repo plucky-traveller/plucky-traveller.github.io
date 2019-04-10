@@ -42,6 +42,7 @@ html {
 }
 
 .btn-primary-outline i {
+  color: #999999;
   padding: 5px;
   font-family: 'Bad Script';
 }

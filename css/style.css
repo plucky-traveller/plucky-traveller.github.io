@@ -279,6 +279,15 @@ em:after {
   background-color: #e5e5e5!important;
 }
 
+.xml-jump {
+  color: #999999;
+  float: right;
+}
+
+.xml-jump:hover {
+  cursor: pointer;
+  color: #557754;
+}
 
 /* Toggle Sidebar */
 
