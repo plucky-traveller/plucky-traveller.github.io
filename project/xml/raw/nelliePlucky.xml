@@ -53,7 +53,9 @@ xml:base="http://www.semanticweb.org/plucky/NellieBly">
     <plucky:has_agent_relation rdf:parseType="Resource">
       <plucky:relation_type>Colleague of</plucky:relation_type>
       <plucky:relation_resource rdf:resource="http://dbpedia.org/page/Jules_Verne"/>
-      <plucky:relation_meaning> Initially inspired by Verne, Nellie later became acquaintances with him.</plucky:relation_meaning>
+      <plucky:relation_meaning>
+        Initially inspired by Verne, Nellie later became acquaintances with him.
+      </plucky:relation_meaning>
       <plucky:relation_start> 1889-11-23</plucky:relation_start>
     </plucky:has_agent_relation>
 

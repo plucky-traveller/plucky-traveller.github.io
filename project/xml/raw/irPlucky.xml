@@ -40,7 +40,9 @@ xml:base="http://www.semanticweb.org/plucky/SecondIndustrialRevolution">
 
    <plucky:has_event_relation rdf:parseType="Resource">
       <plucky:related_event>Industrial Revolution</plucky:related_event>
-      <plucky:has_other_name>First Industrial Revolution / Age of Industrialization</plucky:has_other_name>
+      <plucky:has_other_name>
+        First Industrial Revolution / Age of Industrialization
+      </plucky:has_other_name>
       <plucky:relation_meaning>
         The Second Industrial Revolution built on the ideas and inventions of the First Industrial Revolution
       </plucky:relation_meaning>

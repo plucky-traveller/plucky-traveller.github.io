@@ -44,7 +44,9 @@ xml:base="http://www.semanticweb.org/waterlod/SecondIndustrialRevolution">
 
    <plucky:has_event_relation rdf:parseType="Resource">
       <ead:event>Industrial Revolution</ead:event>
-      <eac-cpf:nameEntryParallel>First Industrial Revolution / Age of Industrialization</eac-cpf:nameEntryParallel>
+      <eac-cpf:nameEntryParallel>
+        First Industrial Revolution / Age of Industrialization
+      </eac-cpf:nameEntryParallel>
       <dc:description>
         The Second Industrial Revolution built on the ideas and inventions of the First Industrial Revolution
       </dc:description>

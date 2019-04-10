@@ -58,7 +58,9 @@ xml:base="http://www.semanticweb.org/plucky/NellieBly">
     <plucky:has_agent_relation rdf:parseType="Resource">
       <eac-cpf:cpfRelation eac-cpf:cpfRelationType="colleague of"/>
       <eac-cpf:cpfRelation rdf:resource="http://dbpedia.org/page/Jules_Verne"/>
-      <eac-cpf:relationEntry>Initially inspired by Verne, Nellie later became acquaintances with him.</eac-cpf:relationEntry>
+      <eac-cpf:relationEntry>
+        Initially inspired by Verne, Nellie later became acquaintances with him.
+      </eac-cpf:relationEntry>
       <eac-cpf:daterange>1889-11-23</eac-cpf:daterange>
     </plucky:has_agent_relation>
 
