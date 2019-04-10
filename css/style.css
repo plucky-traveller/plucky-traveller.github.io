@@ -142,8 +142,15 @@ em:after {
   color: #557754;
 }
 
-@media(max-width:808px) {
+@media(max-width:768px) {
+  .navbar {
+    padding: 5px 0;
+  }
 
+  .navbar ul li a p {
+    padding: 0;
+    margin: 0 -3px;
+  }
 
   img#logo {
     display: none!important;
