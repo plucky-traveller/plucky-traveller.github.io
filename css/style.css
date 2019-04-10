@@ -128,13 +128,15 @@ em:after {
 }
 
 @media(max-width:768px) {
-  .navbar {
-    padding-top: inherit;
-    padding-bottom: inherit;
-  }
-
   .navbar ul li a p {
     padding: 0;
+    padding-top: 4px;
+    margin: 0 -3px;
+  }
+
+  .navbar ul div a i {
+    padding: 0;
+    padding-top: 8px;
     margin: 0 -3px;
   }
 
